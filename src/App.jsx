@@ -11,13 +11,44 @@ async function getAllTeamsFromJson() {
   return res.json();
 }
 
-function getCaptainMultiplier(playerId, team, selectedRoundId) {
+function getCorrectedPlayerPoints(player, team, roundId, games) {
+  const rawPoints =
+    player.lastRound?.roundId === roundId ? player.lastRound.points : 0;
+
+  const hasDoubleCaptains = team.bonusesData?.some(
+    (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === roundId,
+  );
+
+  const isSubCaptain = player.id === team.subCaptainId;
+
+  if (!isSubCaptain || hasDoubleCaptains || rawPoints === 0) {
+    return rawPoints;
+  }
+
+  const captain = team.players.find((p) => p.id === team.captainId);
+
+  const captainPlayedThisRound = captain?.lastRound?.roundId === roundId;
+
+  const captainGameFinished = games?.some(
+    (game) =>
+      game.roundId === roundId &&
+      (game.teamAId === captain?.teamId || game.teamBId === captain?.teamId) &&
+      game.gameStatus === 6,
+  );
+
+  const shouldSubCaptainBeActive =
+    !captainPlayedThisRound && captainGameFinished;
+
+  return shouldSubCaptainBeActive ? rawPoints : rawPoints / 2;
+}
+
+function getCaptainMultiplier(playerId, team, roundId) {
   const hasTripleCaptain = team.bonusesData?.some(
-    (bonus) => bonus.bonusId === 1 && bonus.usageRoundId === selectedRoundId,
+    (bonus) => bonus.bonusId === 1 && bonus.usageRoundId === roundId,
   );
 
   const hasDoubleCaptains = team.bonusesData?.some(
-    (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === selectedRoundId,
+    (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === roundId,
   );
 
   if (playerId === team.captainId) {
@@ -52,6 +83,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [selectedRoundId, setSelectedRoundId] = useState(null);
+  const [games, setGames] = useState([]);
 
   useEffect(() => {
     async function loadAllTeams() {
@@ -59,22 +91,21 @@ function App() {
         setLoading(true);
 
         const jsonData = await getAllTeamsFromJson();
-        const responses = jsonData.map((item) => item.response);
+        const teams = jsonData.teams ?? [];
 
-        setTeamsData(responses);
+        setTeamsData(teams);
+        setGames(jsonData.games ?? []);
 
-        const mappedRows = responses.flatMap((response) => {
-          const team = response.data.userTeam;
-
-          return team.userTeamRoundPoints.map((round) => ({
+        const mappedRows = teams.flatMap((team) =>
+          team.roundPoints.map((round) => ({
             userId: team.userId,
-            teamName: team.name,
+            teamName: team.teamName,
             creatorName: team.creatorName,
             roundId: round.roundId,
             points: round.points,
             seasonPoints: round.seasonPoints,
-          }));
-        });
+          })),
+        );
 
         setRows(mappedRows);
       } catch (err) {
@@ -92,12 +123,20 @@ function App() {
     .sort((a, b) => a - b)
     .slice(0, 8);
 
-  const activeRoundId = selectedRoundId ?? rounds.at(-1);
-  const activeRoundRows = activeRoundId ? getRoundTable(activeRoundId) : [];
+  const latestRoundId = rounds.at(-1);
+  const activeRoundId = selectedRoundId ?? latestRoundId;
 
   const roundMap = Object.fromEntries(
     rounds.map((roundId, index) => [roundId, index + 1]),
   );
+
+  function getRoundTable(roundId) {
+    return rows
+      .filter((row) => row.roundId === roundId)
+      .sort((a, b) => b.points - a.points);
+  }
+
+  const activeRoundRows = activeRoundId ? getRoundTable(activeRoundId) : [];
 
   const generalTable = USERS.map((user) => {
     const userRows = rows
@@ -118,14 +157,6 @@ function App() {
 
     return base;
   }).sort((a, b) => b.total - a.total);
-
-  function getRoundTable(roundId) {
-    return rows
-      .filter((row) => row.roundId === roundId)
-      .sort((a, b) => b.points - a.points);
-  }
-
-  const latestRoundId = rounds.at(-1);
 
   const improvementTable = (() => {
     if (!latestRoundId) return [];
@@ -169,19 +200,16 @@ function App() {
   })();
 
   const bestRoundPlayers = teamsData
-    .flatMap((response) =>
-      response.data.userTeam.userTeamPlayers
+    .flatMap((team) =>
+      team.players
         .filter((p) => !p.isRemoved)
-        .map((p) => {
-          const lastStats = p.player.lastRoundPlayerStats;
-
-          return {
-            id: p.player.id,
-            name: p.player.name,
-            points: lastStats?.roundId === latestRoundId ? lastStats.points : 0,
-            statsRoundId: lastStats?.roundId,
-          };
-        }),
+        .map((p) => ({
+          id: p.id,
+          name: p.name,
+          points:
+            p.lastRound?.roundId === activeRoundId ? p.lastRound.points : 0,
+          statsRoundId: p.lastRound?.roundId,
+        })),
     )
     .filter(
       (player, index, self) =>
@@ -208,32 +236,26 @@ function App() {
     .sort((a, b) => b.points - a.points);
 
   const ownershipTable = Object.values(
-    teamsData.reduce((acc, response) => {
-      const team = response.data.userTeam;
-
-      team.userTeamPlayers
+    teamsData.reduce((acc, team) => {
+      team.players
         .filter((p) => !p.isRemoved)
         .forEach((p) => {
-          const playerId = p.player.id;
-
-          const lastStats = p.player.lastRoundPlayerStats;
-
           const points =
-            lastStats?.roundId === latestRoundId ? lastStats.points : 0;
+            p.lastRound?.roundId === activeRoundId ? p.lastRound.points : 0;
 
-          if (!acc[playerId]) {
-            acc[playerId] = {
-              id: playerId,
-              name: p.player.name,
+          if (!acc[p.id]) {
+            acc[p.id] = {
+              id: p.id,
+              name: p.name,
               count: 0,
               teams: [],
               points,
-              statsRoundId: lastStats?.roundId,
+              statsRoundId: p.lastRound?.roundId,
             };
           }
 
-          acc[playerId].count++;
-          acc[playerId].teams.push(team.name);
+          acc[p.id].count++;
+          acc[p.id].teams.push(team.teamName);
         });
 
       return acc;
@@ -243,11 +265,8 @@ function App() {
   const uniquePlayers = ownershipTable.filter((player) => player.count === 1);
 
   const uniquePlayersByTeam = USERS.map((user) => {
-    const teamResponse = teamsData.find(
-      (response) => response.data.userTeam.userId === user.userId,
-    );
-
-    const teamName = teamResponse?.data.userTeam.name ?? user.name;
+    const team = teamsData.find((team) => team.userId === user.userId);
+    const teamName = team?.teamName ?? user.name;
 
     const players = uniquePlayers.filter((player) =>
       player.teams.includes(teamName),
@@ -268,32 +287,26 @@ function App() {
     .sort((a, b) => b.points - a.points);
 
   const remainingPlayersByTeam = teamsData
-    .map((response) => {
-      const team = response.data.userTeam;
-
+    .map((team) => {
       const hasFullSquadBonus = team.bonusesData?.some(
-        (bonus) =>
-          bonus.bonusId === 4 && bonus.usageRoundId === latestRoundId,
+        (bonus) => bonus.bonusId === 4 && bonus.usageRoundId === activeRoundId,
       );
 
-      const remainingPlayers = team.userTeamPlayers
+      const remainingPlayers = team.players
         .filter((p) => !p.isRemoved)
         .filter((p) => hasFullSquadBonus || !p.isReserve)
-        .filter((p) => {
-          const statsRoundId = p.player.lastRoundPlayerStats?.roundId;
-          return statsRoundId !== latestRoundId;
-        })
+        .filter((p) => p.lastRound?.roundId !== activeRoundId)
         .map((p) => ({
-          id: p.player.id,
-          name: p.player.name,
-          position: p.player.position,
+          id: p.id,
+          name: p.name,
+          position: p.position,
           isReserve: p.isReserve,
-          multiplier: getCaptainMultiplier(p.player.id, team, latestRoundId),
+          multiplier: getCaptainMultiplier(p.id, team, activeRoundId),
         }));
 
       return {
         userId: team.userId,
-        teamName: team.name,
+        teamName: team.teamName,
         creatorName: team.creatorName,
         hasFullSquadBonus,
         count: remainingPlayers.length,
@@ -301,6 +314,141 @@ function App() {
       };
     })
     .sort((a, b) => b.count - a.count);
+
+  function didTeamGameFinish(teamId, roundId, games) {
+    return games.some(
+      (game) =>
+        game.roundId === roundId &&
+        (game.teamAId === teamId || game.teamBId === teamId) &&
+        game.gameStatus === 6,
+    );
+  }
+
+  const correctedCaptainTable = teamsData
+    .map((team) => {
+      const roundRow = rows.find(
+        (row) => row.userId === team.userId && row.roundId === activeRoundId,
+      );
+
+      const apiPoints = roundRow?.points ?? 0;
+
+      const hasDoubleCaptains = team.bonusesData?.some(
+        (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === activeRoundId,
+      );
+
+      const captain = team.players.find((p) => p.id === team.captainId);
+      const subCaptain = team.players.find((p) => p.id === team.subCaptainId);
+
+      const captainPlayed = captain?.lastRound?.roundId === activeRoundId;
+
+      const captainGameFinished =
+        captain && didTeamGameFinish(captain.teamId, activeRoundId, games);
+
+      const subCaptainPoints =
+        subCaptain?.lastRound?.roundId === activeRoundId
+          ? subCaptain.lastRound.points
+          : 0;
+
+      const shouldRemoveSubCaptainDouble =
+        !hasDoubleCaptains &&
+        !captainPlayed &&
+        !captainGameFinished &&
+        subCaptainPoints > 0;
+
+      const correction = shouldRemoveSubCaptainDouble ? -subCaptainPoints : 0;
+
+      return {
+        userId: team.userId,
+        teamName: team.teamName,
+        apiPoints,
+        correctedPoints: apiPoints + correction,
+        diff: correction,
+        captainName: captain?.name ?? "",
+        subCaptainName: subCaptain?.name ?? "",
+        subCaptainPoints,
+        reason: shouldRemoveSubCaptainDouble ? "סגן קפטן הוכפל זמנית" : "",
+      };
+    })
+    .sort((a, b) => b.correctedPoints - a.correctedPoints);
+
+  function getPlayerRoundPoints(player, roundId) {
+    return player?.lastRound?.roundId === roundId ? player.lastRound.points : 0;
+  }
+
+  function getCaptainMultiplierValue(playerId, team, roundId) {
+    const hasTripleCaptain = team.bonusesData?.some(
+      (bonus) => bonus.bonusId === 1 && bonus.usageRoundId === roundId,
+    );
+
+    const hasDoubleCaptains = team.bonusesData?.some(
+      (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === roundId,
+    );
+
+    if (playerId === team.captainId) {
+      return hasTripleCaptain ? 3 : 2;
+    }
+
+    if (hasDoubleCaptains && playerId === team.subCaptainId) {
+      return 2;
+    }
+
+    return 1;
+  }
+
+  const captainRanking = teamsData
+    .map((team) => {
+      const hasDoubleCaptains = team.bonusesData?.some(
+        (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === activeRoundId,
+      );
+
+      const captain = team.players.find((p) => p.id === team.captainId);
+      const subCaptain = team.players.find((p) => p.id === team.subCaptainId);
+
+      const captainPoints = getPlayerRoundPoints(captain, activeRoundId);
+      const subCaptainPoints = hasDoubleCaptains
+        ? getPlayerRoundPoints(subCaptain, activeRoundId)
+        : 0;
+
+      const captainMultiplier = getCaptainMultiplierValue(
+        captain?.id,
+        team,
+        activeRoundId,
+      );
+
+      const subCaptainMultiplier = hasDoubleCaptains ? 2 : 1;
+
+      const captainBonus = captainPoints * captainMultiplier - captainPoints;
+      const subCaptainBonus = hasDoubleCaptains
+        ? subCaptainPoints * subCaptainMultiplier - subCaptainPoints
+        : 0;
+
+      const captainWeighted = captainPoints * captainMultiplier;
+
+      const subCaptainWeighted = hasDoubleCaptains ? subCaptainPoints * 2 : 0;
+
+      const totalWeighted = captainWeighted + subCaptainWeighted;
+
+      const totalRaw =
+        captainPoints + (hasDoubleCaptains ? subCaptainPoints : 0);
+
+      const totalCaptainImpact = totalWeighted - totalRaw;
+
+      return {
+        userId: team.userId,
+        teamName: team.teamName,
+        captainName: captain?.name ?? "",
+        captainPoints,
+        captainWeighted,
+        captainMultiplier,
+        subCaptainName: hasDoubleCaptains ? (subCaptain?.name ?? "") : "",
+        subCaptainPoints,
+        subCaptainWeighted,
+        subCaptainMultiplier,
+        hasDoubleCaptains,
+        totalCaptainImpact,
+      };
+    })
+    .sort((a, b) => b.totalCaptainImpact - a.totalCaptainImpact);
 
   return (
     <main dir="rtl" className="min-h-screen bg-slate-950 text-slate-100">
@@ -691,6 +839,117 @@ function App() {
                                 )
                                 .join(", ")
                             : "אין"}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <section className="mb-5">
+              <h2 className="mb-2 text-lg font-black">🧮 ניקוד מתוקן זמני</h2>
+
+              <div className="mb-2 text-[11px] text-slate-400">
+                מתקן רק מצב שבו סגן קפטן קיבל X2 זמני לפני שהמשחק של הקפטן הראשי
+                הסתיים.
+              </div>
+
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="w-full table-fixed border-collapse text-xs">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[12%] px-1 py-2 text-center">#</th>
+                      <th className="w-[38%] px-2 py-2 text-right">קבוצה</th>
+                      <th className="px-1 py-2 text-center">API</th>
+                      <th className="px-1 py-2 text-center">מתוקן</th>
+                      <th className="px-1 py-2 text-center">פער</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {correctedCaptainTable.map((team, index) => (
+                      <tr
+                        key={team.userId}
+                        className="border-t border-slate-800"
+                      >
+                        <td className="px-1 py-1 text-center font-semibold">
+                          {index + 1}
+                        </td>
+
+                        <td className="truncate px-2 py-1 font-semibold">
+                          {team.teamName}
+                        </td>
+
+                        <td className="px-1 py-1 text-center text-slate-300">
+                          {team.apiPoints}
+                        </td>
+
+                        <td className="px-1 py-1 text-center font-semibold text-emerald-300">
+                          {team.correctedPoints}
+                        </td>
+
+                        <td
+                          className={`px-1 py-1 text-center font-semibold ${
+                            team.diff < 0
+                              ? "text-red-300"
+                              : team.diff > 0
+                                ? "text-emerald-300"
+                                : "text-slate-400"
+                          }`}
+                        >
+                          {team.diff > 0 ? `+${team.diff}` : team.diff}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <section className="mb-5">
+              <h2 className="mb-2 text-lg font-black">👑 דירוג קפטנים</h2>
+
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="w-full table-fixed border-collapse text-[11px]">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[10%] px-1 py-2 text-center">#</th>
+                      <th className="w-[30%] px-2 py-2 text-right">קבוצה</th>
+                      <th className="px-2 py-2 text-center">קפטן</th>
+                      <th className="px-1 py-2 text-center">נק׳</th>
+                      <th className="px-2 py-2 text-center">סגן</th>
+                      <th className="px-1 py-2 text-center">נק׳</th>
+                      <th className="px-1 py-2 text-center">סה"כ</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {captainRanking.map((team, index) => (
+                      <tr
+                        key={team.userId}
+                        className="border-t border-slate-800"
+                      >
+                        <td className="px-1 py-1 text-center font-semibold">
+                          {index + 1}
+                        </td>
+
+                        <td className="truncate px-2 py-1 font-semibold">
+                          {team.teamName}
+                        </td>
+
+                        <td className=" px-2 py-1 text-center text-slate-300">
+                          {team.captainName}
+                        </td>
+                        <td className="px-1 py-1 text-center text-blue-300">
+                          {`(X${team.captainMultiplier}) ${team.captainPoints}`}
+                        </td>                    
+                        <td className="px-1 py-1 text-center text-slate-300">
+                          {team.hasDoubleCaptains ? team.subCaptainName : "-"}
+                        </td>
+                        <td className="px-1 py-1 text-center text-blue-300">
+                          {team.hasDoubleCaptains ? `(X2) ${team.subCaptainPoints}` : "-"}
+                        </td>
+                        <td className="font-bold text-center text-blue-300">
+                          {team.captainWeighted + team.subCaptainWeighted}
                         </td>
                       </tr>
                     ))}
