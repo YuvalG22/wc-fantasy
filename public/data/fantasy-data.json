@@ -1,6 +1,976 @@
 {
-  "updatedAt": "2026-07-02T08:47:31.537Z",
+  "updatedAt": "2026-07-02T20:52:48.362Z",
   "seasonId": 9,
+  "games": [
+    {
+      "id": 1996,
+      "roundId": 215,
+      "teamAId": 257,
+      "teamBId": 256,
+      "teamAName": "קולומביה",
+      "teamBName": "גאנה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-04T04:30:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1995,
+      "roundId": 215,
+      "teamAId": 255,
+      "teamBId": 277,
+      "teamAName": "ארגנטינה",
+      "teamBName": "כף ורדה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-04T01:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1994,
+      "roundId": 215,
+      "teamAId": 281,
+      "teamBId": 278,
+      "teamAName": "אוסטרליה",
+      "teamBName": "מצרים",
+      "gameStatus": 1,
+      "gameStart": "2026-07-03T21:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1993,
+      "roundId": 215,
+      "teamAId": 184,
+      "teamBId": 271,
+      "teamAName": "שווייץ",
+      "teamBName": "אלג`יריה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-03T06:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1992,
+      "roundId": 215,
+      "teamAId": 178,
+      "teamBId": 183,
+      "teamAName": "פורטוגל",
+      "teamBName": "קרואטיה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-03T02:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1991,
+      "roundId": 215,
+      "teamAId": 186,
+      "teamBId": 193,
+      "teamAName": "ספרד",
+      "teamBName": "אוסטריה",
+      "gameStatus": 2,
+      "gameStart": "2026-07-02T22:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1990,
+      "roundId": 215,
+      "teamAId": 261,
+      "teamBId": 262,
+      "teamAName": "ארה\"ב",
+      "teamBName": "בוסניה והרצגובינה",
+      "gameStatus": 6,
+      "gameStart": "2026-07-02T03:00:00",
+      "gameEnd": "2026-07-02T05:08:26.517"
+    },
+    {
+      "id": 1989,
+      "roundId": 215,
+      "teamAId": 180,
+      "teamBId": 270,
+      "teamAName": "בלגיה",
+      "teamBName": "סנגל",
+      "gameStatus": 6,
+      "gameStart": "2026-07-01T23:00:00",
+      "gameEnd": "2026-07-02T01:53:26.393"
+    },
+    {
+      "id": 1988,
+      "roundId": 215,
+      "teamAId": 175,
+      "teamBId": 272,
+      "teamAName": "אנגליה",
+      "teamBName": "הרפובליקה הדמוקרטית של קונגו",
+      "gameStatus": 6,
+      "gameStart": "2026-07-01T19:00:00",
+      "gameEnd": "2026-07-01T21:03:42.923"
+    },
+    {
+      "id": 1987,
+      "roundId": 215,
+      "teamAId": 250,
+      "teamBId": 260,
+      "teamAName": "מקסיקו",
+      "teamBName": "אקוואדור",
+      "gameStatus": 6,
+      "gameStart": "2026-07-01T05:00:00",
+      "gameEnd": "2026-07-01T07:08:26.437"
+    },
+    {
+      "id": 1986,
+      "roundId": 215,
+      "teamAId": 188,
+      "teamBId": 253,
+      "teamAName": "צרפת",
+      "teamBName": "שוודיה",
+      "gameStatus": 6,
+      "gameStart": "2026-07-01T00:00:00",
+      "gameEnd": "2026-07-01T01:58:26.43"
+    },
+    {
+      "id": 1985,
+      "roundId": 215,
+      "teamAId": 266,
+      "teamBId": 258,
+      "teamAName": "חוף השנהב",
+      "teamBName": "נורווגיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-30T20:00:00",
+      "gameEnd": "2026-06-30T22:03:26.553"
+    },
+    {
+      "id": 1984,
+      "roundId": 215,
+      "teamAId": 181,
+      "teamBId": 265,
+      "teamAName": "הולנד",
+      "teamBName": "מרוקו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-30T04:00:00",
+      "gameEnd": "2026-06-30T07:03:26.483"
+    },
+    {
+      "id": 1983,
+      "roundId": 215,
+      "teamAId": 173,
+      "teamBId": 252,
+      "teamAName": "גרמניה",
+      "teamBName": "פרגוואי",
+      "gameStatus": 6,
+      "gameStart": "2026-06-29T23:30:00",
+      "gameEnd": "2026-06-30T02:38:26.703"
+    },
+    {
+      "id": 1982,
+      "roundId": 215,
+      "teamAId": 251,
+      "teamBId": 267,
+      "teamAName": "ברזיל",
+      "teamBName": "יפן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-29T20:00:00",
+      "gameEnd": "2026-06-29T22:08:26.793"
+    },
+    {
+      "id": 1981,
+      "roundId": 215,
+      "teamAId": 284,
+      "teamBId": 264,
+      "teamAName": "דרום אפריקה",
+      "teamBName": "קנדה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-28T22:00:00",
+      "gameEnd": "2026-06-29T00:03:26.603"
+    },
+    {
+      "id": 1977,
+      "roundId": 212,
+      "teamAId": 271,
+      "teamBId": 193,
+      "teamAName": "אלג`יריה",
+      "teamBName": "אוסטריה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-28T05:00:00",
+      "gameEnd": "2026-06-28T07:08:26.593"
+    },
+    {
+      "id": 1976,
+      "roundId": 212,
+      "teamAId": 275,
+      "teamBId": 255,
+      "teamAName": "ירדן",
+      "teamBName": "ארגנטינה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-28T05:00:00",
+      "gameEnd": "2026-06-28T07:03:26.477"
+    },
+    {
+      "id": 1975,
+      "roundId": 212,
+      "teamAId": 272,
+      "teamBId": 274,
+      "teamAName": "הרפובליקה הדמוקרטית של קונגו",
+      "teamBName": "אוזבקיסטן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-28T02:30:00",
+      "gameEnd": "2026-06-28T04:38:26.66"
+    },
+    {
+      "id": 1974,
+      "roundId": 212,
+      "teamAId": 257,
+      "teamBId": 178,
+      "teamAName": "קולומביה",
+      "teamBName": "פורטוגל",
+      "gameStatus": 6,
+      "gameStart": "2026-06-28T02:30:00",
+      "gameEnd": "2026-06-28T04:38:26.57"
+    },
+    {
+      "id": 1973,
+      "roundId": 212,
+      "teamAId": 273,
+      "teamBId": 175,
+      "teamAName": "פנמה",
+      "teamBName": "אנגליה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-28T00:00:00",
+      "gameEnd": "2026-06-28T01:58:26.437"
+    },
+    {
+      "id": 1972,
+      "roundId": 212,
+      "teamAId": 183,
+      "teamBId": 256,
+      "teamAName": "קרואטיה",
+      "teamBName": "גאנה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-28T00:00:00",
+      "gameEnd": "2026-06-28T02:03:26.42"
+    },
+    {
+      "id": 1971,
+      "roundId": 212,
+      "teamAId": 278,
+      "teamBId": 254,
+      "teamAName": "מצרים",
+      "teamBName": "איראן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-27T06:00:00",
+      "gameEnd": "2026-06-27T08:13:26.483"
+    },
+    {
+      "id": 1970,
+      "roundId": 212,
+      "teamAId": 268,
+      "teamBId": 180,
+      "teamAName": "ניו זילנד",
+      "teamBName": "בלגיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-27T06:00:00",
+      "gameEnd": "2026-06-27T08:08:26.707"
+    },
+    {
+      "id": 1969,
+      "roundId": 212,
+      "teamAId": 269,
+      "teamBId": 186,
+      "teamAName": "אורוגוואי",
+      "teamBName": "ספרד",
+      "gameStatus": 6,
+      "gameStart": "2026-06-27T03:00:00",
+      "gameEnd": "2026-06-27T05:08:26.35"
+    },
+    {
+      "id": 1968,
+      "roundId": 212,
+      "teamAId": 277,
+      "teamBId": 259,
+      "teamAName": "כף ורדה",
+      "teamBName": "ערב הסעודית",
+      "gameStatus": 6,
+      "gameStart": "2026-06-27T03:00:00",
+      "gameEnd": "2026-06-27T05:08:26.367"
+    },
+    {
+      "id": 1967,
+      "roundId": 212,
+      "teamAId": 258,
+      "teamBId": 188,
+      "teamAName": "נורווגיה",
+      "teamBName": "צרפת",
+      "gameStatus": 6,
+      "gameStart": "2026-06-26T22:00:00",
+      "gameEnd": "2026-06-27T00:03:26.42"
+    },
+    {
+      "id": 1966,
+      "roundId": 212,
+      "teamAId": 270,
+      "teamBId": 276,
+      "teamAName": "סנגל",
+      "teamBName": "עיראק",
+      "gameStatus": 6,
+      "gameStart": "2026-06-26T22:00:00",
+      "gameEnd": "2026-06-27T00:08:26.407"
+    },
+    {
+      "id": 1965,
+      "roundId": 212,
+      "teamAId": 252,
+      "teamBId": 281,
+      "teamAName": "פרגוואי",
+      "teamBName": "אוסטרליה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-26T05:00:00",
+      "gameEnd": "2026-06-26T07:12:51.397"
+    },
+    {
+      "id": 1964,
+      "roundId": 212,
+      "teamAId": 190,
+      "teamBId": 261,
+      "teamAName": "טורקיה",
+      "teamBName": "ארה\"ב",
+      "gameStatus": 6,
+      "gameStart": "2026-06-26T05:00:00",
+      "gameEnd": "2026-06-26T07:12:51.397"
+    },
+    {
+      "id": 1963,
+      "roundId": 212,
+      "teamAId": 267,
+      "teamBId": 253,
+      "teamAName": "יפן",
+      "teamBName": "שוודיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-26T02:00:00",
+      "gameEnd": "2026-06-26T04:07:51.553"
+    },
+    {
+      "id": 1962,
+      "roundId": 212,
+      "teamAId": 279,
+      "teamBId": 181,
+      "teamAName": "תוניסיה",
+      "teamBName": "הולנד",
+      "gameStatus": 6,
+      "gameStart": "2026-06-26T02:00:00",
+      "gameEnd": "2026-06-26T04:07:51.553"
+    },
+    {
+      "id": 1961,
+      "roundId": 212,
+      "teamAId": 280,
+      "teamBId": 266,
+      "teamAName": "קורוסאו",
+      "teamBName": "חוף השנהב",
+      "gameStatus": 6,
+      "gameStart": "2026-06-25T23:00:00",
+      "gameEnd": "2026-06-26T01:02:51.603"
+    },
+    {
+      "id": 1960,
+      "roundId": 212,
+      "teamAId": 260,
+      "teamBId": 173,
+      "teamAName": "אקוואדור",
+      "teamBName": "גרמניה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-25T23:00:00",
+      "gameEnd": "2026-06-26T01:02:51.6"
+    },
+    {
+      "id": 1959,
+      "roundId": 212,
+      "teamAId": 179,
+      "teamBId": 250,
+      "teamAName": "צ`כיה",
+      "teamBName": "מקסיקו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-25T04:00:00",
+      "gameEnd": "2026-06-25T06:03:26.337"
+    },
+    {
+      "id": 1958,
+      "roundId": 212,
+      "teamAId": 284,
+      "teamBId": 263,
+      "teamAName": "דרום אפריקה",
+      "teamBName": "דרום קוריאה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-25T04:00:00",
+      "gameEnd": "2026-06-25T06:03:26.367"
+    },
+    {
+      "id": 1957,
+      "roundId": 212,
+      "teamAId": 262,
+      "teamBId": 283,
+      "teamAName": "בוסניה והרצגובינה",
+      "teamBName": "קטאר",
+      "gameStatus": 6,
+      "gameStart": "2026-06-24T22:00:00",
+      "gameEnd": "2026-06-25T00:02:51.55"
+    },
+    {
+      "id": 1956,
+      "roundId": 212,
+      "teamAId": 184,
+      "teamBId": 264,
+      "teamAName": "שווייץ",
+      "teamBName": "קנדה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-24T22:00:00",
+      "gameEnd": "2026-06-25T00:02:51.547"
+    },
+    {
+      "id": 1955,
+      "roundId": 212,
+      "teamAId": 265,
+      "teamBId": 282,
+      "teamAName": "מרוקו",
+      "teamBName": "האיטי",
+      "gameStatus": 6,
+      "gameStart": "2026-06-25T01:00:00",
+      "gameEnd": "2026-06-25T03:02:51.603"
+    },
+    {
+      "id": 1954,
+      "roundId": 212,
+      "teamAId": 185,
+      "teamBId": 251,
+      "teamAName": "סקוטלנד",
+      "teamBName": "ברזיל",
+      "gameStatus": 6,
+      "gameStart": "2026-06-25T01:00:00",
+      "gameEnd": "2026-06-25T03:22:51.47"
+    },
+    {
+      "id": 1953,
+      "roundId": 211,
+      "teamAId": 257,
+      "teamBId": 272,
+      "teamAName": "קולומביה",
+      "teamBName": "הרפובליקה הדמוקרטית של קונגו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-24T05:00:00",
+      "gameEnd": "2026-06-24T07:02:51.433"
+    },
+    {
+      "id": 1952,
+      "roundId": 211,
+      "teamAId": 273,
+      "teamBId": 183,
+      "teamAName": "פנמה",
+      "teamBName": "קרואטיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-24T02:00:00",
+      "gameEnd": "2026-06-24T03:57:51.527"
+    },
+    {
+      "id": 1951,
+      "roundId": 211,
+      "teamAId": 175,
+      "teamBId": 256,
+      "teamAName": "אנגליה",
+      "teamBName": "גאנה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-23T23:00:00",
+      "gameEnd": "2026-06-24T01:07:51.497"
+    },
+    {
+      "id": 1950,
+      "roundId": 211,
+      "teamAId": 178,
+      "teamBId": 274,
+      "teamAName": "פורטוגל",
+      "teamBName": "אוזבקיסטן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-23T20:00:00",
+      "gameEnd": "2026-06-23T22:02:51.633"
+    },
+    {
+      "id": 1949,
+      "roundId": 211,
+      "teamAId": 275,
+      "teamBId": 271,
+      "teamAName": "ירדן",
+      "teamBName": "אלג`יריה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-23T06:00:00",
+      "gameEnd": "2026-06-23T08:02:42.847"
+    },
+    {
+      "id": 1948,
+      "roundId": 211,
+      "teamAId": 258,
+      "teamBId": 270,
+      "teamAName": "נורווגיה",
+      "teamBName": "סנגל",
+      "gameStatus": 6,
+      "gameStart": "2026-06-23T03:00:00",
+      "gameEnd": "2026-06-23T05:02:42.78"
+    },
+    {
+      "id": 1947,
+      "roundId": 211,
+      "teamAId": 188,
+      "teamBId": 276,
+      "teamAName": "צרפת",
+      "teamBName": "עיראק",
+      "gameStatus": 6,
+      "gameStart": "2026-06-23T00:00:00",
+      "gameEnd": "2026-06-23T03:52:42.86"
+    },
+    {
+      "id": 1946,
+      "roundId": 211,
+      "teamAId": 255,
+      "teamBId": 193,
+      "teamAName": "ארגנטינה",
+      "teamBName": "אוסטריה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-22T20:00:00",
+      "gameEnd": "2026-06-22T22:02:42.87"
+    },
+    {
+      "id": 1945,
+      "roundId": 211,
+      "teamAId": 268,
+      "teamBId": 278,
+      "teamAName": "ניו זילנד",
+      "teamBName": "מצרים",
+      "gameStatus": 6,
+      "gameStart": "2026-06-22T04:00:00",
+      "gameEnd": "2026-06-22T06:07:42.783"
+    },
+    {
+      "id": 1944,
+      "roundId": 211,
+      "teamAId": 269,
+      "teamBId": 277,
+      "teamAName": "אורוגוואי",
+      "teamBName": "כף ורדה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-22T01:00:00",
+      "gameEnd": "2026-06-22T03:12:42.783"
+    },
+    {
+      "id": 1943,
+      "roundId": 211,
+      "teamAId": 180,
+      "teamBId": 254,
+      "teamAName": "בלגיה",
+      "teamBName": "איראן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-21T22:00:00",
+      "gameEnd": "2026-06-22T00:02:42.933"
+    },
+    {
+      "id": 1942,
+      "roundId": 211,
+      "teamAId": 186,
+      "teamBId": 259,
+      "teamAName": "ספרד",
+      "teamBName": "ערב הסעודית",
+      "gameStatus": 6,
+      "gameStart": "2026-06-21T19:00:00",
+      "gameEnd": "2026-06-21T21:07:42.817"
+    },
+    {
+      "id": 1941,
+      "roundId": 211,
+      "teamAId": 279,
+      "teamBId": 267,
+      "teamAName": "תוניסיה",
+      "teamBName": "יפן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-21T07:00:00",
+      "gameEnd": "2026-06-21T09:02:42.797"
+    },
+    {
+      "id": 1940,
+      "roundId": 211,
+      "teamAId": 260,
+      "teamBId": 280,
+      "teamAName": "אקוואדור",
+      "teamBName": "קורוסאו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-21T03:00:00",
+      "gameEnd": "2026-06-21T05:02:42.697"
+    },
+    {
+      "id": 1939,
+      "roundId": 211,
+      "teamAId": 173,
+      "teamBId": 266,
+      "teamAName": "גרמניה",
+      "teamBName": "חוף השנהב",
+      "gameStatus": 6,
+      "gameStart": "2026-06-20T23:00:00",
+      "gameEnd": "2026-06-21T01:02:42.813"
+    },
+    {
+      "id": 1938,
+      "roundId": 211,
+      "teamAId": 181,
+      "teamBId": 253,
+      "teamAName": "הולנד",
+      "teamBName": "שוודיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-20T20:00:00",
+      "gameEnd": "2026-06-20T21:57:42.763"
+    },
+    {
+      "id": 1937,
+      "roundId": 211,
+      "teamAId": 190,
+      "teamBId": 252,
+      "teamAName": "טורקיה",
+      "teamBName": "פרגוואי",
+      "gameStatus": 6,
+      "gameStart": "2026-06-20T06:00:00",
+      "gameEnd": "2026-06-20T08:07:42.73"
+    },
+    {
+      "id": 1936,
+      "roundId": 211,
+      "teamAId": 261,
+      "teamBId": 281,
+      "teamAName": "ארה\"ב",
+      "teamBName": "אוסטרליה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-19T22:00:00",
+      "gameEnd": "2026-06-20T00:12:42.98"
+    },
+    {
+      "id": 1935,
+      "roundId": 211,
+      "teamAId": 250,
+      "teamBId": 263,
+      "teamAName": "מקסיקו",
+      "teamBName": "דרום קוריאה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-19T04:00:00",
+      "gameEnd": "2026-06-19T06:02:42.93"
+    },
+    {
+      "id": 1934,
+      "roundId": 211,
+      "teamAId": 184,
+      "teamBId": 262,
+      "teamAName": "שווייץ",
+      "teamBName": "בוסניה והרצגובינה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-18T22:00:00",
+      "gameEnd": "2026-06-19T00:12:42.827"
+    },
+    {
+      "id": 1933,
+      "roundId": 211,
+      "teamAId": 179,
+      "teamBId": 284,
+      "teamAName": "צ`כיה",
+      "teamBName": "דרום אפריקה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-18T19:00:00",
+      "gameEnd": "2026-06-18T21:02:42.9"
+    },
+    {
+      "id": 1932,
+      "roundId": 211,
+      "teamAId": 251,
+      "teamBId": 282,
+      "teamAName": "ברזיל",
+      "teamBName": "האיטי",
+      "gameStatus": 6,
+      "gameStart": "2026-06-20T03:30:00",
+      "gameEnd": "2026-06-20T05:32:42.87"
+    },
+    {
+      "id": 1931,
+      "roundId": 211,
+      "teamAId": 185,
+      "teamBId": 265,
+      "teamAName": "סקוטלנד",
+      "teamBName": "מרוקו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-20T01:00:00",
+      "gameEnd": "2026-06-20T03:02:42.96"
+    },
+    {
+      "id": 1930,
+      "roundId": 211,
+      "teamAId": 264,
+      "teamBId": 283,
+      "teamAName": "קנדה",
+      "teamBName": "קטאר",
+      "gameStatus": 6,
+      "gameStart": "2026-06-19T01:00:00",
+      "gameEnd": "2026-06-19T03:12:42.87"
+    },
+    {
+      "id": 1929,
+      "roundId": 210,
+      "teamAId": 274,
+      "teamBId": 257,
+      "teamAName": "אוזבקיסטן",
+      "teamBName": "קולומביה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-18T05:00:00",
+      "gameEnd": "2026-06-18T07:05:09.44"
+    },
+    {
+      "id": 1928,
+      "roundId": 210,
+      "teamAId": 256,
+      "teamBId": 273,
+      "teamAName": "גאנה",
+      "teamBName": "פנמה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-18T02:00:00",
+      "gameEnd": "2026-06-18T04:10:18.487"
+    },
+    {
+      "id": 1927,
+      "roundId": 210,
+      "teamAId": 175,
+      "teamBId": 183,
+      "teamAName": "אנגליה",
+      "teamBName": "קרואטיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-17T23:00:00",
+      "gameEnd": "2026-06-18T01:05:18.767"
+    },
+    {
+      "id": 1926,
+      "roundId": 210,
+      "teamAId": 178,
+      "teamBId": 272,
+      "teamAName": "פורטוגל",
+      "teamBName": "הרפובליקה הדמוקרטית של קונגו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-17T20:00:00",
+      "gameEnd": "2026-06-17T22:00:18.303"
+    },
+    {
+      "id": 1925,
+      "roundId": 210,
+      "teamAId": 193,
+      "teamBId": 275,
+      "teamAName": "אוסטריה",
+      "teamBName": "ירדן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-17T07:00:00",
+      "gameEnd": "2026-06-17T09:14:07.283"
+    },
+    {
+      "id": 1924,
+      "roundId": 210,
+      "teamAId": 276,
+      "teamBId": 258,
+      "teamAName": "עיראק",
+      "teamBName": "נורווגיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-17T01:00:00",
+      "gameEnd": "2026-06-17T03:04:37.563"
+    },
+    {
+      "id": 1923,
+      "roundId": 210,
+      "teamAId": 188,
+      "teamBId": 270,
+      "teamAName": "צרפת",
+      "teamBName": "סנגל",
+      "gameStatus": 6,
+      "gameStart": "2026-06-16T22:00:00",
+      "gameEnd": "2026-06-17T00:09:28.8"
+    },
+    {
+      "id": 1922,
+      "roundId": 210,
+      "teamAId": 254,
+      "teamBId": 268,
+      "teamAName": "איראן",
+      "teamBName": "ניו זילנד",
+      "gameStatus": 6,
+      "gameStart": "2026-06-16T04:00:00",
+      "gameEnd": "2026-06-16T06:09:13.143"
+    },
+    {
+      "id": 1921,
+      "roundId": 210,
+      "teamAId": 255,
+      "teamBId": 271,
+      "teamAName": "ארגנטינה",
+      "teamBName": "אלג`יריה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-17T04:00:00",
+      "gameEnd": "2026-06-17T06:08:09.957"
+    },
+    {
+      "id": 1920,
+      "roundId": 210,
+      "teamAId": 259,
+      "teamBId": 269,
+      "teamAName": "ערב הסעודית",
+      "teamBName": "אורוגוואי",
+      "gameStatus": 6,
+      "gameStart": "2026-06-16T01:00:00",
+      "gameEnd": "2026-06-16T03:09:12.86"
+    },
+    {
+      "id": 1919,
+      "roundId": 210,
+      "teamAId": 180,
+      "teamBId": 278,
+      "teamAName": "בלגיה",
+      "teamBName": "מצרים",
+      "gameStatus": 6,
+      "gameStart": "2026-06-15T22:00:00",
+      "gameEnd": "2026-06-16T00:04:12.967"
+    },
+    {
+      "id": 1918,
+      "roundId": 210,
+      "teamAId": 186,
+      "teamBId": 277,
+      "teamAName": "ספרד",
+      "teamBName": "כף ורדה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-15T19:00:00",
+      "gameEnd": "2026-06-15T21:04:12.95"
+    },
+    {
+      "id": 1917,
+      "roundId": 210,
+      "teamAId": 253,
+      "teamBId": 279,
+      "teamAName": "שוודיה",
+      "teamBName": "תוניסיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-15T05:00:00",
+      "gameEnd": "2026-06-15T06:59:12.827"
+    },
+    {
+      "id": 1916,
+      "roundId": 210,
+      "teamAId": 266,
+      "teamBId": 260,
+      "teamAName": "חוף השנהב",
+      "teamBName": "אקוואדור",
+      "gameStatus": 6,
+      "gameStart": "2026-06-15T02:00:00",
+      "gameEnd": "2026-06-15T04:09:12.927"
+    },
+    {
+      "id": 1915,
+      "roundId": 210,
+      "teamAId": 181,
+      "teamBId": 267,
+      "teamAName": "הולנד",
+      "teamBName": "יפן",
+      "gameStatus": 6,
+      "gameStart": "2026-06-14T23:00:00",
+      "gameEnd": "2026-06-15T01:04:13.02"
+    },
+    {
+      "id": 1914,
+      "roundId": 210,
+      "teamAId": 173,
+      "teamBId": 280,
+      "teamAName": "גרמניה",
+      "teamBName": "קורוסאו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-14T20:00:00",
+      "gameEnd": "2026-06-14T22:09:12.97"
+    },
+    {
+      "id": 1913,
+      "roundId": 210,
+      "teamAId": 281,
+      "teamBId": 190,
+      "teamAName": "אוסטרליה",
+      "teamBName": "טורקיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-14T07:00:00",
+      "gameEnd": "2026-06-14T08:59:13.023"
+    },
+    {
+      "id": 1912,
+      "roundId": 210,
+      "teamAId": 282,
+      "teamBId": 185,
+      "teamAName": "האיטי",
+      "teamBName": "סקוטלנד",
+      "gameStatus": 6,
+      "gameStart": "2026-06-14T04:00:00",
+      "gameEnd": "2026-06-14T06:04:12.763"
+    },
+    {
+      "id": 1911,
+      "roundId": 210,
+      "teamAId": 251,
+      "teamBId": 265,
+      "teamAName": "ברזיל",
+      "teamBName": "מרוקו",
+      "gameStatus": 6,
+      "gameStart": "2026-06-14T01:00:00",
+      "gameEnd": "2026-06-14T03:09:12.917"
+    },
+    {
+      "id": 1910,
+      "roundId": 210,
+      "teamAId": 283,
+      "teamBId": 184,
+      "teamAName": "קטאר",
+      "teamBName": "שווייץ",
+      "gameStatus": 6,
+      "gameStart": "2026-06-13T22:00:00",
+      "gameEnd": "2026-06-14T00:14:13.093"
+    },
+    {
+      "id": 1909,
+      "roundId": 210,
+      "teamAId": 261,
+      "teamBId": 252,
+      "teamAName": "ארה\"ב",
+      "teamBName": "פרגוואי",
+      "gameStatus": 6,
+      "gameStart": "2026-06-13T04:00:00",
+      "gameEnd": "2026-06-13T06:04:12.87"
+    },
+    {
+      "id": 1908,
+      "roundId": 210,
+      "teamAId": 264,
+      "teamBId": 262,
+      "teamAName": "קנדה",
+      "teamBName": "בוסניה והרצגובינה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-12T22:00:00",
+      "gameEnd": "2026-06-13T00:14:12.73"
+    },
+    {
+      "id": 1907,
+      "roundId": 210,
+      "teamAId": 263,
+      "teamBId": 179,
+      "teamAName": "דרום קוריאה",
+      "teamBName": "צ`כיה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-12T05:00:00",
+      "gameEnd": "2026-06-12T06:59:13.24"
+    },
+    {
+      "id": 1906,
+      "roundId": 210,
+      "teamAId": 250,
+      "teamBId": 284,
+      "teamAName": "מקסיקו",
+      "teamBName": "דרום אפריקה",
+      "gameStatus": 6,
+      "gameStart": "2026-06-11T22:00:00",
+      "gameEnd": "2026-06-12T00:09:12.81"
+    }
+  ],
   "teams": [
     {
       "userId": 2827,
@@ -9,7 +979,7 @@
       "creatorName": "שופי",
       "seasonId": 9,
       "roundId": 215,
-      "points": 255,
+      "points": 257,
       "usedBudget": 120000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -53,8 +1023,8 @@
         },
         {
           "roundId": 215,
-          "points": 52,
-          "seasonPoints": 255
+          "points": 54,
+          "seasonPoints": 257
         }
       ],
       "players": [
@@ -131,11 +1101,11 @@
           "addedRoundId": 212,
           "lastRound": {
             "roundId": 215,
-            "points": 5,
-            "seasonPoints": 7
+            "points": 7,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 25
+            "points": 27
           }
         },
         {
@@ -170,8 +1140,8 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 9,
+            "roundId": 215,
+            "points": 0,
             "seasonPoints": 9
           },
           "season": {
@@ -190,12 +1160,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 2,
-            "seasonPoints": 8
+            "seasonPoints": 4
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -627,7 +1597,7 @@
       "creatorName": "שלומי כהן",
       "seasonId": 9,
       "roundId": 215,
-      "points": 249,
+      "points": 251,
       "usedBudget": 120000000,
       "captainId": 2378,
       "subCaptainId": 2027,
@@ -671,8 +1641,8 @@
         },
         {
           "roundId": 215,
-          "points": 83,
-          "seasonPoints": 249
+          "points": 85,
+          "seasonPoints": 251
         }
       ],
       "players": [
@@ -868,12 +1838,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 2,
-            "seasonPoints": 8
+            "seasonPoints": 4
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -1185,7 +2155,7 @@
       "creatorName": "אודי הגדול רבוי כישלונות ",
       "seasonId": 9,
       "roundId": 215,
-      "points": 253,
+      "points": 259,
       "usedBudget": 120000000,
       "captainId": 2027,
       "subCaptainId": 5155,
@@ -1229,8 +2199,8 @@
         },
         {
           "roundId": 215,
-          "points": 67,
-          "seasonPoints": 253
+          "points": 73,
+          "seasonPoints": 259
         }
       ],
       "players": [
@@ -1406,12 +2376,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 6,
             "seasonPoints": 12
           },
           "season": {
-            "points": 18
+            "points": 24
           }
         },
         {
@@ -1426,12 +2396,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
             "seasonPoints": 2
           },
           "season": {
-            "points": 4
+            "points": 5
           }
         },
         {
@@ -1924,12 +2894,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 3,
-            "seasonPoints": 3
+            "roundId": 215,
+            "points": 1,
+            "seasonPoints": 4
           },
           "season": {
-            "points": 5
+            "points": 6
           }
         },
         {
@@ -2990,12 +3960,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 2,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 17
+            "points": 23
           }
         },
         {
@@ -3010,12 +3980,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
             "seasonPoints": 2
           },
           "season": {
-            "points": 4
+            "points": 5
           }
         },
         {
@@ -3090,12 +4060,12 @@
           "isRemoved": true,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
-            "seasonPoints": 3
+            "seasonPoints": 2
           },
           "season": {
-            "points": 10
+            "points": 11
           }
         },
         {
@@ -3568,12 +4538,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 2,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 17
+            "points": 23
           }
         },
         {
@@ -4005,7 +4975,7 @@
       "creatorName": "בנצי",
       "seasonId": 9,
       "roundId": 215,
-      "points": 191,
+      "points": 192,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -4028,8 +4998,8 @@
         },
         {
           "roundId": 215,
-          "points": 32,
-          "seasonPoints": 191
+          "points": 33,
+          "seasonPoints": 192
         }
       ],
       "players": [
@@ -4125,7 +5095,7 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 0,
             "seasonPoints": 0
           },
@@ -4305,12 +5275,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 4,
-            "seasonPoints": 6
+            "roundId": 215,
+            "points": 1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 7
+            "points": 8
           }
         },
         {
@@ -4514,11 +5484,11 @@
           "addedRoundId": 212,
           "lastRound": {
             "roundId": 215,
-            "points": 5,
-            "seasonPoints": 7
+            "points": 7,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 25
+            "points": 27
           }
         },
         {
@@ -4573,12 +5543,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 2,
-            "seasonPoints": 8
+            "seasonPoints": 4
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -5012,11 +5982,11 @@
           "addedRoundId": 212,
           "lastRound": {
             "roundId": 215,
-            "points": 5,
-            "seasonPoints": 7
+            "points": 7,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 25
+            "points": 27
           }
         },
         {
@@ -5071,8 +6041,8 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 9,
+            "roundId": 215,
+            "points": 0,
             "seasonPoints": 9
           },
           "season": {
@@ -5428,7 +6398,7 @@
       "creatorName": "יובל גנון",
       "seasonId": 9,
       "roundId": 215,
-      "points": 221,
+      "points": 223,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -5472,8 +6442,8 @@
         },
         {
           "roundId": 215,
-          "points": 47,
-          "seasonPoints": 221
+          "points": 49,
+          "seasonPoints": 223
         }
       ],
       "players": [
@@ -5510,11 +6480,11 @@
           "addedRoundId": 212,
           "lastRound": {
             "roundId": 215,
-            "points": 5,
-            "seasonPoints": 7
+            "points": 7,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 25
+            "points": 27
           }
         },
         {
