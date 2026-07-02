@@ -1,7 +1,7 @@
 [
   {
     "userId": 2827,
-    "updatedAt": "2026-07-01T07:42:46.113Z",
+    "updatedAt": "2026-07-02T08:05:39.319Z",
     "response": {
       "result": true,
       "error": null,
@@ -60,14 +60,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -489,14 +489,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 1,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 7,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":13,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":88,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 13,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":165,\"Points\":5},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
+                  "points": 19,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":253,\"Points\":7},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":3,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":3,\"Points\":12}}"
                 }
               }
             },
@@ -808,17 +808,17 @@
                 "position": 4,
                 "imagePath": "https://www.sport5.co.il/",
                 "injuredStatus": 0,
-                "expelledStatus": 0,
+                "expelledStatus": 1,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 0,
-                  "seasonPoints": 1,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 3,
+                  "seasonPoints": 3,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":64,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":1,\"Points\":-3},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 12,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":162,\"Points\":4},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 15,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":226,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":1,\"Points\":-3},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -981,8 +981,8 @@
               "userId": 2827,
               "roundId": 215,
               "teamId": 9779724,
-              "points": 43,
-              "seasonPoints": 246
+              "points": 52,
+              "seasonPoints": 255
             }
           ],
           "id": 9779724,
@@ -993,7 +993,7 @@
           "name": "מ.ס. כפר ויתקין",
           "creatorName": "שופי",
           "usedBudget": 120000000,
-          "points": 246,
+          "points": 255,
           "favTeam": {
             "id": 173,
             "name": "גרמניה",
@@ -1007,7 +1007,7 @@
   },
   {
     "userId": 3053,
-    "updatedAt": "2026-07-01T07:42:46.253Z",
+    "updatedAt": "2026-07-02T08:05:39.442Z",
     "response": {
       "result": true,
       "error": null,
@@ -1132,14 +1132,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -1528,14 +1528,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 0,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 6,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":180,\"Points\":4},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
+                  "points": 14,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":270,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
                 }
               }
             },
@@ -1896,8 +1896,8 @@
               "userId": 3053,
               "roundId": 215,
               "teamId": 9785638,
-              "points": 55,
-              "seasonPoints": 221
+              "points": 83,
+              "seasonPoints": 249
             }
           ],
           "id": 9785638,
@@ -1908,7 +1908,7 @@
           "name": "מוצאצוס ",
           "creatorName": "שלומי כהן",
           "usedBudget": 120000000,
-          "points": 221,
+          "points": 249,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
@@ -1922,7 +1922,7 @@
   },
   {
     "userId": 3123,
-    "updatedAt": "2026-07-01T07:42:46.347Z",
+    "updatedAt": "2026-07-02T08:05:39.832Z",
     "response": {
       "result": true,
       "error": null,
@@ -2047,14 +2047,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -2080,14 +2080,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 12,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
+                  "roundId": 215,
+                  "points": 2,
+                  "seasonPoints": 8,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 13,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":270,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":-1},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
+                  "points": 15,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":360,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":2,\"Points\":-1},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
                 }
               }
             },
@@ -2778,8 +2778,8 @@
               "userId": 3123,
               "roundId": 215,
               "teamId": 9784741,
-              "points": 43,
-              "seasonPoints": 229
+              "points": 67,
+              "seasonPoints": 253
             }
           ],
           "id": 9784741,
@@ -2790,7 +2790,7 @@
           "name": "הבנים של אודי ",
           "creatorName": "אודי הגדול רבוי כישלונות ",
           "usedBudget": 120000000,
-          "points": 229,
+          "points": 253,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
@@ -2804,7 +2804,7 @@
   },
   {
     "userId": 3217,
-    "updatedAt": "2026-07-01T07:42:46.440Z",
+    "updatedAt": "2026-07-02T08:05:40.237Z",
     "response": {
       "result": true,
       "error": null,
@@ -2896,14 +2896,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -2962,14 +2962,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 8,
-                  "seasonPoints": 9,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":5,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 6,
+                  "seasonPoints": 14,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":73,\"Points\":2},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 10,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":101,\"Points\":4},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":2,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 16,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":174,\"Points\":6},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":3,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":8},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -3358,14 +3358,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 0,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 6,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":180,\"Points\":4},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
+                  "points": 14,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":270,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
                 }
               }
             },
@@ -3424,9 +3424,9 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
+                  "roundId": 215,
                   "points": 0,
-                  "seasonPoints": 3,
+                  "seasonPoints": 0,
                   "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
@@ -3693,8 +3693,8 @@
               "userId": 3217,
               "roundId": 215,
               "teamId": 9776664,
-              "points": 43,
-              "seasonPoints": 233
+              "points": 60,
+              "seasonPoints": 250
             }
           ],
           "id": 9776664,
@@ -3705,7 +3705,7 @@
           "name": "11 טילי מצרר",
           "creatorName": "ליאור משנסקי",
           "usedBudget": 119000000,
-          "points": 233,
+          "points": 250,
           "favTeam": {
             "id": 178,
             "name": "פורטוגל",
@@ -3719,7 +3719,7 @@
   },
   {
     "userId": 3222,
-    "updatedAt": "2026-07-01T07:42:46.533Z",
+    "updatedAt": "2026-07-02T08:05:40.327Z",
     "response": {
       "result": true,
       "error": null,
@@ -3778,14 +3778,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -3811,14 +3811,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 8,
-                  "seasonPoints": 9,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":5,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 6,
+                  "seasonPoints": 14,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":73,\"Points\":2},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 10,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":101,\"Points\":4},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":2,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 16,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":174,\"Points\":6},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":3,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":8},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -4306,14 +4306,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 10,
-                  "seasonPoints": 23,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":81,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":5},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 7,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":120,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":5},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 25,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":261,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":16},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 32,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":381,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":4,\"Points\":21},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -4372,10 +4372,10 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 4,
+                  "roundId": 215,
+                  "points": 0,
                   "seasonPoints": 4,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":26,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
                   "points": 4,
@@ -4641,8 +4641,8 @@
               "userId": 3222,
               "roundId": 215,
               "teamId": 9779832,
-              "points": 40,
-              "seasonPoints": 268
+              "points": 51,
+              "seasonPoints": 279
             }
           ],
           "id": 9779832,
@@ -4653,7 +4653,7 @@
           "name": "יונאיהיטי",
           "creatorName": "יונאי הגדול",
           "usedBudget": 119000000,
-          "points": 268,
+          "points": 279,
           "favTeam": {
             "id": 178,
             "name": "פורטוגל",
@@ -4667,7 +4667,7 @@
   },
   {
     "userId": 3605,
-    "updatedAt": "2026-07-01T07:42:46.628Z",
+    "updatedAt": "2026-07-02T08:05:40.828Z",
     "response": {
       "result": true,
       "error": null,
@@ -4749,14 +4749,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -4782,14 +4782,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 0,
-                  "seasonPoints": 0,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 1,
+                  "seasonPoints": 1,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":1,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 1,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":87,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":-1},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 2,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":88,\"Points\":3},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":-1},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -5310,14 +5310,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
+                  "roundId": 215,
                   "points": 1,
-                  "seasonPoints": 3,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":44,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "seasonPoints": 2,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":39,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 5,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":198,\"Points\":5},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 6,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":237,\"Points\":6},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":2,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -5475,14 +5475,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
+                  "roundId": 215,
                   "points": 2,
                   "seasonPoints": 4,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 9,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":248,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 11,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":338,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -5579,8 +5579,8 @@
               "userId": 3605,
               "roundId": 215,
               "teamId": 9790200,
-              "points": 42,
-              "seasonPoints": 198
+              "points": 55,
+              "seasonPoints": 211
             }
           ],
           "id": 9790200,
@@ -5591,7 +5591,7 @@
           "name": "ARG",
           "creatorName": "ENTINA",
           "usedBudget": 119000000,
-          "points": 198,
+          "points": 211,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
@@ -5605,7 +5605,7 @@
   },
   {
     "userId": 4467,
-    "updatedAt": "2026-07-01T07:42:46.724Z",
+    "updatedAt": "2026-07-02T08:05:40.909Z",
     "response": {
       "result": true,
       "error": null,
@@ -5697,14 +5697,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -5994,14 +5994,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 0,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 6,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":180,\"Points\":4},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
+                  "points": 14,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":270,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
                 }
               }
             },
@@ -6027,14 +6027,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 1,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 7,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":13,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":88,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 13,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":165,\"Points\":5},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
+                  "points": 19,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":253,\"Points\":7},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":3,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":3,\"Points\":12}}"
                 }
               }
             },
@@ -6126,14 +6126,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 10,
-                  "seasonPoints": 23,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":81,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":5},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 7,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":120,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":5},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 25,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":261,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":16},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 32,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":381,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":4,\"Points\":21},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -6527,8 +6527,8 @@
               "userId": 4467,
               "roundId": 215,
               "teamId": 9776562,
-              "points": 44,
-              "seasonPoints": 274
+              "points": 74,
+              "seasonPoints": 304
             }
           ],
           "id": 9776562,
@@ -6539,7 +6539,7 @@
           "name": "Pass pass it's a come",
           "creatorName": "NK האגדי",
           "usedBudget": 120000000,
-          "points": 274,
+          "points": 304,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
@@ -6553,7 +6553,7 @@
   },
   {
     "userId": 8018,
-    "updatedAt": "2026-07-01T07:42:46.805Z",
+    "updatedAt": "2026-07-02T08:05:41.156Z",
     "response": {
       "result": true,
       "error": null,
@@ -6624,14 +6624,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
+                  "roundId": 215,
                   "points": 1,
-                  "seasonPoints": 1,
+                  "seasonPoints": 2,
                   "statsData": "{\"MinutesPlayed\":{\"Count\":56,\"Points\":1},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 3,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":142,\"Points\":3},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 4,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":198,\"Points\":4},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":3,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -6888,10 +6888,10 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 3,
+                  "roundId": 215,
+                  "points": 0,
                   "seasonPoints": 3,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":58,\"Points\":1},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
                   "points": 3,
@@ -7091,8 +7091,8 @@
               "userId": 8018,
               "roundId": 215,
               "teamId": 9791656,
-              "points": 31,
-              "seasonPoints": 190
+              "points": 32,
+              "seasonPoints": 191
             }
           ],
           "id": 9791656,
@@ -7103,7 +7103,7 @@
           "name": "בנצי",
           "creatorName": "בנצי",
           "usedBudget": 120000000,
-          "points": 190,
+          "points": 191,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
@@ -7117,7 +7117,7 @@
   },
   {
     "userId": 11994,
-    "updatedAt": "2026-07-01T07:42:46.897Z",
+    "updatedAt": "2026-07-02T08:05:41.360Z",
     "response": {
       "result": true,
       "error": null,
@@ -7232,14 +7232,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -7930,8 +7930,8 @@
               "userId": 11994,
               "roundId": 215,
               "teamId": 9776461,
-              "points": 52,
-              "seasonPoints": 224
+              "points": 74,
+              "seasonPoints": 246
             }
           ],
           "id": 9776461,
@@ -7942,7 +7942,7 @@
           "name": "Halsh meod ",
           "creatorName": "עמית דודי",
           "usedBudget": 120000000,
-          "points": 224,
+          "points": 246,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
@@ -7956,7 +7956,7 @@
   },
   {
     "userId": 83871,
-    "updatedAt": "2026-07-01T07:42:47.001Z",
+    "updatedAt": "2026-07-02T08:05:41.600Z",
     "response": {
       "result": true,
       "error": null,
@@ -8048,14 +8048,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -8312,14 +8312,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 2,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 1,
+                  "seasonPoints": 3,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":78,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":-1},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":214,\"Points\":5},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
+                  "points": 9,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":292,\"Points\":7},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":2,\"Points\":-1},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 }
               }
             },
@@ -8510,14 +8510,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 0,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 6,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":180,\"Points\":4},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
+                  "points": 14,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":270,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
                 }
               }
             },
@@ -8870,8 +8870,8 @@
               "userId": 83871,
               "roundId": 215,
               "teamId": 9789059,
-              "points": 37,
-              "seasonPoints": 227
+              "points": 65,
+              "seasonPoints": 255
             }
           ],
           "id": 9789059,
@@ -8882,7 +8882,7 @@
           "name": "פלחלחים",
           "creatorName": "דור פלח",
           "usedBudget": 120000000,
-          "points": 227,
+          "points": 255,
           "favTeam": {
             "id": 181,
             "name": "הולנד",
@@ -8896,7 +8896,7 @@
   },
   {
     "userId": 84349,
-    "updatedAt": "2026-07-01T07:42:47.099Z",
+    "updatedAt": "2026-07-02T08:05:42.110Z",
     "response": {
       "result": true,
       "error": null,
@@ -8955,14 +8955,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -9384,14 +9384,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 1,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 7,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":13,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":88,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 13,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":165,\"Points\":5},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
+                  "points": 19,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":253,\"Points\":7},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":3,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":3,\"Points\":12}}"
                 }
               }
             },
@@ -9417,14 +9417,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 1,
-                  "seasonPoints": 1,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":32,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 2,
+                  "seasonPoints": 3,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":88,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 5,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":78,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 7,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":166,\"Points\":4},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -9736,17 +9736,17 @@
                 "position": 4,
                 "imagePath": "https://www.sport5.co.il/",
                 "injuredStatus": 0,
-                "expelledStatus": 0,
+                "expelledStatus": 1,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 0,
-                  "seasonPoints": 1,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 3,
+                  "seasonPoints": 3,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":64,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":1,\"Points\":-3},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 12,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":162,\"Points\":4},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 15,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":226,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":1,\"Points\":-3},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -9843,8 +9843,8 @@
               "userId": 84349,
               "roundId": 215,
               "teamId": 9789999,
-              "points": 38,
-              "seasonPoints": 212
+              "points": 47,
+              "seasonPoints": 221
             }
           ],
           "id": 9789999,
@@ -9855,7 +9855,7 @@
           "name": "יובל גנון",
           "creatorName": "יובל גנון",
           "usedBudget": 120000000,
-          "points": 212,
+          "points": 221,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
@@ -9869,7 +9869,7 @@
   },
   {
     "userId": 241490,
-    "updatedAt": "2026-07-01T07:42:47.194Z",
+    "updatedAt": "2026-07-02T08:05:42.174Z",
     "response": {
       "result": true,
       "error": null,
@@ -9994,14 +9994,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 6,
-                  "seasonPoints": 8,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":84,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":4},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 11,
+                  "seasonPoints": 17,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":90,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":9},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 19,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":264,\"Points\":6},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":3,\"Points\":13},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 30,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":354,\"Points\":8},\"OpenLineup\":{\"Count\":4,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":5,\"Points\":22},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -10357,14 +10357,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 1,
+                  "roundId": 215,
+                  "points": 6,
                   "seasonPoints": 7,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":13,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":88,\"Points\":2},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":1,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":1,\"Points\":4}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 13,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":165,\"Points\":5},\"OpenLineup\":{\"Count\":2,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":2,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":2,\"Points\":8}}"
+                  "points": 19,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":253,\"Points\":7},\"OpenLineup\":{\"Count\":3,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":3,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":1,\"Points\":0},\"CleanGames\":{\"Count\":3,\"Points\":12}}"
                 }
               }
             },
@@ -10456,10 +10456,10 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 4,
+                  "roundId": 215,
+                  "points": 0,
                   "seasonPoints": 4,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":26,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":1,\"Points\":3},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":0,\"Points\":0},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":0,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
                   "points": 4,
@@ -10489,14 +10489,14 @@
                 "expelledStatus": 0,
                 "missingStatus": 0,
                 "lastRoundPlayerStats": {
-                  "roundId": 212,
-                  "points": 5,
-                  "seasonPoints": 11,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":26,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":1,\"Points\":5},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "roundId": 215,
+                  "points": 1,
+                  "seasonPoints": 6,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":39,\"Points\":1},\"OpenLineup\":{\"Count\":0,\"Points\":0},\"SubstituteIn\":{\"Count\":1,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":0,\"Points\":0},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":0,\"Points\":0},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 },
                 "lastSeasonPlayerStats": {
-                  "points": 13,
-                  "statsData": "{\"MinutesPlayed\":{\"Count\":117,\"Points\":4},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":2,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":10},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
+                  "points": 14,
+                  "statsData": "{\"MinutesPlayed\":{\"Count\":156,\"Points\":5},\"OpenLineup\":{\"Count\":1,\"Points\":0},\"SubstituteIn\":{\"Count\":3,\"Points\":0},\"SubstituteOut\":{\"Count\":0,\"Points\":0},\"Goals\":{\"Count\":2,\"Points\":10},\"OwnGoals\":{\"Count\":0,\"Points\":0},\"Assists\":{\"Count\":0,\"Points\":0},\"YellowCards\":{\"Count\":1,\"Points\":-1},\"RedCards\":{\"Count\":0,\"Points\":0},\"PenaltiesStopped\":{\"Count\":0,\"Points\":0},\"PenaltiesMissed\":{\"Count\":0,\"Points\":0},\"CausedPenalty\":{\"Count\":0,\"Points\":0},\"FailedForPenalty\":{\"Count\":0,\"Points\":0},\"GoalsAbsorbed\":{\"Count\":0,\"Points\":0},\"CleanGames\":{\"Count\":0,\"Points\":0}}"
                 }
               }
             },
@@ -10824,8 +10824,8 @@
               "userId": 241490,
               "roundId": 215,
               "teamId": 9787114,
-              "points": 45,
-              "seasonPoints": 261
+              "points": 63,
+              "seasonPoints": 279
             }
           ],
           "id": 9787114,
@@ -10836,7 +10836,7 @@
           "name": "Malma win",
           "creatorName": "Itay malma",
           "usedBudget": 119000000,
-          "points": 261,
+          "points": 279,
           "favTeam": {
             "id": 255,
             "name": "ארגנטינה",
