@@ -1,7 +1,95 @@
 {
-  "updatedAt": "2026-07-03T09:57:17.751Z",
+  "updatedAt": "2026-07-04T12:41:59.615Z",
   "seasonId": 9,
   "games": [
+    {
+      "id": 2004,
+      "roundId": 216,
+      "teamAId": 184,
+      "teamBId": 257,
+      "teamAName": "שווייץ",
+      "teamBName": "קולומביה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-07T23:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 2003,
+      "roundId": 216,
+      "teamAId": 255,
+      "teamBId": 278,
+      "teamAName": "ארגנטינה",
+      "teamBName": "מצרים",
+      "gameStatus": 1,
+      "gameStart": "2026-07-07T19:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 2002,
+      "roundId": 216,
+      "teamAId": 261,
+      "teamBId": 180,
+      "teamAName": "ארה\"ב",
+      "teamBName": "בלגיה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-07T03:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 2001,
+      "roundId": 216,
+      "teamAId": 178,
+      "teamBId": 186,
+      "teamAName": "פורטוגל",
+      "teamBName": "ספרד",
+      "gameStatus": 1,
+      "gameStart": "2026-07-06T22:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 2000,
+      "roundId": 216,
+      "teamAId": 250,
+      "teamBId": 175,
+      "teamAName": "מקסיקו",
+      "teamBName": "אנגליה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-06T03:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1999,
+      "roundId": 216,
+      "teamAId": 251,
+      "teamBId": 258,
+      "teamAName": "ברזיל",
+      "teamBName": "נורווגיה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-05T23:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1998,
+      "roundId": 216,
+      "teamAId": 252,
+      "teamBId": 188,
+      "teamAName": "פרגוואי",
+      "teamBName": "צרפת",
+      "gameStatus": 1,
+      "gameStart": "2026-07-05T00:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 1997,
+      "roundId": 216,
+      "teamAId": 264,
+      "teamBId": 265,
+      "teamAName": "קנדה",
+      "teamBName": "מרוקו",
+      "gameStatus": 1,
+      "gameStart": "2026-07-04T20:00:00",
+      "gameEnd": null
+    },
     {
       "id": 1996,
       "roundId": 215,
@@ -9,9 +97,9 @@
       "teamBId": 256,
       "teamAName": "קולומביה",
       "teamBName": "גאנה",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-04T04:30:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-04T06:38:26.51"
     },
     {
       "id": 1995,
@@ -20,9 +108,9 @@
       "teamBId": 277,
       "teamAName": "ארגנטינה",
       "teamBName": "כף ורדה",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-04T01:00:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-04T03:48:28.58"
     },
     {
       "id": 1994,
@@ -31,9 +119,9 @@
       "teamBId": 278,
       "teamAName": "אוסטרליה",
       "teamBName": "מצרים",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-03T21:00:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-03T23:58:26.323"
     },
     {
       "id": 1993,
@@ -979,7 +1067,7 @@
       "creatorName": "שופי",
       "seasonId": 9,
       "roundId": 215,
-      "points": 262,
+      "points": 286,
       "usedBudget": 120000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -1023,8 +1111,8 @@
         },
         {
           "roundId": 215,
-          "points": 59,
-          "seasonPoints": 262
+          "points": 83,
+          "seasonPoints": 286
         }
       ],
       "players": [
@@ -1260,12 +1348,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -1280,12 +1368,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 13
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 21
+            "points": 27
           }
         },
         {
@@ -1420,12 +1508,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
+            "roundId": 215,
+            "points": 2,
             "seasonPoints": 8
           },
           "season": {
-            "points": 10
+            "points": 12
           }
         },
         {
@@ -1580,12 +1668,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -1597,7 +1685,7 @@
       "creatorName": "שלומי כהן",
       "seasonId": 9,
       "roundId": 215,
-      "points": 251,
+      "points": 259,
       "usedBudget": 120000000,
       "captainId": 2378,
       "subCaptainId": 2027,
@@ -1641,8 +1729,8 @@
         },
         {
           "roundId": 215,
-          "points": 85,
-          "seasonPoints": 251
+          "points": 93,
+          "seasonPoints": 259
         }
       ],
       "players": [
@@ -1674,7 +1762,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -1694,7 +1782,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -1794,7 +1882,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1814,7 +1902,7 @@
           "price": 13000000,
           "boughtPrice": 13000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1834,7 +1922,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -1874,7 +1962,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1894,7 +1982,7 @@
           "price": 14000000,
           "boughtPrice": 14000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1934,7 +2022,7 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1974,16 +2062,16 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 2
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 3
+            "points": 5
           }
         },
         {
@@ -1994,16 +2082,16 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 12
+            "points": 14
           }
         },
         {
@@ -2034,7 +2122,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -2074,16 +2162,16 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 13
+            "points": 15
           }
         },
         {
@@ -2094,7 +2182,7 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2114,7 +2202,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2134,16 +2222,16 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -2155,7 +2243,7 @@
       "creatorName": "אודי הגדול רבוי כישלונות ",
       "seasonId": 9,
       "roundId": 215,
-      "points": 259,
+      "points": 269,
       "usedBudget": 120000000,
       "captainId": 2027,
       "subCaptainId": 5155,
@@ -2199,8 +2287,8 @@
         },
         {
           "roundId": 215,
-          "points": 73,
-          "seasonPoints": 259
+          "points": 83,
+          "seasonPoints": 269
         }
       ],
       "players": [
@@ -2212,7 +2300,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -2252,7 +2340,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -2272,7 +2360,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2372,7 +2460,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2412,7 +2500,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -2432,7 +2520,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2452,7 +2540,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2472,16 +2560,16 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -2492,7 +2580,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2572,7 +2660,7 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -2592,7 +2680,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2612,16 +2700,16 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
             "seasonPoints": 2
           },
           "season": {
-            "points": 3
+            "points": 4
           }
         },
         {
@@ -2632,7 +2720,7 @@
           "price": 5000000,
           "boughtPrice": 5000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2652,7 +2740,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -2672,16 +2760,16 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -2693,7 +2781,7 @@
       "creatorName": "ליאור משנסקי",
       "seasonId": 9,
       "roundId": 215,
-      "points": 255,
+      "points": 264,
       "usedBudget": 119000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -2737,8 +2825,8 @@
         },
         {
           "roundId": 215,
-          "points": 65,
-          "seasonPoints": 255
+          "points": 74,
+          "seasonPoints": 264
         }
       ],
       "players": [
@@ -2750,7 +2838,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2770,7 +2858,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -2850,7 +2938,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -2870,7 +2958,7 @@
           "price": 13000000,
           "boughtPrice": 13000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -2910,7 +2998,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2950,7 +3038,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2970,16 +3058,16 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -2990,16 +3078,16 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 13
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 21
+            "points": 27
           }
         },
         {
@@ -3010,7 +3098,7 @@
           "price": 14000000,
           "boughtPrice": 14000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -3030,7 +3118,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -3050,7 +3138,7 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -3110,7 +3198,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -3130,16 +3218,16 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
             "seasonPoints": 2
           },
           "season": {
-            "points": 3
+            "points": 4
           }
         },
         {
@@ -3210,7 +3298,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -3230,16 +3318,16 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -3251,7 +3339,7 @@
       "creatorName": "יונאי הגדול",
       "seasonId": 9,
       "roundId": 215,
-      "points": 279,
+      "points": 294,
       "usedBudget": 119000000,
       "captainId": 2027,
       "subCaptainId": 2378,
@@ -3295,8 +3383,8 @@
         },
         {
           "roundId": 215,
-          "points": 51,
-          "seasonPoints": 279
+          "points": 66,
+          "seasonPoints": 294
         }
       ],
       "players": [
@@ -3492,12 +3580,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -3512,12 +3600,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 2,
             "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -3532,12 +3620,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 13
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 21
+            "points": 27
           }
         },
         {
@@ -3652,12 +3740,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 2,
-            "seasonPoints": 4
+            "roundId": 215,
+            "points": 5,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 6
+            "points": 11
           }
         },
         {
@@ -3812,12 +3900,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -3829,7 +3917,7 @@
       "creatorName": "ENTINA",
       "seasonId": 9,
       "roundId": 215,
-      "points": 211,
+      "points": 242,
       "usedBudget": 119000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -3863,8 +3951,8 @@
         },
         {
           "roundId": 215,
-          "points": 55,
-          "seasonPoints": 211
+          "points": 86,
+          "seasonPoints": 242
         }
       ],
       "players": [
@@ -4080,12 +4168,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -4100,12 +4188,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 6
+            "roundId": 215,
+            "points": 10,
+            "seasonPoints": 10
           },
           "season": {
-            "points": 12
+            "points": 22
           }
         },
         {
@@ -4120,12 +4208,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 2,
             "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -4140,12 +4228,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 13
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 21
+            "points": 27
           }
         },
         {
@@ -4300,12 +4388,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
             "seasonPoints": 2
           },
           "season": {
-            "points": 3
+            "points": 4
           }
         },
         {
@@ -4397,7 +4485,7 @@
       "creatorName": "NK האגדי",
       "seasonId": 9,
       "roundId": 215,
-      "points": 309,
+      "points": 322,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -4441,8 +4529,8 @@
         },
         {
           "roundId": 215,
-          "points": 79,
-          "seasonPoints": 309
+          "points": 92,
+          "seasonPoints": 322
         }
       ],
       "players": [
@@ -4454,7 +4542,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -4474,7 +4562,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -4554,7 +4642,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -4574,7 +4662,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -4594,16 +4682,16 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -4618,12 +4706,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 2,
             "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -4634,16 +4722,16 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 13
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 21
+            "points": 27
           }
         },
         {
@@ -4654,7 +4742,7 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -4674,7 +4762,7 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -4694,7 +4782,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -4734,7 +4822,7 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -4814,7 +4902,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -4854,16 +4942,16 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
+            "roundId": 215,
+            "points": 2,
             "seasonPoints": 8
           },
           "season": {
-            "points": 10
+            "points": 12
           }
         },
         {
@@ -4874,7 +4962,7 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -4934,7 +5022,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -4954,16 +5042,16 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -4975,7 +5063,7 @@
       "creatorName": "בנצי",
       "seasonId": 9,
       "roundId": 215,
-      "points": 200,
+      "points": 203,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -4998,8 +5086,8 @@
         },
         {
           "roundId": 215,
-          "points": 41,
-          "seasonPoints": 200
+          "points": 44,
+          "seasonPoints": 203
         }
       ],
       "players": [
@@ -5135,12 +5223,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -5312,7 +5400,7 @@
       "creatorName": "עמית דודי",
       "seasonId": 9,
       "roundId": 215,
-      "points": 246,
+      "points": 256,
       "usedBudget": 120000000,
       "captainId": 2027,
       "subCaptainId": 2378,
@@ -5346,8 +5434,8 @@
         },
         {
           "roundId": 215,
-          "points": 74,
-          "seasonPoints": 246
+          "points": 84,
+          "seasonPoints": 256
         }
       ],
       "players": [
@@ -5359,7 +5447,7 @@
           "price": 11000000,
           "boughtPrice": 11000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -5379,7 +5467,7 @@
           "price": 12000000,
           "boughtPrice": 12000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -5399,7 +5487,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -5499,7 +5587,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -5519,7 +5607,7 @@
           "price": 13000000,
           "boughtPrice": 13000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -5559,7 +5647,7 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -5579,16 +5667,16 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -5639,7 +5727,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -5659,11 +5747,11 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 0,
             "seasonPoints": 0
           },
@@ -5699,7 +5787,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -5719,7 +5807,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -5739,7 +5827,7 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -5759,7 +5847,7 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -5779,16 +5867,16 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 5,
-            "seasonPoints": 7
+            "roundId": 215,
+            "points": 1,
+            "seasonPoints": 6
           },
           "season": {
-            "points": 9
+            "points": 10
           }
         },
         {
@@ -5799,16 +5887,16 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
+            "roundId": 215,
+            "points": 2,
             "seasonPoints": 8
           },
           "season": {
-            "points": 10
+            "points": 12
           }
         }
       ]
@@ -5820,7 +5908,7 @@
       "creatorName": "דור פלח",
       "seasonId": 9,
       "roundId": 215,
-      "points": 260,
+      "points": 273,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2027,
@@ -5864,8 +5952,8 @@
         },
         {
           "roundId": 215,
-          "points": 70,
-          "seasonPoints": 260
+          "points": 83,
+          "seasonPoints": 273
         }
       ],
       "players": [
@@ -6121,12 +6209,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -6141,12 +6229,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 13
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 21
+            "points": 27
           }
         },
         {
@@ -6301,12 +6389,12 @@
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
+            "roundId": 215,
+            "points": 2,
             "seasonPoints": 8
           },
           "season": {
-            "points": 10
+            "points": 12
           }
         },
         {
@@ -6381,12 +6469,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -6398,7 +6486,7 @@
       "creatorName": "יובל גנון",
       "seasonId": 9,
       "roundId": 215,
-      "points": 234,
+      "points": 249,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -6442,8 +6530,8 @@
         },
         {
           "roundId": 215,
-          "points": 60,
-          "seasonPoints": 234
+          "points": 75,
+          "seasonPoints": 249
         }
       ],
       "players": [
@@ -6475,7 +6563,7 @@
           "price": 12000000,
           "boughtPrice": 12000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -6535,7 +6623,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -6555,7 +6643,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6575,16 +6663,16 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 2,
-            "seasonPoints": 3
+            "seasonPoints": 4
           },
           "season": {
-            "points": 10
+            "points": 12
           }
         },
         {
@@ -6595,7 +6683,7 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6615,16 +6703,16 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -6635,16 +6723,16 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 1,
-            "seasonPoints": 13
+            "roundId": 215,
+            "points": 6,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 21
+            "points": 27
           }
         },
         {
@@ -6695,7 +6783,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6715,7 +6803,7 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6755,7 +6843,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6815,16 +6903,16 @@
           "price": 5000000,
           "boughtPrice": 5000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 7
+            "points": 9
           }
         },
         {
@@ -6875,7 +6963,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6899,12 +6987,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
-            "seasonPoints": 3
+            "seasonPoints": 2
           },
           "season": {
-            "points": 8
+            "points": 9
           }
         },
         {
@@ -6915,7 +7003,7 @@
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6935,7 +7023,7 @@
           "price": 10000000,
           "boughtPrice": 10000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -6975,16 +7063,16 @@
           "price": 6000000,
           "boughtPrice": 6000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         }
       ]
@@ -6996,7 +7084,7 @@
       "creatorName": "Itay malma",
       "seasonId": 9,
       "roundId": 215,
-      "points": 284,
+      "points": 299,
       "usedBudget": 119000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -7040,8 +7128,8 @@
         },
         {
           "roundId": 215,
-          "points": 68,
-          "seasonPoints": 284
+          "points": 83,
+          "seasonPoints": 299
         }
       ],
       "players": [
@@ -7257,12 +7345,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 215,
+            "points": 7,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 34
+            "points": 41
           }
         },
         {
@@ -7457,12 +7545,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 13
+            "points": 15
           }
         },
         {
@@ -7497,12 +7585,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
+            "roundId": 215,
             "points": 1,
             "seasonPoints": 2
           },
           "season": {
-            "points": 3
+            "points": 4
           }
         },
         {
@@ -7557,12 +7645,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 212,
-            "points": 0,
-            "seasonPoints": 8
+            "roundId": 215,
+            "points": 2,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {

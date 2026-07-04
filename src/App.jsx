@@ -949,7 +949,7 @@ function App() {
                           {team.hasDoubleCaptains ? `(X2) ${team.subCaptainPoints}` : "-"}
                         </td>
                         <td className="font-bold text-center text-blue-300">
-                          {team.captainWeighted + team.subCaptainWeighted}
+                          {team.captainWeighted + team.subCaptainWeighted}מם
                         </td>
                       </tr>
                     ))}
