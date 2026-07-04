@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T20:49:17.520Z",
+  "updatedAt": "2026-07-04T21:04:20.676Z",
   "seasonId": 9,
   "games": [
     {
@@ -1113,6 +1113,11 @@
           "roundId": 215,
           "points": 83,
           "seasonPoints": 286
+        },
+        {
+          "roundId": 216,
+          "points": 0,
+          "seasonPoints": 286
         }
       ],
       "players": [
@@ -1650,6 +1655,11 @@
         {
           "roundId": 215,
           "points": 93,
+          "seasonPoints": 259
+        },
+        {
+          "roundId": 216,
+          "points": 0,
           "seasonPoints": 259
         }
       ],
@@ -2229,6 +2239,11 @@
           "roundId": 215,
           "points": 83,
           "seasonPoints": 269
+        },
+        {
+          "roundId": 216,
+          "points": 0,
+          "seasonPoints": 269
         }
       ],
       "players": [
@@ -2767,6 +2782,11 @@
           "roundId": 215,
           "points": 74,
           "seasonPoints": 264
+        },
+        {
+          "roundId": 216,
+          "points": 0,
+          "seasonPoints": 264
         }
       ],
       "players": [
@@ -3244,6 +3264,11 @@
         {
           "roundId": 215,
           "points": 66,
+          "seasonPoints": 294
+        },
+        {
+          "roundId": 216,
+          "points": 0,
           "seasonPoints": 294
         }
       ],
@@ -3752,6 +3777,11 @@
         {
           "roundId": 215,
           "points": 86,
+          "seasonPoints": 242
+        },
+        {
+          "roundId": 216,
+          "points": 0,
           "seasonPoints": 242
         }
       ],
@@ -4270,6 +4300,11 @@
         {
           "roundId": 215,
           "points": 92,
+          "seasonPoints": 322
+        },
+        {
+          "roundId": 216,
+          "points": 0,
           "seasonPoints": 322
         }
       ],
@@ -4808,6 +4843,11 @@
           "roundId": 215,
           "points": 44,
           "seasonPoints": 203
+        },
+        {
+          "roundId": 216,
+          "points": 0,
+          "seasonPoints": 203
         }
       ],
       "players": [
@@ -5155,6 +5195,11 @@
         {
           "roundId": 215,
           "points": 84,
+          "seasonPoints": 256
+        },
+        {
+          "roundId": 216,
+          "points": 0,
           "seasonPoints": 256
         }
       ],
@@ -5674,6 +5719,11 @@
           "roundId": 215,
           "points": 83,
           "seasonPoints": 273
+        },
+        {
+          "roundId": 216,
+          "points": 0,
+          "seasonPoints": 273
         }
       ],
       "players": [
@@ -6191,6 +6241,11 @@
         {
           "roundId": 215,
           "points": 75,
+          "seasonPoints": 249
+        },
+        {
+          "roundId": 216,
+          "points": 0,
           "seasonPoints": 249
         }
       ],
@@ -6769,6 +6824,11 @@
         {
           "roundId": 215,
           "points": 83,
+          "seasonPoints": 299
+        },
+        {
+          "roundId": 216,
+          "points": 0,
           "seasonPoints": 299
         }
       ],
