@@ -62,6 +62,57 @@ function getCaptainMultiplier(playerId, team, roundId) {
   return "";
 }
 
+const NATIONAL_TEAMS = {
+  173: "גרמניה",
+  175: "אנגליה",
+  178: "פורטוגל",
+  179: "צ'כיה",
+  180: "בלגיה",
+  181: "הולנד",
+  183: "קרואטיה",
+  184: "שווייץ",
+  185: "סקוטלנד",
+  186: "ספרד",
+  188: "צרפת",
+  190: "טורקיה",
+  193: "אוסטריה",
+  250: "מקסיקו",
+  251: "ברזיל",
+  252: "פרגוואי",
+  253: "שוודיה",
+  254: "איראן",
+  255: "ארגנטינה",
+  256: "גאנה",
+  257: "קולומביה",
+  258: "נורווגיה",
+  259: "ערב הסעודית",
+  260: "אקוואדור",
+  261: "ארה״ב",
+  262: "בוסניה והרצגובינה",
+  263: "דרום קוריאה",
+  264: "קנדה",
+  265: "מרוקו",
+  266: "חוף השנהב",
+  267: "יפן",
+  268: "ניו זילנד",
+  269: "אורוגוואי",
+  270: "סנגל",
+  271: "אלג'יריה",
+  272: "הרפובליקה הדמוקרטית של קונגו",
+  273: "פנמה",
+  274: "אוזבקיסטן",
+  275: "ירדן",
+  276: "עיראק",
+  277: "כף ורדה",
+  278: "מצרים",
+  279: "תוניסיה",
+  280: "קורוסאו",
+  281: "אוסטרליה",
+  282: "האיטי",
+  283: "קטאר",
+  284: "דרום אפריקה",
+};
+
 const USERS = [
   { userId: 2827, name: "מ.ס. כפר ויתקין" },
   { userId: 3053, name: "מוצאצוס" },
@@ -500,6 +551,33 @@ function App() {
     })
     .sort((a, b) => b.totalCaptainImpact - a.totalCaptainImpact);
 
+  const nationalTeamsTable = Object.values(
+    teamsData.reduce((acc, fantasyTeam) => {
+      fantasyTeam.players
+        .filter((p) => !p.isRemoved)
+        .forEach((player) => {
+          if (!acc[player.teamId]) {
+            acc[player.teamId] = {
+              teamId: player.teamId,
+              teamName: NATIONAL_TEAMS[player.teamId],
+              count: 0,
+              fantasyTeams: new Set(),
+            };
+          }
+
+          acc[player.teamId].count++;
+          acc[player.teamId].fantasyTeams.add(fantasyTeam.userId);
+        });
+
+      return acc;
+    }, {}),
+  )
+    .map((team) => ({
+      ...team,
+      fantasyTeamsCount: team.fantasyTeams.size,
+    }))
+    .sort((a, b) => b.count - a.count);
+
   return (
     <main dir="rtl" className="min-h-screen bg-slate-950 text-slate-100">
       <div className="mx-auto w-full max-w-md px-2 py-3">
@@ -899,7 +977,8 @@ function App() {
             <section className="mb-5">
               <h2 className="mb-2 text-lg font-black">🧮 ניקוד מתוקן זמני</h2>
               <div className="mb-2 text-[11px] text-slate-400">
-               ללא ניקוד לסגן קפטן וללא ניקוד לספסל אם אין בונוס ניקוד לכל הסגל.
+                ללא ניקוד לסגן קפטן וללא ניקוד לספסל אם אין בונוס ניקוד לכל
+                הסגל.
               </div>
 
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
@@ -1000,6 +1079,47 @@ function App() {
                         </td>
                         <td className="font-bold text-center text-blue-300">
                           {team.captainWeighted + team.subCaptainWeighted}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <section className="mb-5">
+              <h2 className="mb-2 text-lg font-black">🌍 שחקנים לפי נבחרת</h2>
+
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="w-full table-fixed border-collapse text-xs">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[18%] px-1 py-2 text-center">#</th>
+                      <th className="px-2 py-2 text-right">נבחרת ID</th>
+                      <th className="px-1 py-2 text-center">שחקנים</th>
+                      <th className="px-1 py-2 text-center">קבוצות</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {nationalTeamsTable.map((team, index) => (
+                      <tr
+                        key={team.teamId}
+                        className="border-t border-slate-800"
+                      >
+                        <td className="px-1 py-1 text-center font-semibold">
+                          {index + 1}
+                        </td>
+
+                        <td className="px-2 py-1 font-semibold">
+                          {NATIONAL_TEAMS[team.teamId]}
+                        </td>
+
+                        <td className="px-1 py-1 text-center font-bold text-emerald-300">
+                          {team.count}
+                        </td>
+
+                        <td className="px-1 py-1 text-center font-bold text-blue-300">
+                          {team.fantasyTeamsCount}/{USERS.length}
                         </td>
                       </tr>
                     ))}

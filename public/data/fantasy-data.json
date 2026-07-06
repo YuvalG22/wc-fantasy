@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T04:24:10.294Z",
+  "updatedAt": "2026-07-06T05:45:42.874Z",
   "seasonId": 9,
   "games": [
     {
@@ -4818,7 +4818,7 @@
       "creatorName": "בנצי",
       "seasonId": 9,
       "roundId": 216,
-      "points": 216,
+      "points": 222,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -4846,8 +4846,8 @@
         },
         {
           "roundId": 216,
-          "points": 13,
-          "seasonPoints": 216
+          "points": 19,
+          "seasonPoints": 222
         }
       ],
       "players": [
@@ -5024,11 +5024,11 @@
           "addedRoundId": 210,
           "lastRound": {
             "roundId": 216,
-            "points": 0,
-            "seasonPoints": 0
+            "points": 6,
+            "seasonPoints": 6
           },
           "season": {
-            "points": 3
+            "points": 9
           }
         },
         {
@@ -5577,11 +5577,11 @@
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 216,
-            "points": 0,
-            "seasonPoints": 2
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 15
+            "points": 16
           }
         },
         {
