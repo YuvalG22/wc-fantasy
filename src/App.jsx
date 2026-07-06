@@ -324,6 +324,10 @@ function App() {
     );
   }
 
+  function getPlayerRoundPoints(player, roundId) {
+    return player?.lastRound?.roundId === roundId ? player.lastRound.points : 0;
+  }
+
   const correctedCaptainTable = teamsData
     .map((team) => {
       const roundRow = rows.find(
@@ -336,6 +340,10 @@ function App() {
         (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === activeRoundId,
       );
 
+      const hasBenchScoreBonus = team.bonusesData?.some(
+        (bonus) => bonus.bonusId === 4 && bonus.usageRoundId === activeRoundId,
+      );
+
       const captain = team.players.find((p) => p.id === team.captainId);
       const subCaptain = team.players.find((p) => p.id === team.subCaptainId);
 
@@ -344,10 +352,7 @@ function App() {
       const captainGameFinished =
         captain && didTeamGameFinish(captain.teamId, activeRoundId, games);
 
-      const subCaptainPoints =
-        subCaptain?.lastRound?.roundId === activeRoundId
-          ? subCaptain.lastRound.points
-          : 0;
+      const subCaptainPoints = getPlayerRoundPoints(subCaptain, activeRoundId);
 
       const shouldRemoveSubCaptainDouble =
         !hasDoubleCaptains &&
@@ -355,7 +360,39 @@ function App() {
         !captainGameFinished &&
         subCaptainPoints > 0;
 
-      const correction = shouldRemoveSubCaptainDouble ? -subCaptainPoints : 0;
+      const subCaptainCorrection = shouldRemoveSubCaptainDouble
+        ? -subCaptainPoints
+        : 0;
+
+      const temporaryBenchPlayers = hasBenchScoreBonus
+        ? []
+        : team.players.filter((benchPlayer) => {
+            if (!benchPlayer.isReserve || benchPlayer.isRemoved) return false;
+
+            const benchPoints = getPlayerRoundPoints(
+              benchPlayer,
+              activeRoundId,
+            );
+
+            if (benchPoints === 0) return false;
+
+            const hasStarterInSamePositionNotPlayedYet = team.players.some(
+              (starter) =>
+                !starter.isReserve &&
+                !starter.isRemoved &&
+                starter.position === benchPlayer.position &&
+                starter.lastRound?.roundId !== activeRoundId,
+            );
+
+            return hasStarterInSamePositionNotPlayedYet;
+          });
+
+      const benchCorrection = -temporaryBenchPlayers.reduce(
+        (sum, player) => sum + getPlayerRoundPoints(player, activeRoundId),
+        0,
+      );
+
+      const correction = subCaptainCorrection + benchCorrection;
 
       return {
         userId: team.userId,
@@ -363,10 +400,23 @@ function App() {
         apiPoints,
         correctedPoints: apiPoints + correction,
         diff: correction,
+
         captainName: captain?.name ?? "",
         subCaptainName: subCaptain?.name ?? "",
         subCaptainPoints,
-        reason: shouldRemoveSubCaptainDouble ? "סגן קפטן הוכפל זמנית" : "",
+
+        subCaptainCorrection,
+        benchCorrection,
+        temporaryBenchPlayers,
+
+        reason: [
+          shouldRemoveSubCaptainDouble ? "סגן קפטן הוכפל זמנית" : "",
+          temporaryBenchPlayers.length > 0
+            ? `ספסל זמני: ${temporaryBenchPlayers.map((p) => p.name).join(", ")}`
+            : "",
+        ]
+          .filter(Boolean)
+          .join(" + "),
       };
     })
     .sort((a, b) => b.correctedPoints - a.correctedPoints);
@@ -848,18 +898,16 @@ function App() {
             </section>
             <section className="mb-5">
               <h2 className="mb-2 text-lg font-black">🧮 ניקוד מתוקן זמני</h2>
-
               <div className="mb-2 text-[11px] text-slate-400">
-                מתקן רק מצב שבו סגן קפטן קיבל X2 זמני לפני שהמשחק של הקפטן הראשי
-                הסתיים.
+               ללא ניקוד לסגן קפטן וללא ניקוד לספסל אם אין בונוס ניקוד לכל הסגל.
               </div>
 
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
-                <table className="w-full table-fixed border-collapse text-xs">
+                <table className="w-full table-fixed border-collapse text-[11px]">
                   <thead className="bg-slate-800 text-slate-300">
                     <tr>
-                      <th className="w-[12%] px-1 py-2 text-center">#</th>
-                      <th className="w-[38%] px-2 py-2 text-right">קבוצה</th>
+                      <th className="w-[10%] px-1 py-2 text-center">#</th>
+                      <th className="w-[32%] px-2 py-2 text-right">קבוצה</th>
                       <th className="px-1 py-2 text-center">API</th>
                       <th className="px-1 py-2 text-center">מתוקן</th>
                       <th className="px-1 py-2 text-center">פער</th>
@@ -941,15 +989,17 @@ function App() {
                         </td>
                         <td className="px-1 py-1 text-center text-blue-300">
                           {`(X${team.captainMultiplier}) ${team.captainPoints}`}
-                        </td>                    
+                        </td>
                         <td className="px-1 py-1 text-center text-slate-300">
                           {team.hasDoubleCaptains ? team.subCaptainName : "-"}
                         </td>
                         <td className="px-1 py-1 text-center text-blue-300">
-                          {team.hasDoubleCaptains ? `(X2) ${team.subCaptainPoints}` : "-"}
+                          {team.hasDoubleCaptains
+                            ? `(X2) ${team.subCaptainPoints}`
+                            : "-"}
                         </td>
                         <td className="font-bold text-center text-blue-300">
-                          {team.captainWeighted + team.subCaptainWeighted}מם
+                          {team.captainWeighted + team.subCaptainWeighted}
                         </td>
                       </tr>
                     ))}
