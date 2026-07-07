@@ -62,6 +62,57 @@ function getCaptainMultiplier(playerId, team, roundId) {
   return "";
 }
 
+const NATIONAL_TEAMS = {
+  173: "גרמניה",
+  175: "אנגליה",
+  178: "פורטוגל",
+  179: "צ'כיה",
+  180: "בלגיה",
+  181: "הולנד",
+  183: "קרואטיה",
+  184: "שווייץ",
+  185: "סקוטלנד",
+  186: "ספרד",
+  188: "צרפת",
+  190: "טורקיה",
+  193: "אוסטריה",
+  250: "מקסיקו",
+  251: "ברזיל",
+  252: "פרגוואי",
+  253: "שוודיה",
+  254: "איראן",
+  255: "ארגנטינה",
+  256: "גאנה",
+  257: "קולומביה",
+  258: "נורווגיה",
+  259: "ערב הסעודית",
+  260: "אקוואדור",
+  261: "ארה״ב",
+  262: "בוסניה והרצגובינה",
+  263: "דרום קוריאה",
+  264: "קנדה",
+  265: "מרוקו",
+  266: "חוף השנהב",
+  267: "יפן",
+  268: "ניו זילנד",
+  269: "אורוגוואי",
+  270: "סנגל",
+  271: "אלג'יריה",
+  272: "הרפובליקה הדמוקרטית של קונגו",
+  273: "פנמה",
+  274: "אוזבקיסטן",
+  275: "ירדן",
+  276: "עיראק",
+  277: "כף ורדה",
+  278: "מצרים",
+  279: "תוניסיה",
+  280: "קורוסאו",
+  281: "אוסטרליה",
+  282: "האיטי",
+  283: "קטאר",
+  284: "דרום אפריקה",
+};
+
 const USERS = [
   { userId: 2827, name: "מ.ס. כפר ויתקין" },
   { userId: 3053, name: "מוצאצוס" },
@@ -324,6 +375,10 @@ function App() {
     );
   }
 
+  function getPlayerRoundPoints(player, roundId) {
+    return player?.lastRound?.roundId === roundId ? player.lastRound.points : 0;
+  }
+
   const correctedCaptainTable = teamsData
     .map((team) => {
       const roundRow = rows.find(
@@ -336,6 +391,10 @@ function App() {
         (bonus) => bonus.bonusId === 3 && bonus.usageRoundId === activeRoundId,
       );
 
+      const hasBenchScoreBonus = team.bonusesData?.some(
+        (bonus) => bonus.bonusId === 4 && bonus.usageRoundId === activeRoundId,
+      );
+
       const captain = team.players.find((p) => p.id === team.captainId);
       const subCaptain = team.players.find((p) => p.id === team.subCaptainId);
 
@@ -344,10 +403,7 @@ function App() {
       const captainGameFinished =
         captain && didTeamGameFinish(captain.teamId, activeRoundId, games);
 
-      const subCaptainPoints =
-        subCaptain?.lastRound?.roundId === activeRoundId
-          ? subCaptain.lastRound.points
-          : 0;
+      const subCaptainPoints = getPlayerRoundPoints(subCaptain, activeRoundId);
 
       const shouldRemoveSubCaptainDouble =
         !hasDoubleCaptains &&
@@ -355,7 +411,39 @@ function App() {
         !captainGameFinished &&
         subCaptainPoints > 0;
 
-      const correction = shouldRemoveSubCaptainDouble ? -subCaptainPoints : 0;
+      const subCaptainCorrection = shouldRemoveSubCaptainDouble
+        ? -subCaptainPoints
+        : 0;
+
+      const temporaryBenchPlayers = hasBenchScoreBonus
+        ? []
+        : team.players.filter((benchPlayer) => {
+            if (!benchPlayer.isReserve || benchPlayer.isRemoved) return false;
+
+            const benchPoints = getPlayerRoundPoints(
+              benchPlayer,
+              activeRoundId,
+            );
+
+            if (benchPoints === 0) return false;
+
+            const hasStarterInSamePositionNotPlayedYet = team.players.some(
+              (starter) =>
+                !starter.isReserve &&
+                !starter.isRemoved &&
+                starter.position === benchPlayer.position &&
+                starter.lastRound?.roundId !== activeRoundId,
+            );
+
+            return hasStarterInSamePositionNotPlayedYet;
+          });
+
+      const benchCorrection = -temporaryBenchPlayers.reduce(
+        (sum, player) => sum + getPlayerRoundPoints(player, activeRoundId),
+        0,
+      );
+
+      const correction = subCaptainCorrection + benchCorrection;
 
       return {
         userId: team.userId,
@@ -363,10 +451,23 @@ function App() {
         apiPoints,
         correctedPoints: apiPoints + correction,
         diff: correction,
+
         captainName: captain?.name ?? "",
         subCaptainName: subCaptain?.name ?? "",
         subCaptainPoints,
-        reason: shouldRemoveSubCaptainDouble ? "סגן קפטן הוכפל זמנית" : "",
+
+        subCaptainCorrection,
+        benchCorrection,
+        temporaryBenchPlayers,
+
+        reason: [
+          shouldRemoveSubCaptainDouble ? "סגן קפטן הוכפל זמנית" : "",
+          temporaryBenchPlayers.length > 0
+            ? `ספסל זמני: ${temporaryBenchPlayers.map((p) => p.name).join(", ")}`
+            : "",
+        ]
+          .filter(Boolean)
+          .join(" + "),
       };
     })
     .sort((a, b) => b.correctedPoints - a.correctedPoints);
@@ -449,6 +550,33 @@ function App() {
       };
     })
     .sort((a, b) => b.totalCaptainImpact - a.totalCaptainImpact);
+
+  const nationalTeamsTable = Object.values(
+    teamsData.reduce((acc, fantasyTeam) => {
+      fantasyTeam.players
+        .filter((p) => !p.isRemoved)
+        .forEach((player) => {
+          if (!acc[player.teamId]) {
+            acc[player.teamId] = {
+              teamId: player.teamId,
+              teamName: NATIONAL_TEAMS[player.teamId],
+              count: 0,
+              fantasyTeams: new Set(),
+            };
+          }
+
+          acc[player.teamId].count++;
+          acc[player.teamId].fantasyTeams.add(fantasyTeam.userId);
+        });
+
+      return acc;
+    }, {}),
+  )
+    .map((team) => ({
+      ...team,
+      fantasyTeamsCount: team.fantasyTeams.size,
+    }))
+    .sort((a, b) => b.count - a.count);
 
   return (
     <main dir="rtl" className="min-h-screen bg-slate-950 text-slate-100">
@@ -848,18 +976,17 @@ function App() {
             </section>
             <section className="mb-5">
               <h2 className="mb-2 text-lg font-black">🧮 ניקוד מתוקן זמני</h2>
-
               <div className="mb-2 text-[11px] text-slate-400">
-                מתקן רק מצב שבו סגן קפטן קיבל X2 זמני לפני שהמשחק של הקפטן הראשי
-                הסתיים.
+                ללא ניקוד לסגן קפטן וללא ניקוד לספסל אם אין בונוס ניקוד לכל
+                הסגל.
               </div>
 
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
-                <table className="w-full table-fixed border-collapse text-xs">
+                <table className="w-full table-fixed border-collapse text-[11px]">
                   <thead className="bg-slate-800 text-slate-300">
                     <tr>
-                      <th className="w-[12%] px-1 py-2 text-center">#</th>
-                      <th className="w-[38%] px-2 py-2 text-right">קבוצה</th>
+                      <th className="w-[10%] px-1 py-2 text-center">#</th>
+                      <th className="w-[32%] px-2 py-2 text-right">קבוצה</th>
                       <th className="px-1 py-2 text-center">API</th>
                       <th className="px-1 py-2 text-center">מתוקן</th>
                       <th className="px-1 py-2 text-center">פער</th>
@@ -941,15 +1068,58 @@ function App() {
                         </td>
                         <td className="px-1 py-1 text-center text-blue-300">
                           {`(X${team.captainMultiplier}) ${team.captainPoints}`}
-                        </td>                    
+                        </td>
                         <td className="px-1 py-1 text-center text-slate-300">
                           {team.hasDoubleCaptains ? team.subCaptainName : "-"}
                         </td>
                         <td className="px-1 py-1 text-center text-blue-300">
-                          {team.hasDoubleCaptains ? `(X2) ${team.subCaptainPoints}` : "-"}
+                          {team.hasDoubleCaptains
+                            ? `(X2) ${team.subCaptainPoints}`
+                            : "-"}
                         </td>
                         <td className="font-bold text-center text-blue-300">
-                          {team.captainWeighted + team.subCaptainWeighted}מם
+                          {team.captainWeighted + team.subCaptainWeighted}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <section className="mb-5">
+              <h2 className="mb-2 text-lg font-black">🌍 שחקנים לפי נבחרת</h2>
+
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="w-full table-fixed border-collapse text-xs">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[18%] px-1 py-2 text-center">#</th>
+                      <th className="px-2 py-2 text-right">נבחרת ID</th>
+                      <th className="px-1 py-2 text-center">שחקנים</th>
+                      <th className="px-1 py-2 text-center">קבוצות</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {nationalTeamsTable.map((team, index) => (
+                      <tr
+                        key={team.teamId}
+                        className="border-t border-slate-800"
+                      >
+                        <td className="px-1 py-1 text-center font-semibold">
+                          {index + 1}
+                        </td>
+
+                        <td className="px-2 py-1 font-semibold">
+                          {NATIONAL_TEAMS[team.teamId]}
+                        </td>
+
+                        <td className="px-1 py-1 text-center font-bold text-emerald-300">
+                          {team.count}
+                        </td>
+
+                        <td className="px-1 py-1 text-center font-bold text-blue-300">
+                          {team.fantasyTeamsCount}/{USERS.length}
                         </td>
                       </tr>
                     ))}

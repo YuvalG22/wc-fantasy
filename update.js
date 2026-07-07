@@ -84,6 +84,7 @@ function simplifyResponse(apiResponse) {
       id: item.player.id,
       name: item.player.name.trim(),
       teamId: item.player.teamId,
+      teamName: item.player.teamName,
       position: item.player.position,
       price: item.player.price,
       boughtPrice: item.boughtPrice,
