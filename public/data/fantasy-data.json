@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:04:20.676Z",
+  "updatedAt": "2026-07-07T07:10:41.013Z",
   "seasonId": 9,
   "games": [
     {
@@ -31,9 +31,9 @@
       "teamBId": 180,
       "teamAName": "ארה\"ב",
       "teamBName": "בלגיה",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-07T03:00:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-07T05:03:26.367"
     },
     {
       "id": 2001,
@@ -42,9 +42,9 @@
       "teamBId": 186,
       "teamAName": "פורטוגל",
       "teamBName": "ספרד",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-06T22:00:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-07T00:03:26.51"
     },
     {
       "id": 2000,
@@ -53,9 +53,9 @@
       "teamBId": 175,
       "teamAName": "מקסיקו",
       "teamBName": "אנגליה",
-      "gameStatus": 1,
-      "gameStart": "2026-07-06T03:00:00",
-      "gameEnd": null
+      "gameStatus": 6,
+      "gameStart": "2026-07-06T04:00:00",
+      "gameEnd": "2026-07-06T06:08:26.507"
     },
     {
       "id": 1999,
@@ -64,9 +64,9 @@
       "teamBId": 258,
       "teamAName": "ברזיל",
       "teamBName": "נורווגיה",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-05T23:00:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-06T01:08:26.523"
     },
     {
       "id": 1998,
@@ -75,9 +75,9 @@
       "teamBId": 188,
       "teamAName": "פרגוואי",
       "teamBName": "צרפת",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-05T00:00:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-05T02:13:26.67"
     },
     {
       "id": 1997,
@@ -1067,7 +1067,7 @@
       "creatorName": "שופי",
       "seasonId": 9,
       "roundId": 216,
-      "points": 286,
+      "points": 315,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -1116,8 +1116,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 286
+          "points": 29,
+          "seasonPoints": 315
         }
       ],
       "players": [
@@ -1133,12 +1133,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -1173,12 +1173,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -1193,12 +1193,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 24
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -1213,9 +1213,9 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 0,
-            "seasonPoints": 9
+            "seasonPoints": 0
           },
           "season": {
             "points": 15
@@ -1233,12 +1233,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
             "seasonPoints": 4
           },
           "season": {
-            "points": 11
+            "points": 13
           }
         },
         {
@@ -1253,12 +1253,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 8,
-            "seasonPoints": 10
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 23
+            "points": 24
           }
         },
         {
@@ -1293,12 +1293,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -1313,12 +1313,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 13
+            "roundId": 216,
+            "points": -2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 20
+            "points": 18
           }
         },
         {
@@ -1413,9 +1413,9 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 0,
+            "seasonPoints": 6
           },
           "season": {
             "points": 19
@@ -1533,12 +1533,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 3,
-            "seasonPoints": 3
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 15
+            "points": 17
           }
         },
         {
@@ -1553,12 +1553,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -1573,12 +1573,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 10,
+            "roundId": 216,
+            "points": 7,
             "seasonPoints": 17
           },
           "season": {
-            "points": 26
+            "points": 33
           }
         },
         {
@@ -1610,7 +1610,7 @@
       "creatorName": "שלומי כהן",
       "seasonId": 9,
       "roundId": 216,
-      "points": 259,
+      "points": 285,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -1659,8 +1659,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 259
+          "points": 26,
+          "seasonPoints": 285
         }
       ],
       "players": [
@@ -1696,12 +1696,12 @@
           "isRemoved": true,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -1716,12 +1716,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 12,
+            "roundId": 216,
+            "points": 6,
             "seasonPoints": 18
           },
           "season": {
-            "points": 30
+            "points": 36
           }
         },
         {
@@ -1736,12 +1736,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -1756,12 +1756,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 24
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -1776,12 +1776,12 @@
           "isRemoved": true,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
             "seasonPoints": 4
           },
           "season": {
-            "points": 11
+            "points": 13
           }
         },
         {
@@ -1796,12 +1796,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 8,
-            "seasonPoints": 10
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 23
+            "points": 24
           }
         },
         {
@@ -1816,12 +1816,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -1836,12 +1836,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 15
+            "seasonPoints": 4
           },
           "season": {
-            "points": 32
+            "points": 34
           }
         },
         {
@@ -1936,12 +1936,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": 11,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 28
+            "points": 39
           }
         },
         {
@@ -1956,12 +1956,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 14
+            "points": 13
           }
         },
         {
@@ -1976,9 +1976,9 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 0,
+            "seasonPoints": 6
           },
           "season": {
             "points": 19
@@ -2136,12 +2136,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -2156,12 +2156,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 10,
+            "roundId": 216,
+            "points": 7,
             "seasonPoints": 17
           },
           "season": {
-            "points": 26
+            "points": 33
           }
         },
         {
@@ -2193,7 +2193,7 @@
       "creatorName": "אודי הגדול רבוי כישלונות ",
       "seasonId": 9,
       "roundId": 216,
-      "points": 269,
+      "points": 304,
       "usedBudget": 124000000,
       "captainId": 2378,
       "subCaptainId": 2027,
@@ -2242,8 +2242,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 269
+          "points": 35,
+          "seasonPoints": 304
         }
       ],
       "players": [
@@ -2279,12 +2279,12 @@
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -2299,12 +2299,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 2,
-            "seasonPoints": 8
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 15
+            "points": 16
           }
         },
         {
@@ -2319,9 +2319,9 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 2,
-            "seasonPoints": 8
+            "roundId": 216,
+            "points": 0,
+            "seasonPoints": 2
           },
           "season": {
             "points": 15
@@ -2339,12 +2339,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 11
+            "roundId": 216,
+            "points": 13,
+            "seasonPoints": 14
           },
           "season": {
-            "points": 20
+            "points": 33
           }
         },
         {
@@ -2359,12 +2359,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
             "seasonPoints": 12
           },
           "season": {
-            "points": 24
+            "points": 30
           }
         },
         {
@@ -2379,12 +2379,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -2399,12 +2399,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
-            "seasonPoints": 8
+            "seasonPoints": 12
           },
           "season": {
-            "points": 16
+            "points": 22
           }
         },
         {
@@ -2419,12 +2419,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 8,
-            "seasonPoints": 10
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 23
+            "points": 24
           }
         },
         {
@@ -2439,12 +2439,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 15
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 21
+            "points": 20
           }
         },
         {
@@ -2459,12 +2459,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 13
+            "roundId": 216,
+            "points": -2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 20
+            "points": 18
           }
         },
         {
@@ -2559,12 +2559,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 5
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 15
+            "points": 17
           }
         },
         {
@@ -2579,12 +2579,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 14
+            "points": 13
           }
         },
         {
@@ -2679,12 +2679,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 24
+            "points": 23
           }
         },
         {
@@ -2699,12 +2699,12 @@
           "isRemoved": true,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 216,
+            "points": -4,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 24
+            "points": 20
           }
         },
         {
@@ -2736,7 +2736,7 @@
       "creatorName": "ליאור משנסקי",
       "seasonId": 9,
       "roundId": 216,
-      "points": 264,
+      "points": 309,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -2785,8 +2785,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 264
+          "points": 45,
+          "seasonPoints": 309
         }
       ],
       "players": [
@@ -2822,12 +2822,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -2842,12 +2842,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 11
+            "roundId": 216,
+            "points": 13,
+            "seasonPoints": 14
           },
           "season": {
-            "points": 20
+            "points": 33
           }
         },
         {
@@ -2862,12 +2862,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -2882,12 +2882,12 @@
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 24
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -2902,12 +2902,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
-            "seasonPoints": 6
+            "seasonPoints": 12
           },
           "season": {
-            "points": 12
+            "points": 18
           }
         },
         {
@@ -2942,12 +2942,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -2962,12 +2962,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 13
+            "roundId": 216,
+            "points": -2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 20
+            "points": 18
           }
         },
         {
@@ -3062,12 +3062,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": 11,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 28
+            "points": 39
           }
         },
         {
@@ -3102,12 +3102,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 14
+            "points": 13
           }
         },
         {
@@ -3182,12 +3182,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 10,
+            "roundId": 216,
+            "points": 7,
             "seasonPoints": 17
           },
           "season": {
-            "points": 26
+            "points": 33
           }
         },
         {
@@ -3219,7 +3219,7 @@
       "creatorName": "יונאי הגדול",
       "seasonId": 9,
       "roundId": 216,
-      "points": 294,
+      "points": 332,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -3268,8 +3268,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 294
+          "points": 38,
+          "seasonPoints": 332
         }
       ],
       "players": [
@@ -3285,12 +3285,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -3325,12 +3325,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -3345,12 +3345,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 24
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -3365,12 +3365,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
-            "seasonPoints": 6
+            "seasonPoints": 12
           },
           "season": {
-            "points": 12
+            "points": 18
           }
         },
         {
@@ -3385,12 +3385,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -3505,12 +3505,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 14
+            "points": 13
           }
         },
         {
@@ -3585,12 +3585,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 2,
-            "seasonPoints": 8
+            "roundId": 216,
+            "points": 3,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 20
+            "points": 23
           }
         },
         {
@@ -3685,12 +3685,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -3705,12 +3705,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 10,
+            "roundId": 216,
+            "points": 7,
             "seasonPoints": 17
           },
           "season": {
-            "points": 26
+            "points": 33
           }
         },
         {
@@ -3742,7 +3742,7 @@
       "creatorName": "ENTINA",
       "seasonId": 9,
       "roundId": 216,
-      "points": 242,
+      "points": 275,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -3781,8 +3781,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 242
+          "points": 33,
+          "seasonPoints": 275
         }
       ],
       "players": [
@@ -3798,12 +3798,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -3838,12 +3838,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
             "seasonPoints": 12
           },
           "season": {
-            "points": 24
+            "points": 30
           }
         },
         {
@@ -3858,12 +3858,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 12,
+            "roundId": 216,
+            "points": 6,
             "seasonPoints": 18
           },
           "season": {
-            "points": 30
+            "points": 36
           }
         },
         {
@@ -3878,12 +3878,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -3898,12 +3898,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 24
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -3918,12 +3918,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 7,
-            "seasonPoints": 11
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 19
+            "points": 20
           }
         },
         {
@@ -3938,12 +3938,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 8,
-            "seasonPoints": 10
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 23
+            "points": 24
           }
         },
         {
@@ -3978,12 +3978,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -3998,12 +3998,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 13
+            "roundId": 216,
+            "points": -2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 20
+            "points": 18
           }
         },
         {
@@ -4198,12 +4198,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
             "seasonPoints": 4
           },
           "season": {
-            "points": 11
+            "points": 13
           }
         },
         {
@@ -4218,12 +4218,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -4255,7 +4255,7 @@
       "creatorName": "NK האגדי",
       "seasonId": 9,
       "roundId": 216,
-      "points": 322,
+      "points": 350,
       "usedBudget": 124000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -4304,8 +4304,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 322
+          "points": 28,
+          "seasonPoints": 350
         }
       ],
       "players": [
@@ -4341,12 +4341,12 @@
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -4381,12 +4381,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -4401,12 +4401,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 8,
-            "seasonPoints": 10
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 23
+            "points": 24
           }
         },
         {
@@ -4421,12 +4421,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
-            "seasonPoints": 6
+            "seasonPoints": 12
           },
           "season": {
-            "points": 12
+            "points": 18
           }
         },
         {
@@ -4461,12 +4461,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 13
+            "roundId": 216,
+            "points": -2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 20
+            "points": 18
           }
         },
         {
@@ -4481,12 +4481,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 15
+            "seasonPoints": 4
           },
           "season": {
-            "points": 32
+            "points": 34
           }
         },
         {
@@ -4561,12 +4561,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 14
+            "points": 13
           }
         },
         {
@@ -4581,9 +4581,9 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 0,
+            "seasonPoints": 6
           },
           "season": {
             "points": 19
@@ -4641,12 +4641,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 0,
+            "roundId": 216,
+            "points": 2,
             "seasonPoints": 2
           },
           "season": {
-            "points": 10
+            "points": 12
           }
         },
         {
@@ -4741,12 +4741,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -4761,12 +4761,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 10,
+            "roundId": 216,
+            "points": 7,
             "seasonPoints": 17
           },
           "season": {
-            "points": 26
+            "points": 33
           }
         },
         {
@@ -4818,7 +4818,7 @@
       "creatorName": "בנצי",
       "seasonId": 9,
       "roundId": 216,
-      "points": 203,
+      "points": 223,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -4846,8 +4846,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 203
+          "points": 20,
+          "seasonPoints": 223
         }
       ],
       "players": [
@@ -4883,12 +4883,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 1,
             "seasonPoints": 2
           },
           "season": {
-            "points": 4
+            "points": 5
           }
         },
         {
@@ -4943,8 +4943,8 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
+            "roundId": 216,
+            "points": 0,
             "seasonPoints": 1
           },
           "season": {
@@ -4963,12 +4963,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -5003,12 +5003,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 2,
-            "seasonPoints": 2
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 6
+            "points": 7
           }
         },
         {
@@ -5023,12 +5023,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 0,
-            "seasonPoints": 0
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 6
           },
           "season": {
-            "points": 3
+            "points": 9
           }
         },
         {
@@ -5160,7 +5160,7 @@
       "creatorName": "עמית דודי",
       "seasonId": 9,
       "roundId": 216,
-      "points": 256,
+      "points": 305,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 2027,
@@ -5199,8 +5199,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 256
+          "points": 49,
+          "seasonPoints": 305
         }
       ],
       "players": [
@@ -5256,12 +5256,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -5276,12 +5276,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 2,
-            "seasonPoints": 8
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 15
+            "points": 16
           }
         },
         {
@@ -5296,12 +5296,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 11
+            "roundId": 216,
+            "points": 13,
+            "seasonPoints": 14
           },
           "season": {
-            "points": 20
+            "points": 33
           }
         },
         {
@@ -5316,12 +5316,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -5336,12 +5336,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
-            "seasonPoints": 8
+            "seasonPoints": 12
           },
           "season": {
-            "points": 16
+            "points": 22
           }
         },
         {
@@ -5356,12 +5356,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
             "seasonPoints": 12
           },
           "season": {
-            "points": 20
+            "points": 26
           }
         },
         {
@@ -5376,12 +5376,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 24
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -5416,12 +5416,12 @@
           "isRemoved": true,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 1,
-            "seasonPoints": 6
+            "seasonPoints": 2
           },
           "season": {
-            "points": 13
+            "points": 14
           }
         },
         {
@@ -5576,12 +5576,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 2,
-            "seasonPoints": 8
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 15
+            "points": 16
           }
         },
         {
@@ -5636,12 +5636,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 7,
-            "seasonPoints": 8
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 13
           },
           "season": {
-            "points": 15
+            "points": 21
           }
         },
         {
@@ -5673,7 +5673,7 @@
       "creatorName": "דור פלח",
       "seasonId": 9,
       "roundId": 216,
-      "points": 273,
+      "points": 308,
       "usedBudget": 125000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -5722,8 +5722,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 273
+          "points": 35,
+          "seasonPoints": 308
         }
       ],
       "players": [
@@ -5759,12 +5759,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -5779,12 +5779,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 5,
-            "seasonPoints": 18
+            "seasonPoints": 10
           },
           "season": {
-            "points": 22
+            "points": 27
           }
         },
         {
@@ -5819,12 +5819,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -5839,9 +5839,9 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 0,
-            "seasonPoints": 9
+            "seasonPoints": 0
           },
           "season": {
             "points": 15
@@ -5859,12 +5859,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 8,
-            "seasonPoints": 10
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 23
+            "points": 24
           }
         },
         {
@@ -5899,12 +5899,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -5919,12 +5919,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 13
+            "roundId": 216,
+            "points": -2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 20
+            "points": 18
           }
         },
         {
@@ -5999,12 +5999,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": 11,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 28
+            "points": 39
           }
         },
         {
@@ -6019,12 +6019,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 14
+            "points": 13
           }
         },
         {
@@ -6119,12 +6119,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -6159,12 +6159,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 10,
+            "roundId": 216,
+            "points": 7,
             "seasonPoints": 17
           },
           "season": {
-            "points": 26
+            "points": 33
           }
         },
         {
@@ -6196,7 +6196,7 @@
       "creatorName": "יובל גנון",
       "seasonId": 9,
       "roundId": 216,
-      "points": 249,
+      "points": 290,
       "usedBudget": 125000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -6245,8 +6245,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 249
+          "points": 41,
+          "seasonPoints": 290
         }
       ],
       "players": [
@@ -6262,12 +6262,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -6282,12 +6282,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 11
+            "roundId": 216,
+            "points": 13,
+            "seasonPoints": 14
           },
           "season": {
-            "points": 20
+            "points": 33
           }
         },
         {
@@ -6342,12 +6342,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 12,
+            "roundId": 216,
+            "points": 6,
             "seasonPoints": 18
           },
           "season": {
-            "points": 30
+            "points": 36
           }
         },
         {
@@ -6362,12 +6362,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
+            "roundId": 216,
+            "points": 2,
             "seasonPoints": 13
           },
           "season": {
-            "points": 28
+            "points": 30
           }
         },
         {
@@ -6382,12 +6382,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -6462,12 +6462,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -6562,9 +6562,9 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 0,
+            "seasonPoints": 6
           },
           "season": {
             "points": 19
@@ -6682,12 +6682,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 3,
-            "seasonPoints": 3
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 15
+            "points": 17
           }
         },
         {
@@ -6702,7 +6702,7 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 0,
             "seasonPoints": 0
           },
@@ -6722,12 +6722,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 6
+            "roundId": 216,
+            "points": -1,
+            "seasonPoints": 5
           },
           "season": {
-            "points": 14
+            "points": 13
           }
         },
         {
@@ -6742,12 +6742,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -6779,7 +6779,7 @@
       "creatorName": "Itay malma",
       "seasonId": 9,
       "roundId": 216,
-      "points": 299,
+      "points": 336,
       "usedBudget": 124000000,
       "captainId": 3395,
       "subCaptainId": 2378,
@@ -6828,8 +6828,8 @@
         },
         {
           "roundId": 216,
-          "points": 0,
-          "seasonPoints": 299
+          "points": 37,
+          "seasonPoints": 336
         }
       ],
       "players": [
@@ -6885,12 +6885,12 @@
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 17
+            "roundId": 216,
+            "points": 5,
+            "seasonPoints": 16
           },
           "season": {
-            "points": 30
+            "points": 35
           }
         },
         {
@@ -6905,12 +6905,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 5,
-            "seasonPoints": 18
+            "seasonPoints": 10
           },
           "season": {
-            "points": 22
+            "points": 27
           }
         },
         {
@@ -6925,12 +6925,12 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 215,
-            "points": 11,
-            "seasonPoints": 19
+            "roundId": 216,
+            "points": 6,
+            "seasonPoints": 17
           },
           "season": {
-            "points": 41
+            "points": 47
           }
         },
         {
@@ -6945,12 +6945,12 @@
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 8,
-            "seasonPoints": 10
+            "roundId": 216,
+            "points": 1,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 23
+            "points": 24
           }
         },
         {
@@ -6965,12 +6965,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 6,
-            "seasonPoints": 6
+            "seasonPoints": 12
           },
           "season": {
-            "points": 12
+            "points": 18
           }
         },
         {
@@ -7005,12 +7005,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 14
+            "points": 16
           }
         },
         {
@@ -7105,12 +7105,12 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 3
+            "seasonPoints": 4
           },
           "season": {
-            "points": 10
+            "points": 12
           }
         },
         {
@@ -7125,9 +7125,9 @@
           "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
-            "roundId": 215,
-            "points": 6,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 0,
+            "seasonPoints": 6
           },
           "season": {
             "points": 19
@@ -7225,12 +7225,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
+            "roundId": 216,
             "points": 2,
-            "seasonPoints": 7
+            "seasonPoints": 4
           },
           "season": {
-            "points": 8
+            "points": 10
           }
         },
         {
@@ -7285,12 +7285,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 1,
-            "seasonPoints": 7
+            "roundId": 216,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 11
           }
         },
         {
@@ -7305,12 +7305,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 215,
-            "points": 10,
+            "roundId": 216,
+            "points": 7,
             "seasonPoints": 17
           },
           "season": {
-            "points": 26
+            "points": 33
           }
         },
         {
