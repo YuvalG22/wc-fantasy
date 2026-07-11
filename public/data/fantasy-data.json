@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T22:11:13.635Z",
+  "updatedAt": "2026-07-11T14:07:28.747Z",
   "seasonId": 9,
   "games": [
     {
@@ -31,9 +31,9 @@
       "teamBId": 180,
       "teamAName": "ספרד",
       "teamBName": "בלגיה",
-      "gameStatus": 1,
+      "gameStatus": 6,
       "gameStart": "2026-07-10T22:00:00",
-      "gameEnd": null
+      "gameEnd": "2026-07-11T00:02:33.213"
     },
     {
       "id": 2005,
@@ -1111,7 +1111,7 @@
       "creatorName": "שופי",
       "seasonId": 9,
       "roundId": 217,
-      "points": 351,
+      "points": 355,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -1165,8 +1165,8 @@
         },
         {
           "roundId": 217,
-          "points": 21,
-          "seasonPoints": 351
+          "points": 25,
+          "seasonPoints": 355
         }
       ],
       "players": [
@@ -1242,12 +1242,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 24
+            "points": 26
           }
         },
         {
@@ -1262,12 +1262,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -1579,7 +1579,7 @@
       "creatorName": "שלומי כהן",
       "seasonId": 9,
       "roundId": 217,
-      "points": 335,
+      "points": 341,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -1633,8 +1633,8 @@
         },
         {
           "roundId": 217,
-          "points": 31,
-          "seasonPoints": 335
+          "points": 37,
+          "seasonPoints": 341
         }
       ],
       "players": [
@@ -1650,12 +1650,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 30
+            "points": 31
           }
         },
         {
@@ -1670,12 +1670,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 33
+            "points": 34
           }
         },
         {
@@ -1690,12 +1690,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -1710,12 +1710,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 30
+            "points": 32
           }
         },
         {
@@ -2047,7 +2047,7 @@
       "creatorName": "אודי הגדול רבוי כישלונות ",
       "seasonId": 9,
       "roundId": 217,
-      "points": 337,
+      "points": 343,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 2027,
@@ -2101,8 +2101,8 @@
         },
         {
           "roundId": 217,
-          "points": 20,
-          "seasonPoints": 337
+          "points": 26,
+          "seasonPoints": 343
         }
       ],
       "players": [
@@ -2178,12 +2178,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -2198,12 +2198,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 30
+            "points": 32
           }
         },
         {
@@ -2218,12 +2218,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
+            "roundId": 217,
             "points": 2,
-            "seasonPoints": 13
+            "seasonPoints": 4
           },
           "season": {
-            "points": 30
+            "points": 32
           }
         },
         {
@@ -2515,7 +2515,7 @@
       "creatorName": "ליאור משנסקי",
       "seasonId": 9,
       "roundId": 217,
-      "points": 355,
+      "points": 357,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -2569,8 +2569,8 @@
         },
         {
           "roundId": 217,
-          "points": 34,
-          "seasonPoints": 355
+          "points": 36,
+          "seasonPoints": 357
         }
       ],
       "players": [
@@ -2626,12 +2626,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 33
+            "points": 34
           }
         },
         {
@@ -2646,12 +2646,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 4
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 10
           }
         },
         {
@@ -2963,7 +2963,7 @@
       "creatorName": "יונאי הגדול",
       "seasonId": 9,
       "roundId": 217,
-      "points": 376,
+      "points": 381,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -3017,8 +3017,8 @@
         },
         {
           "roundId": 217,
-          "points": 33,
-          "seasonPoints": 376
+          "points": 38,
+          "seasonPoints": 381
         }
       ],
       "players": [
@@ -3074,12 +3074,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 24
+            "points": 26
           }
         },
         {
@@ -3094,12 +3094,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -3114,12 +3114,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 4
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 10
           }
         },
         {
@@ -3431,7 +3431,7 @@
       "creatorName": "ENTINA",
       "seasonId": 9,
       "roundId": 217,
-      "points": 303,
+      "points": 306,
       "usedBudget": 125000000,
       "captainId": 2378,
       "subCaptainId": 5155,
@@ -3475,8 +3475,8 @@
         },
         {
           "roundId": 217,
-          "points": 17,
-          "seasonPoints": 303
+          "points": 20,
+          "seasonPoints": 306
         }
       ],
       "players": [
@@ -3532,12 +3532,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 30
+            "points": 31
           }
         },
         {
@@ -3552,12 +3552,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -3789,7 +3789,7 @@
       "creatorName": "NK האגדי",
       "seasonId": 9,
       "roundId": 217,
-      "points": 380,
+      "points": 384,
       "usedBudget": 125000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -3843,8 +3843,8 @@
         },
         {
           "roundId": 217,
-          "points": 16,
-          "seasonPoints": 380
+          "points": 20,
+          "seasonPoints": 384
         }
       ],
       "players": [
@@ -3900,12 +3900,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 33
+            "points": 34
           }
         },
         {
@@ -3920,12 +3920,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -3940,12 +3940,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 7
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 15
+            "points": 16
           }
         },
         {
@@ -4160,12 +4160,12 @@
           "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 2
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 12
+            "points": 13
           }
         },
         {
@@ -4257,7 +4257,7 @@
       "creatorName": "בנצי",
       "seasonId": 9,
       "roundId": 217,
-      "points": 250,
+      "points": 252,
       "usedBudget": 120000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -4290,8 +4290,8 @@
         },
         {
           "roundId": 217,
-          "points": 14,
-          "seasonPoints": 250
+          "points": 16,
+          "seasonPoints": 252
         }
       ],
       "players": [
@@ -4327,12 +4327,12 @@
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
-            "roundId": 216,
-            "points": 1,
-            "seasonPoints": 2
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 5
+            "points": 7
           }
         },
         {
@@ -4387,9 +4387,9 @@
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
-            "roundId": 216,
+            "roundId": 217,
             "points": 0,
-            "seasonPoints": 1
+            "seasonPoints": 0
           },
           "season": {
             "points": 3
@@ -5002,7 +5002,7 @@
       "creatorName": "דור פלח",
       "seasonId": 9,
       "roundId": 217,
-      "points": 339,
+      "points": 343,
       "usedBudget": 125000000,
       "captainId": 2027,
       "subCaptainId": 5155,
@@ -5056,8 +5056,8 @@
         },
         {
           "roundId": 217,
-          "points": 16,
-          "seasonPoints": 339
+          "points": 20,
+          "seasonPoints": 343
         }
       ],
       "players": [
@@ -5093,12 +5093,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
-            "points": 5,
-            "seasonPoints": 10
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 27
+            "points": 29
           }
         },
         {
@@ -5333,12 +5333,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 2
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 7
+            "points": 8
           }
         },
         {
@@ -5353,12 +5353,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 2
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 12
+            "points": 13
           }
         },
         {
@@ -5470,7 +5470,7 @@
       "creatorName": "יובל גנון",
       "seasonId": 9,
       "roundId": 217,
-      "points": 315,
+      "points": 322,
       "usedBudget": 124000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -5524,8 +5524,8 @@
         },
         {
           "roundId": 217,
-          "points": 14,
-          "seasonPoints": 315
+          "points": 21,
+          "seasonPoints": 322
         }
       ],
       "players": [
@@ -5601,12 +5601,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 24
+            "points": 26
           }
         },
         {
@@ -5621,12 +5621,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 33
+            "points": 34
           }
         },
         {
@@ -5641,12 +5641,12 @@
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -5661,12 +5661,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
+            "roundId": 217,
             "points": 2,
             "seasonPoints": 4
           },
           "season": {
-            "points": 11
+            "points": 13
           }
         },
         {
@@ -5681,12 +5681,12 @@
           "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
+            "roundId": 217,
             "points": 2,
-            "seasonPoints": 13
+            "seasonPoints": 4
           },
           "season": {
-            "points": 30
+            "points": 32
           }
         },
         {
@@ -5938,7 +5938,7 @@
       "creatorName": "Itay malma",
       "seasonId": 9,
       "roundId": 217,
-      "points": 373,
+      "points": 377,
       "usedBudget": 125000000,
       "captainId": 5155,
       "subCaptainId": 2378,
@@ -5992,8 +5992,8 @@
         },
         {
           "roundId": 217,
-          "points": 22,
-          "seasonPoints": 373
+          "points": 26,
+          "seasonPoints": 377
         }
       ],
       "players": [
@@ -6029,12 +6029,12 @@
           "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
-            "roundId": 216,
-            "points": 5,
-            "seasonPoints": 10
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 27
+            "points": 29
           }
         },
         {
@@ -6049,12 +6049,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 18
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
           },
           "season": {
-            "points": 36
+            "points": 38
           }
         },
         {
@@ -6069,12 +6069,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 4
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 9
+            "points": 10
           }
         },
         {
@@ -6289,12 +6289,12 @@
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 2
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
           },
           "season": {
-            "points": 7
+            "points": 8
           }
         },
         {
