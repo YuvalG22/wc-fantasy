@@ -128,6 +128,13 @@ const USERS = [
   { userId: 241490, name: "Malma win" },
 ];
 
+const BONUS_NAMES = {
+  1: "טריפל קפטן",
+  2: "5 חילופים",
+  3: "דאבל קפטנים",
+  4: "ניקוד כל הסגל",
+};
+
 function App() {
   const [rows, setRows] = useState([]);
   const [teamsData, setTeamsData] = useState([]);
@@ -576,6 +583,31 @@ function App() {
       ...team,
       fantasyTeamsCount: team.fantasyTeams.size,
     }))
+    .sort((a, b) => b.count - a.count);
+
+  const remainingBonusesTable = teamsData
+    .map((team) => {
+      const remainingBonuses = Object.entries(BONUS_NAMES)
+        .filter(([bonusId]) => {
+          const bonus = team.bonusesData?.find(
+            (b) => b.bonusId === Number(bonusId),
+          );
+
+          // הבונוס נשאר אם לא קיים usageRoundId
+          return !bonus?.usageRoundId;
+        })
+        .map(([bonusId, bonusName]) => ({
+          bonusId: Number(bonusId),
+          name: bonusName,
+        }));
+
+      return {
+        userId: team.userId,
+        teamName: team.teamName,
+        remainingBonuses,
+        count: remainingBonuses.length,
+      };
+    })
     .sort((a, b) => b.count - a.count);
 
   return (
@@ -1120,6 +1152,48 @@ function App() {
 
                         <td className="px-1 py-1 text-center font-bold text-blue-300">
                           {team.fantasyTeamsCount}/{USERS.length}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <section className="mb-5">
+              <h2 className="mb-2 text-lg font-black">🎁 בונוסים שנותרו</h2>
+
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="w-full table-fixed border-collapse text-xs">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[12%] px-1 py-2 text-center">#</th>
+                      <th className="w-[35%] px-2 py-2 text-right">קבוצה</th>
+                      <th className="px-2 py-2 text-right">בונוסים שנותרו</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {remainingBonusesTable.map((team, index) => (
+                      <tr
+                        key={team.userId}
+                        className="border-t border-slate-800"
+                      >
+                        <td className="px-1 py-1 text-center font-semibold">
+                          {index + 1}
+                        </td>
+
+                        <td className="truncate px-2 py-1 font-semibold">
+                          {team.teamName}
+                        </td>
+
+                        <td className="px-2 py-1">
+                          {team.remainingBonuses.length > 0 ? (
+                            team.remainingBonuses
+                              .map((bonus) => bonus.name)
+                              .join(", ")
+                          ) : (
+                            <span className="text-slate-500">אין</span>
+                          )}
                         </td>
                       </tr>
                     ))}
