@@ -126,7 +126,6 @@ const USERS = [
   { userId: 83871, name: "פלחלחים" },
   { userId: 84349, name: "יובל גנון" },
   { userId: 241490, name: "Malma win" },
-  { userId: 85831, name: "יוגי מוטו" }
 ];
 
 function App() {
