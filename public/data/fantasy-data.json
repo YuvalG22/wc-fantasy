@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-07-12T04:40:14.552Z",
+  "updatedAt": "2026-07-12T17:51:08.251Z",
   "seasonId": 9,
   "games": [
+    {
+      "id": 2010,
+      "roundId": 218,
+      "teamAId": 175,
+      "teamBId": 255,
+      "teamAName": "אנגליה",
+      "teamBName": "ארגנטינה",
+      "gameStatus": 1,
+      "gameStart": "2026-07-15T22:00:00",
+      "gameEnd": null
+    },
+    {
+      "id": 2009,
+      "roundId": 218,
+      "teamAId": 188,
+      "teamBId": 186,
+      "teamAName": "צרפת",
+      "teamBName": "ספרד",
+      "gameStatus": 1,
+      "gameStart": "2026-07-14T22:00:00",
+      "gameEnd": null
+    },
     {
       "id": 2008,
       "roundId": 217,
@@ -1646,7 +1668,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -1666,7 +1688,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -1686,7 +1708,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -1706,7 +1728,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -1726,7 +1748,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1746,7 +1768,7 @@
           "price": 13000000,
           "boughtPrice": 13000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1766,7 +1788,7 @@
           "price": 14000000,
           "boughtPrice": 14000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -1786,7 +1808,7 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -1806,7 +1828,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1846,7 +1868,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -1926,7 +1948,7 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1966,7 +1988,7 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -1986,7 +2008,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2006,7 +2028,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2026,7 +2048,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2114,7 +2136,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -2134,7 +2156,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2154,7 +2176,7 @@
           "price": 11000000,
           "boughtPrice": 11000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2174,7 +2196,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -2194,7 +2216,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -2214,7 +2236,7 @@
           "price": 13000000,
           "boughtPrice": 13000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -2234,7 +2256,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -2254,7 +2276,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2314,7 +2336,7 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -2334,7 +2356,7 @@
           "price": 5000000,
           "boughtPrice": 5000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2394,7 +2416,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2414,7 +2436,7 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2434,7 +2456,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2454,7 +2476,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2494,7 +2516,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5537,7 +5559,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5557,7 +5579,7 @@
           "price": 11000000,
           "boughtPrice": 11000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5597,7 +5619,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5617,7 +5639,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5637,7 +5659,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5657,7 +5679,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5697,7 +5719,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -5717,7 +5739,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5757,7 +5779,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5777,7 +5799,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -5797,7 +5819,7 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5837,7 +5859,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5857,7 +5879,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": false,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5877,7 +5899,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5917,7 +5939,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": true,
+          "isActive": false,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
