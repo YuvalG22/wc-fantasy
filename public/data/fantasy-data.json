@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T17:51:08.251Z",
+  "updatedAt": "2026-07-14T19:13:02.621Z",
   "seasonId": 9,
   "games": [
     {
@@ -1128,15 +1128,15 @@
   "teams": [
     {
       "userId": 2827,
-      "teamId": 9893707,
+      "teamId": 9944192,
       "teamName": "מ.ס. כפר ויתקין",
       "creatorName": "שופי",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 386,
-      "usedBudget": 125000000,
+      "usedBudget": 130000000,
       "captainId": 2378,
-      "subCaptainId": 5155,
+      "subCaptainId": 2027,
       "bonusesData": [
         {
           "bonusId": 2,
@@ -1213,6 +1213,66 @@
           }
         },
         {
+          "id": 2036,
+          "name": "אזרי קונסה",
+          "teamId": 175,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 18
+          }
+        },
+        {
+          "id": 2040,
+          "name": "ג`ורדן פיקפורד",
+          "teamId": 175,
+          "position": 1,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 18
+          }
+        },
+        {
+          "id": 2042,
+          "name": "בוקאיו סאקה",
+          "teamId": 175,
+          "position": 3,
+          "price": 13000000,
+          "boughtPrice": 13000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 6
+          },
+          "season": {
+            "points": 17
+          }
+        },
+        {
           "id": 2043,
           "name": "ג`וד בלינגהאם",
           "teamId": 175,
@@ -1241,7 +1301,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -1261,7 +1321,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -1281,7 +1341,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -1290,6 +1350,26 @@
           },
           "season": {
             "points": 38
+          }
+        },
+        {
+          "id": 2334,
+          "name": "פביאן רואיס",
+          "teamId": 186,
+          "position": 3,
+          "price": 7000000,
+          "boughtPrice": 7000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 7
+          },
+          "season": {
+            "points": 12
           }
         },
         {
@@ -1333,23 +1413,23 @@
           }
         },
         {
-          "id": 3395,
-          "name": "מייקל אוליסה",
+          "id": 2691,
+          "name": "בראדלי ברקולה",
           "teamId": 188,
           "position": 3,
-          "price": 14000000,
-          "boughtPrice": 14000000,
+          "price": 9000000,
+          "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
             "roundId": 217,
-            "points": 2,
-            "seasonPoints": 3
+            "points": 1,
+            "seasonPoints": 2
           },
           "season": {
-            "points": 26
+            "points": 21
           }
         },
         {
@@ -1373,26 +1453,6 @@
           }
         },
         {
-          "id": 5069,
-          "name": "ברונו גימראייש",
-          "teamId": 251,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": -2,
-            "seasonPoints": 3
-          },
-          "season": {
-            "points": 18
-          }
-        },
-        {
           "id": 5155,
           "name": "ליונל מסי",
           "teamId": 255,
@@ -1401,7 +1461,7 @@
           "boughtPrice": 15000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 217,
@@ -1433,26 +1493,6 @@
           }
         },
         {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 33
-          }
-        },
-        {
           "id": 5233,
           "name": "קמילו ורגאס",
           "teamId": 257,
@@ -1461,7 +1501,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 216,
@@ -1481,7 +1521,7 @@
           "boughtPrice": 4000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -1490,26 +1530,6 @@
           },
           "season": {
             "points": 15
-          }
-        },
-        {
-          "id": 5336,
-          "name": "סרג`יניו דסט",
-          "teamId": 261,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 0,
-            "seasonPoints": 6
-          },
-          "season": {
-            "points": 19
           }
         },
         {
@@ -1553,6 +1573,26 @@
           }
         },
         {
+          "id": 6235,
+          "name": "ניקו אוריילי",
+          "teamId": 175,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 2
+          },
+          "season": {
+            "points": 12
+          }
+        },
+        {
           "id": 6342,
           "name": "גוסטבו ולאסקס",
           "teamId": 252,
@@ -1571,39 +1611,19 @@
           "season": {
             "points": 11
           }
-        },
-        {
-          "id": 6416,
-          "name": "חוליאן קיניונס",
-          "teamId": 250,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 7,
-            "seasonPoints": 17
-          },
-          "season": {
-            "points": 33
-          }
         }
       ]
     },
     {
       "userId": 3053,
-      "teamId": 9880295,
+      "teamId": 9936808,
       "teamName": "מוצאצוס ",
       "creatorName": "שלומי כהן",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 346,
-      "usedBudget": 125000000,
-      "captainId": 2378,
+      "usedBudget": 120000000,
+      "captainId": 2337,
       "subCaptainId": 5155,
       "bonusesData": [
         {
@@ -1668,7 +1688,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -1681,6 +1701,26 @@
           }
         },
         {
+          "id": 2323,
+          "name": "פדרו פורו",
+          "teamId": 186,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
+          },
+          "season": {
+            "points": 26
+          }
+        },
+        {
           "id": 2324,
           "name": "אמריק לאפורט",
           "teamId": 186,
@@ -1688,7 +1728,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -1708,7 +1748,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -1728,13 +1768,53 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
             "points": 2,
             "seasonPoints": 8
+          },
+          "season": {
+            "points": 32
+          }
+        },
+        {
+          "id": 2336,
+          "name": "דני אולמו",
+          "teamId": 186,
+          "position": 3,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 4
+          },
+          "season": {
+            "points": 13
+          }
+        },
+        {
+          "id": 2337,
+          "name": "מיקל אויארסבאל",
+          "teamId": 186,
+          "position": 4,
+          "price": 13000000,
+          "boughtPrice": 13000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 4
           },
           "season": {
             "points": 32
@@ -1748,8 +1828,8 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 217,
@@ -1768,8 +1848,8 @@
           "price": 13000000,
           "boughtPrice": 13000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 217,
@@ -1788,8 +1868,8 @@
           "price": 14000000,
           "boughtPrice": 14000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -1808,8 +1888,8 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -1828,7 +1908,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -1841,26 +1921,6 @@
           }
         },
         {
-          "id": 5072,
-          "name": "ויניסיוס",
-          "teamId": 251,
-          "position": 3,
-          "price": 15000000,
-          "boughtPrice": 15000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 4
-          },
-          "season": {
-            "points": 34
-          }
-        },
-        {
           "id": 5155,
           "name": "ליונל מסי",
           "teamId": 255,
@@ -1868,7 +1928,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -1881,63 +1941,43 @@
           }
         },
         {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
+          "id": 5158,
+          "name": "חוליאן אלבארס",
+          "teamId": 255,
+          "position": 4,
+          "price": 13000000,
+          "boughtPrice": 13000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
-            "roundId": 216,
+            "roundId": 217,
             "points": 6,
-            "seasonPoints": 12
+            "seasonPoints": 8
           },
           "season": {
-            "points": 33
+            "points": 13
           }
         },
         {
-          "id": 5227,
-          "name": "דבינסון סאנצ`ס",
-          "teamId": 257,
-          "position": 2,
+          "id": 5176,
+          "name": "אלכסיס מק אליסטר",
+          "teamId": 255,
+          "position": 3,
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
-            "roundId": 216,
-            "points": 5,
-            "seasonPoints": 11
+            "roundId": 217,
+            "points": 7,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 25
-          }
-        },
-        {
-          "id": 5233,
-          "name": "קמילו ורגאס",
-          "teamId": 257,
-          "position": 1,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 26
+            "points": 19
           }
         },
         {
@@ -1948,8 +1988,8 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 216,
@@ -1961,26 +2001,6 @@
           }
         },
         {
-          "id": 5336,
-          "name": "סרג`יניו דסט",
-          "teamId": 261,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 0,
-            "seasonPoints": 6
-          },
-          "season": {
-            "points": 19
-          }
-        },
-        {
           "id": 5421,
           "name": "ברהים דיאס",
           "teamId": 265,
@@ -1988,8 +2008,8 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -2008,7 +2028,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2028,7 +2048,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2048,7 +2068,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2059,18 +2079,38 @@
           "season": {
             "points": 11
           }
+        },
+        {
+          "id": 6457,
+          "name": "פקונדו מדינה",
+          "teamId": 255,
+          "position": 2,
+          "price": 6000000,
+          "boughtPrice": 6000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 0,
+            "seasonPoints": 1
+          },
+          "season": {
+            "points": 17
+          }
         }
       ]
     },
     {
       "userId": 3123,
-      "teamId": 9885513,
+      "teamId": 9936535,
       "teamName": "הבנים של אודי ",
       "creatorName": "אודי הגדול רבוי כישלונות ",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 369,
-      "usedBudget": 125000000,
+      "usedBudget": 129000000,
       "captainId": 2378,
       "subCaptainId": 2027,
       "bonusesData": [
@@ -2136,7 +2176,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 212,
           "lastRound": {
@@ -2149,6 +2189,26 @@
           }
         },
         {
+          "id": 2036,
+          "name": "אזרי קונסה",
+          "teamId": 175,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 18
+          }
+        },
+        {
           "id": 2037,
           "name": "מארק גוהי",
           "teamId": 175,
@@ -2156,7 +2216,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2176,7 +2236,7 @@
           "price": 11000000,
           "boughtPrice": 11000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2196,7 +2256,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -2216,8 +2276,8 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -2236,8 +2296,8 @@
           "price": 13000000,
           "boughtPrice": 13000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -2256,7 +2316,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 211,
           "lastRound": {
@@ -2276,7 +2336,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2289,43 +2349,63 @@
           }
         },
         {
-          "id": 3395,
-          "name": "מייקל אוליסה",
+          "id": 2390,
+          "name": "מייק מניאן",
           "teamId": 188,
-          "position": 3,
-          "price": 14000000,
-          "boughtPrice": 14000000,
+          "position": 1,
+          "price": 9000000,
+          "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
             "roundId": 217,
-            "points": 2,
-            "seasonPoints": 3
+            "points": 6,
+            "seasonPoints": 12
           },
           "season": {
-            "points": 26
+            "points": 32
           }
         },
         {
-          "id": 5069,
-          "name": "ברונו גימראייש",
-          "teamId": 251,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
+          "id": 3397,
+          "name": "לוקה דין",
+          "teamId": 188,
+          "position": 2,
+          "price": 8000000,
+          "boughtPrice": 8000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
-            "roundId": 216,
-            "points": -2,
-            "seasonPoints": 3
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
           },
           "season": {
-            "points": 18
+            "points": 24
+          }
+        },
+        {
+          "id": 5155,
+          "name": "ליונל מסי",
+          "teamId": 255,
+          "position": 3,
+          "price": 15000000,
+          "boughtPrice": 15000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 5,
+            "seasonPoints": 11
+          },
+          "season": {
+            "points": 52
           }
         },
         {
@@ -2336,8 +2416,8 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -2356,7 +2436,7 @@
           "price": 5000000,
           "boughtPrice": 5000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -2369,46 +2449,6 @@
           }
         },
         {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 33
-          }
-        },
-        {
-          "id": 5233,
-          "name": "קמילו ורגאס",
-          "teamId": 257,
-          "position": 1,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 26
-          }
-        },
-        {
           "id": 5275,
           "name": "מרטין אודגור",
           "teamId": 258,
@@ -2416,8 +2456,8 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 217,
@@ -2436,8 +2476,8 @@
           "price": 4000000,
           "boughtPrice": 4000000,
           "isReserve": true,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 216,
@@ -2456,7 +2496,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2476,7 +2516,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 215,
           "lastRound": {
@@ -2489,23 +2529,23 @@
           }
         },
         {
-          "id": 6295,
-          "name": "אלכס פרימן",
-          "teamId": 261,
+          "id": 6457,
+          "name": "פקונדו מדינה",
+          "teamId": 255,
           "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
+          "price": 6000000,
+          "boughtPrice": 6000000,
+          "isReserve": true,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
-            "roundId": 216,
-            "points": -1,
-            "seasonPoints": 5
+            "roundId": 217,
+            "points": 0,
+            "seasonPoints": 1
           },
           "season": {
-            "points": 23
+            "points": 17
           }
         },
         {
@@ -2516,7 +2556,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -2532,13 +2572,13 @@
     },
     {
       "userId": 3217,
-      "teamId": 9891101,
+      "teamId": 9943876,
       "teamName": "11 טילי מצרר",
       "creatorName": "ליאור משנסקי",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 379,
-      "usedBudget": 125000000,
+      "usedBudget": 130000000,
       "captainId": 2378,
       "subCaptainId": 5155,
       "bonusesData": [
@@ -2617,6 +2657,26 @@
           }
         },
         {
+          "id": 2037,
+          "name": "מארק גוהי",
+          "teamId": 175,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 2
+          },
+          "season": {
+            "points": 17
+          }
+        },
+        {
           "id": 2043,
           "name": "ג`וד בלינגהאם",
           "teamId": 175,
@@ -2645,7 +2705,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -2665,7 +2725,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -2717,6 +2777,26 @@
           }
         },
         {
+          "id": 2393,
+          "name": "אדריין ראביו",
+          "teamId": 188,
+          "position": 3,
+          "price": 6000000,
+          "boughtPrice": 6000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 4
+          },
+          "season": {
+            "points": 13
+          }
+        },
+        {
           "id": 2395,
           "name": "עוסמאן דמבלה",
           "teamId": 188,
@@ -2734,6 +2814,26 @@
           },
           "season": {
             "points": 45
+          }
+        },
+        {
+          "id": 3395,
+          "name": "מייקל אוליסה",
+          "teamId": 188,
+          "position": 3,
+          "price": 14000000,
+          "boughtPrice": 14000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 26
           }
         },
         {
@@ -2777,26 +2877,6 @@
           }
         },
         {
-          "id": 5069,
-          "name": "ברונו גימראייש",
-          "teamId": 251,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": -2,
-            "seasonPoints": 3
-          },
-          "season": {
-            "points": 18
-          }
-        },
-        {
           "id": 5155,
           "name": "ליונל מסי",
           "teamId": 255,
@@ -2825,7 +2905,7 @@
           "boughtPrice": 8000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -2834,46 +2914,6 @@
           },
           "season": {
             "points": 25
-          }
-        },
-        {
-          "id": 5170,
-          "name": "אמיליאנו מרטינס",
-          "teamId": 255,
-          "position": 1,
-          "price": 9000000,
-          "boughtPrice": 9000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 217,
-            "points": 2,
-            "seasonPoints": 3
-          },
-          "season": {
-            "points": 18
-          }
-        },
-        {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 33
           }
         },
         {
@@ -2955,40 +2995,20 @@
           "season": {
             "points": 1
           }
-        },
-        {
-          "id": 6416,
-          "name": "חוליאן קיניונס",
-          "teamId": 250,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 7,
-            "seasonPoints": 17
-          },
-          "season": {
-            "points": 33
-          }
         }
       ]
     },
     {
       "userId": 3222,
-      "teamId": 9893761,
+      "teamId": 9944958,
       "teamName": "יונאיהיטי",
       "creatorName": "יונאי הגדול",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 392,
-      "usedBudget": 125000000,
+      "usedBudget": 130000000,
       "captainId": 2378,
-      "subCaptainId": 5155,
+      "subCaptainId": 3395,
       "bonusesData": [
         {
           "bonusId": 1,
@@ -3065,6 +3085,46 @@
           }
         },
         {
+          "id": 2040,
+          "name": "ג`ורדן פיקפורד",
+          "teamId": 175,
+          "position": 1,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 18
+          }
+        },
+        {
+          "id": 2043,
+          "name": "ג`וד בלינגהאם",
+          "teamId": 175,
+          "position": 3,
+          "price": 11000000,
+          "boughtPrice": 11000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 13,
+            "seasonPoints": 26
+          },
+          "season": {
+            "points": 46
+          }
+        },
+        {
           "id": 2279,
           "name": "יבון מבוגו",
           "teamId": 184,
@@ -3093,7 +3153,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -3113,7 +3173,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -3133,7 +3193,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -3185,6 +3245,26 @@
           }
         },
         {
+          "id": 2393,
+          "name": "אדריין ראביו",
+          "teamId": 188,
+          "position": 3,
+          "price": 6000000,
+          "boughtPrice": 6000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 4
+          },
+          "season": {
+            "points": 13
+          }
+        },
+        {
           "id": 2395,
           "name": "עוסמאן דמבלה",
           "teamId": 188,
@@ -3202,6 +3282,46 @@
           },
           "season": {
             "points": 45
+          }
+        },
+        {
+          "id": 2691,
+          "name": "בראדלי ברקולה",
+          "teamId": 188,
+          "position": 3,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 2
+          },
+          "season": {
+            "points": 21
+          }
+        },
+        {
+          "id": 3395,
+          "name": "מייקל אוליסה",
+          "teamId": 188,
+          "position": 3,
+          "price": 14000000,
+          "boughtPrice": 14000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 26
           }
         },
         {
@@ -3253,7 +3373,7 @@
           "boughtPrice": 15000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 217,
@@ -3273,7 +3393,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -3285,46 +3405,6 @@
           }
         },
         {
-          "id": 5220,
-          "name": "לואיס דיאס",
-          "teamId": 257,
-          "position": 3,
-          "price": 12000000,
-          "boughtPrice": 12000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 4
-          },
-          "season": {
-            "points": 18
-          }
-        },
-        {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 33
-          }
-        },
-        {
           "id": 5274,
           "name": "פטריק ברג",
           "teamId": 258,
@@ -3333,7 +3413,7 @@
           "boughtPrice": 4000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -3342,46 +3422,6 @@
           },
           "season": {
             "points": 15
-          }
-        },
-        {
-          "id": 5332,
-          "name": "טים ראם",
-          "teamId": 261,
-          "position": 2,
-          "price": 4000000,
-          "boughtPrice": 4000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": -1,
-            "seasonPoints": 5
-          },
-          "season": {
-            "points": 13
-          }
-        },
-        {
-          "id": 6178,
-          "name": "מתיאוס קוניה",
-          "teamId": 251,
-          "position": 4,
-          "price": 9000000,
-          "boughtPrice": 9000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 3,
-            "seasonPoints": 5
-          },
-          "season": {
-            "points": 23
           }
         },
         {
@@ -3405,6 +3445,26 @@
           }
         },
         {
+          "id": 6235,
+          "name": "ניקו אוריילי",
+          "teamId": 175,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 2
+          },
+          "season": {
+            "points": 12
+          }
+        },
+        {
           "id": 6342,
           "name": "גוסטבו ולאסקס",
           "teamId": 252,
@@ -3423,36 +3483,16 @@
           "season": {
             "points": 11
           }
-        },
-        {
-          "id": 6416,
-          "name": "חוליאן קיניונס",
-          "teamId": 250,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 7,
-            "seasonPoints": 17
-          },
-          "season": {
-            "points": 33
-          }
         }
       ]
     },
     {
       "userId": 3605,
-      "teamId": 9894437,
+      "teamId": 9945605,
       "teamName": "ARG",
       "creatorName": "ENTINA",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 315,
       "usedBudget": 125000000,
       "captainId": 2378,
@@ -3806,15 +3846,15 @@
     },
     {
       "userId": 4467,
-      "teamId": 9891980,
+      "teamId": 9943646,
       "teamName": "Pass pass it's a come",
       "creatorName": "NK האגדי",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 395,
-      "usedBudget": 125000000,
-      "captainId": 5155,
-      "subCaptainId": 2378,
+      "usedBudget": 127000000,
+      "captainId": 2378,
+      "subCaptainId": 5155,
       "bonusesData": [
         {
           "bonusId": 1,
@@ -3879,7 +3919,7 @@
           "boughtPrice": 15000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 212,
           "lastRound": {
             "roundId": 217,
@@ -3888,6 +3928,26 @@
           },
           "season": {
             "points": 37
+          }
+        },
+        {
+          "id": 2043,
+          "name": "ג`וד בלינגהאם",
+          "teamId": 175,
+          "position": 3,
+          "price": 11000000,
+          "boughtPrice": 11000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 13,
+            "seasonPoints": 26
+          },
+          "season": {
+            "points": 46
           }
         },
         {
@@ -3911,6 +3971,26 @@
           }
         },
         {
+          "id": 2323,
+          "name": "פדרו פורו",
+          "teamId": 186,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 8
+          },
+          "season": {
+            "points": 26
+          }
+        },
+        {
           "id": 2324,
           "name": "אמריק לאפורט",
           "teamId": 186,
@@ -3919,7 +3999,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -3959,7 +4039,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -3991,6 +4071,66 @@
           }
         },
         {
+          "id": 2382,
+          "name": "ז`ול קונדה",
+          "teamId": 188,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
+          },
+          "season": {
+            "points": 28
+          }
+        },
+        {
+          "id": 2387,
+          "name": "וויליאם סאליבה",
+          "teamId": 188,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
+          },
+          "season": {
+            "points": 26
+          }
+        },
+        {
+          "id": 2395,
+          "name": "עוסמאן דמבלה",
+          "teamId": 188,
+          "position": 3,
+          "price": 13000000,
+          "boughtPrice": 13000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 7,
+            "seasonPoints": 9
+          },
+          "season": {
+            "points": 45
+          }
+        },
+        {
           "id": 3395,
           "name": "מייקל אוליסה",
           "teamId": 188,
@@ -4019,8 +4159,8 @@
           "boughtPrice": 8000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
             "roundId": 217,
             "points": 6,
@@ -4028,46 +4168,6 @@
           },
           "season": {
             "points": 24
-          }
-        },
-        {
-          "id": 5069,
-          "name": "ברונו גימראייש",
-          "teamId": 251,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": -2,
-            "seasonPoints": 3
-          },
-          "season": {
-            "points": 18
-          }
-        },
-        {
-          "id": 5072,
-          "name": "ויניסיוס",
-          "teamId": 251,
-          "position": 3,
-          "price": 15000000,
-          "boughtPrice": 15000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 4
-          },
-          "season": {
-            "points": 34
           }
         },
         {
@@ -4099,7 +4199,7 @@
           "boughtPrice": 8000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -4111,26 +4211,6 @@
           }
         },
         {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 33
-          }
-        },
-        {
           "id": 5249,
           "name": "ארלינג הלאנד",
           "teamId": 258,
@@ -4139,7 +4219,7 @@
           "boughtPrice": 14000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -4159,7 +4239,7 @@
           "boughtPrice": 4000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -4168,26 +4248,6 @@
           },
           "season": {
             "points": 15
-          }
-        },
-        {
-          "id": 6060,
-          "name": "ברנדון מכלה",
-          "teamId": 180,
-          "position": 2,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 217,
-            "points": 1,
-            "seasonPoints": 3
-          },
-          "season": {
-            "points": 13
           }
         },
         {
@@ -4274,11 +4334,11 @@
     },
     {
       "userId": 8018,
-      "teamId": 9895283,
+      "teamId": 9946540,
       "teamName": "בנצי",
       "creatorName": "בנצי",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 259,
       "usedBudget": 120000000,
       "captainId": 5155,
@@ -4621,14 +4681,14 @@
     },
     {
       "userId": 11994,
-      "teamId": 9892335,
+      "teamId": 9945262,
       "teamName": "Halsh meod ",
       "creatorName": "עמית דודי",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 367,
-      "usedBudget": 124000000,
-      "captainId": 2378,
+      "usedBudget": 130000000,
+      "captainId": 5155,
       "subCaptainId": 2027,
       "bonusesData": [
         {
@@ -4736,6 +4796,46 @@
           }
         },
         {
+          "id": 2336,
+          "name": "דני אולמו",
+          "teamId": 186,
+          "position": 3,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 4
+          },
+          "season": {
+            "points": 13
+          }
+        },
+        {
+          "id": 2338,
+          "name": "מיקל מרינו",
+          "teamId": 186,
+          "position": 3,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
+          },
+          "season": {
+            "points": 17
+          }
+        },
+        {
           "id": 2378,
           "name": "קיליאן אמבפה",
           "teamId": 188,
@@ -4776,6 +4876,26 @@
           }
         },
         {
+          "id": 2387,
+          "name": "וויליאם סאליבה",
+          "teamId": 188,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
+          },
+          "season": {
+            "points": 26
+          }
+        },
+        {
           "id": 2390,
           "name": "מייק מניאן",
           "teamId": 188,
@@ -4793,26 +4913,6 @@
           },
           "season": {
             "points": 32
-          }
-        },
-        {
-          "id": 2670,
-          "name": "בריל אמבולו",
-          "teamId": 184,
-          "position": 4,
-          "price": 9000000,
-          "boughtPrice": 9000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 217,
-            "points": -1,
-            "seasonPoints": 1
-          },
-          "season": {
-            "points": 23
           }
         },
         {
@@ -4864,7 +4964,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -4956,26 +5056,6 @@
           }
         },
         {
-          "id": 6303,
-          "name": "מאליק טילמן",
-          "teamId": 261,
-          "position": 3,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 13
-          },
-          "season": {
-            "points": 21
-          }
-        },
-        {
           "id": 6395,
           "name": "איסמעל סייבארי",
           "teamId": 265,
@@ -4984,7 +5064,7 @@
           "boughtPrice": 8000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 215,
@@ -5004,7 +5084,7 @@
           "boughtPrice": 6000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -5019,15 +5099,15 @@
     },
     {
       "userId": 83871,
-      "teamId": 9893680,
+      "teamId": 9945099,
       "teamName": "פלחלחים",
       "creatorName": "דור פלח",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 356,
-      "usedBudget": 125000000,
+      "usedBudget": 130000000,
       "captainId": 2027,
-      "subCaptainId": 5155,
+      "subCaptainId": 2691,
       "bonusesData": [
         {
           "bonusId": 1,
@@ -5112,7 +5192,7 @@
           "boughtPrice": 10000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -5144,6 +5224,86 @@
           }
         },
         {
+          "id": 2382,
+          "name": "ז`ול קונדה",
+          "teamId": 188,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
+          },
+          "season": {
+            "points": 28
+          }
+        },
+        {
+          "id": 2390,
+          "name": "מייק מניאן",
+          "teamId": 188,
+          "position": 1,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
+          },
+          "season": {
+            "points": 32
+          }
+        },
+        {
+          "id": 2668,
+          "name": "אנתוני גורדון",
+          "teamId": 175,
+          "position": 3,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 5,
+            "seasonPoints": 9
+          },
+          "season": {
+            "points": 20
+          }
+        },
+        {
+          "id": 2691,
+          "name": "בראדלי ברקולה",
+          "teamId": 188,
+          "position": 3,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 2
+          },
+          "season": {
+            "points": 21
+          }
+        },
+        {
           "id": 3395,
           "name": "מייקל אוליסה",
           "teamId": 188,
@@ -5164,6 +5324,26 @@
           }
         },
         {
+          "id": 3397,
+          "name": "לוקה דין",
+          "teamId": 188,
+          "position": 2,
+          "price": 8000000,
+          "boughtPrice": 8000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 12
+          },
+          "season": {
+            "points": 24
+          }
+        },
+        {
           "id": 5045,
           "name": "לואיס רומו",
           "teamId": 250,
@@ -5181,26 +5361,6 @@
           },
           "season": {
             "points": 16
-          }
-        },
-        {
-          "id": 5069,
-          "name": "ברונו גימראייש",
-          "teamId": 251,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": -2,
-            "seasonPoints": 3
-          },
-          "season": {
-            "points": 18
           }
         },
         {
@@ -5244,43 +5404,23 @@
           }
         },
         {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
+          "id": 5176,
+          "name": "אלכסיס מק אליסטר",
+          "teamId": 255,
+          "position": 3,
           "price": 7000000,
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
+            "roundId": 217,
+            "points": 7,
+            "seasonPoints": 9
           },
           "season": {
-            "points": 33
-          }
-        },
-        {
-          "id": 5233,
-          "name": "קמילו ורגאס",
-          "teamId": 257,
-          "position": 1,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 26
+            "points": 19
           }
         },
         {
@@ -5292,7 +5432,7 @@
           "boughtPrice": 14000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -5304,26 +5444,6 @@
           }
         },
         {
-          "id": 5332,
-          "name": "טים ראם",
-          "teamId": 261,
-          "position": 2,
-          "price": 4000000,
-          "boughtPrice": 4000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": -1,
-            "seasonPoints": 5
-          },
-          "season": {
-            "points": 13
-          }
-        },
-        {
           "id": 5438,
           "name": "יאסין בונו",
           "teamId": 265,
@@ -5332,7 +5452,7 @@
           "boughtPrice": 6000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -5352,7 +5472,7 @@
           "boughtPrice": 5000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -5372,7 +5492,7 @@
           "boughtPrice": 6000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -5432,7 +5552,7 @@
           "boughtPrice": 5000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -5462,40 +5582,20 @@
           "season": {
             "points": 11
           }
-        },
-        {
-          "id": 6457,
-          "name": "פקונדו מדינה",
-          "teamId": 255,
-          "position": 2,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 217,
-            "points": 0,
-            "seasonPoints": 1
-          },
-          "season": {
-            "points": 17
-          }
         }
       ]
     },
     {
       "userId": 84349,
-      "teamId": 9882430,
+      "teamId": 9934609,
       "teamName": "יובל גנון",
       "creatorName": "יובל גנון",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 347,
-      "usedBudget": 124000000,
-      "captainId": 5155,
-      "subCaptainId": 2378,
+      "usedBudget": 127000000,
+      "captainId": 2336,
+      "subCaptainId": 5155,
       "bonusesData": [
         {
           "bonusId": 2,
@@ -5559,7 +5659,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5579,7 +5679,7 @@
           "price": 11000000,
           "boughtPrice": 11000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5592,23 +5692,23 @@
           }
         },
         {
-          "id": 2272,
-          "name": "ניקו אלבדי",
-          "teamId": 184,
+          "id": 2321,
+          "name": "פאו קובארסי",
+          "teamId": 186,
           "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
+          "price": 9000000,
+          "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
             "roundId": 217,
-            "points": 0,
-            "seasonPoints": 6
+            "points": 1,
+            "seasonPoints": 7
           },
           "season": {
-            "points": 17
+            "points": 31
           }
         },
         {
@@ -5619,7 +5719,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5639,7 +5739,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5659,7 +5759,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5679,7 +5779,7 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5700,8 +5800,8 @@
           "boughtPrice": 13000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
             "roundId": 217,
             "points": 2,
@@ -5719,8 +5819,8 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 211,
           "lastRound": {
             "roundId": 217,
@@ -5739,8 +5839,8 @@
           "price": 9000000,
           "boughtPrice": 9000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -5752,26 +5852,6 @@
           }
         },
         {
-          "id": 4987,
-          "name": "יוהאן מנזמבי",
-          "teamId": 184,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 215,
-            "points": 5,
-            "seasonPoints": 15
-          },
-          "season": {
-            "points": 28
-          }
-        },
-        {
           "id": 5045,
           "name": "לואיס רומו",
           "teamId": 250,
@@ -5779,7 +5859,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5799,7 +5879,7 @@
           "price": 15000000,
           "boughtPrice": 15000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 210,
           "lastRound": {
@@ -5812,6 +5892,26 @@
           }
         },
         {
+          "id": 5158,
+          "name": "חוליאן אלבארס",
+          "teamId": 255,
+          "position": 4,
+          "price": 13000000,
+          "boughtPrice": 13000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 8
+          },
+          "season": {
+            "points": 13
+          }
+        },
+        {
           "id": 5164,
           "name": "ליסנדרו מרטינס",
           "teamId": 255,
@@ -5819,8 +5919,8 @@
           "price": 8000000,
           "boughtPrice": 8000000,
           "isReserve": false,
-          "isActive": false,
-          "isRemoved": false,
+          "isActive": true,
+          "isRemoved": true,
           "addedRoundId": 216,
           "lastRound": {
             "roundId": 217,
@@ -5832,26 +5932,6 @@
           }
         },
         {
-          "id": 5336,
-          "name": "סרג`יניו דסט",
-          "teamId": 261,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 215,
-          "lastRound": {
-            "roundId": 216,
-            "points": 0,
-            "seasonPoints": 6
-          },
-          "season": {
-            "points": 19
-          }
-        },
-        {
           "id": 6208,
           "name": "חמזה עבדלכרים",
           "teamId": 278,
@@ -5859,7 +5939,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5879,7 +5959,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": false,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 217,
           "lastRound": {
@@ -5899,7 +5979,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5912,26 +5992,6 @@
           }
         },
         {
-          "id": 6298,
-          "name": "מאט פריז",
-          "teamId": 261,
-          "position": 1,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": -1,
-            "seasonPoints": 5
-          },
-          "season": {
-            "points": 13
-          }
-        },
-        {
           "id": 6342,
           "name": "גוסטבו ולאסקס",
           "teamId": 252,
@@ -5939,7 +5999,7 @@
           "price": 3000000,
           "boughtPrice": 3000000,
           "isReserve": true,
-          "isActive": false,
+          "isActive": true,
           "isRemoved": false,
           "addedRoundId": 216,
           "lastRound": {
@@ -5955,13 +6015,13 @@
     },
     {
       "userId": 241490,
-      "teamId": 9891542,
+      "teamId": 9945389,
       "teamName": "Malma win",
       "creatorName": "Itay malma",
       "seasonId": 9,
-      "roundId": 217,
+      "roundId": 218,
       "points": 391,
-      "usedBudget": 125000000,
+      "usedBudget": 130000000,
       "captainId": 5155,
       "subCaptainId": 2378,
       "bonusesData": [
@@ -6028,7 +6088,7 @@
           "boughtPrice": 15000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 212,
           "lastRound": {
             "roundId": 217,
@@ -6040,23 +6100,23 @@
           }
         },
         {
-          "id": 2171,
-          "name": "לאנדרו טרוסארד",
-          "teamId": 180,
+          "id": 2043,
+          "name": "ג`וד בלינגהאם",
+          "teamId": 175,
           "position": 3,
-          "price": 10000000,
-          "boughtPrice": 10000000,
+          "price": 11000000,
+          "boughtPrice": 11000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
+          "isRemoved": false,
+          "addedRoundId": 218,
           "lastRound": {
             "roundId": 217,
-            "points": 2,
-            "seasonPoints": 7
+            "points": 13,
+            "seasonPoints": 26
           },
           "season": {
-            "points": 29
+            "points": 46
           }
         },
         {
@@ -6088,7 +6148,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -6097,6 +6157,26 @@
           },
           "season": {
             "points": 10
+          }
+        },
+        {
+          "id": 2345,
+          "name": "אלכס באאנה",
+          "teamId": 186,
+          "position": 3,
+          "price": 7000000,
+          "boughtPrice": 7000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 16
           }
         },
         {
@@ -6120,6 +6200,26 @@
           }
         },
         {
+          "id": 2395,
+          "name": "עוסמאן דמבלה",
+          "teamId": 188,
+          "position": 3,
+          "price": 13000000,
+          "boughtPrice": 13000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 7,
+            "seasonPoints": 9
+          },
+          "season": {
+            "points": 45
+          }
+        },
+        {
           "id": 2668,
           "name": "אנתוני גורדון",
           "teamId": 175,
@@ -6128,7 +6228,7 @@
           "boughtPrice": 9000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -6140,6 +6240,26 @@
           }
         },
         {
+          "id": 2691,
+          "name": "בראדלי ברקולה",
+          "teamId": 188,
+          "position": 3,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 1,
+            "seasonPoints": 2
+          },
+          "season": {
+            "points": 21
+          }
+        },
+        {
           "id": 3395,
           "name": "מייקל אוליסה",
           "teamId": 188,
@@ -6148,7 +6268,7 @@
           "boughtPrice": 14000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 215,
           "lastRound": {
             "roundId": 217,
@@ -6220,6 +6340,46 @@
           }
         },
         {
+          "id": 5158,
+          "name": "חוליאן אלבארס",
+          "teamId": 255,
+          "position": 4,
+          "price": 13000000,
+          "boughtPrice": 13000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 6,
+            "seasonPoints": 8
+          },
+          "season": {
+            "points": 13
+          }
+        },
+        {
+          "id": 5168,
+          "name": "נהואל מולינה",
+          "teamId": 255,
+          "position": 2,
+          "price": 9000000,
+          "boughtPrice": 9000000,
+          "isReserve": false,
+          "isActive": true,
+          "isRemoved": false,
+          "addedRoundId": 218,
+          "lastRound": {
+            "roundId": 217,
+            "points": 2,
+            "seasonPoints": 3
+          },
+          "season": {
+            "points": 11
+          }
+        },
+        {
           "id": 5170,
           "name": "אמיליאנו מרטינס",
           "teamId": 255,
@@ -6248,7 +6408,7 @@
           "boughtPrice": 7000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -6260,46 +6420,6 @@
           }
         },
         {
-          "id": 5224,
-          "name": "יוהאן מוחיקה",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 19
-          }
-        },
-        {
-          "id": 5226,
-          "name": "דניאל מוניוס",
-          "teamId": 257,
-          "position": 2,
-          "price": 7000000,
-          "boughtPrice": 7000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 6,
-            "seasonPoints": 12
-          },
-          "season": {
-            "points": 33
-          }
-        },
-        {
           "id": 6059,
           "name": "נייתן אנגוי",
           "teamId": 180,
@@ -6308,7 +6428,7 @@
           "boughtPrice": 5000000,
           "isReserve": false,
           "isActive": true,
-          "isRemoved": false,
+          "isRemoved": true,
           "addedRoundId": 217,
           "lastRound": {
             "roundId": 217,
@@ -6317,26 +6437,6 @@
           },
           "season": {
             "points": 8
-          }
-        },
-        {
-          "id": 6196,
-          "name": "ריאן",
-          "teamId": 251,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 2,
-            "seasonPoints": 4
-          },
-          "season": {
-            "points": 10
           }
         },
         {
@@ -6397,26 +6497,6 @@
           },
           "season": {
             "points": 11
-          }
-        },
-        {
-          "id": 6416,
-          "name": "חוליאן קיניונס",
-          "teamId": 250,
-          "position": 3,
-          "price": 6000000,
-          "boughtPrice": 6000000,
-          "isReserve": false,
-          "isActive": true,
-          "isRemoved": true,
-          "addedRoundId": 216,
-          "lastRound": {
-            "roundId": 216,
-            "points": 7,
-            "seasonPoints": 17
-          },
-          "season": {
-            "points": 33
           }
         }
       ]
