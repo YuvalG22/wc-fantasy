@@ -63,69 +63,44 @@ function getCaptainMultiplier(playerId, team, roundId) {
 }
 
 const NATIONAL_TEAMS = {
-  173: "גרמניה",
-  175: "אנגליה",
-  178: "פורטוגל",
-  179: "צ'כיה",
-  180: "בלגיה",
-  181: "הולנד",
-  183: "קרואטיה",
-  184: "שווייץ",
-  185: "סקוטלנד",
-  186: "ספרד",
-  188: "צרפת",
-  190: "טורקיה",
-  193: "אוסטריה",
-  250: "מקסיקו",
-  251: "ברזיל",
-  252: "פרגוואי",
-  253: "שוודיה",
-  254: "איראן",
-  255: "ארגנטינה",
-  256: "גאנה",
-  257: "קולומביה",
-  258: "נורווגיה",
-  259: "ערב הסעודית",
-  260: "אקוואדור",
-  261: "ארה״ב",
-  262: "בוסניה והרצגובינה",
-  263: "דרום קוריאה",
-  264: "קנדה",
-  265: "מרוקו",
-  266: "חוף השנהב",
-  267: "יפן",
-  268: "ניו זילנד",
-  269: "אורוגוואי",
-  270: "סנגל",
-  271: "אלג'יריה",
-  272: "הרפובליקה הדמוקרטית של קונגו",
-  273: "פנמה",
-  274: "אוזבקיסטן",
-  275: "ירדן",
-  276: "עיראק",
-  277: "כף ורדה",
-  278: "מצרים",
-  279: "תוניסיה",
-  280: "קורוסאו",
-  281: "אוסטרליה",
-  282: "האיטי",
-  283: "קטאר",
-  284: "דרום אפריקה",
+  127: "מכבי פתח תקוה",
+  128: "הפועל תל אביב",
+  129: "בני סכנין",
+  130: "הפועל באר שבע",
+  131: "הפועל חיפה",
+  132: "מכבי נתניה",
+  133: "מכבי תל אביב",
+  134: "הפועל פתח תקווה",
+  136: "הפועל ירושלים",
+  138: "מכבי חיפה",
+  140: 'בית"ר ירושלים',
+  197: "הפועל קרית שמונה",
+  198: "עירוני טבריה",
+  285: "הפועל רמת גן",
 };
 
 const USERS = [
   { userId: 2827, name: "מ.ס. כפר ויתקין" },
-  { userId: 3053, name: "מוצאצוס" },
-  { userId: 3123, name: "הבנים של אודי" },
-  { userId: 3217, name: "11 טילי מצרר" },
-  { userId: 3222, name: "יונאיהיטי" },
-  { userId: 3605, name: "ARG" },
-  { userId: 4467, name: "Pass pass it's a come" },
+  { userId: 2850, name: "עונה פיננסית" },
+  { userId: 3053, name: "אני מטריל ?" },
+  { userId: 3123, name: "קפטן איוב " },
+  { userId: 3217, name: "המיסניקים" },
+  { userId: 3222, name: "משניניו" },
+  { userId: 3605, name: "HTA" },
+  { userId: 3771, name: "הקבוצה של שושן" },
+  { userId: 3818, name: "הענק הירוק" },
+  { userId: 4467, name: "מי שמתעסק מתרסק" },
   { userId: 8018, name: "בנצי" },
-  { userId: 11994, name: "Halsh meod" },
-  { userId: 83871, name: "פלחלחים" },
+  { userId: 11994, name: "Dudi " },
+  { userId: 13006, name: "המומינים" },
+  { userId: 17213, name: "החצילים מהכרמל " },
+  { userId: 17335, name: "רק מכה בי ת״א" },
+  { userId: 19509, name: "Akav" },
+  { userId: 19730, name: "מכבי שלי" },
+  { userId: 30205, name: "ב״ש באירופה" },
+  { userId: 36407, name: "יוני11" },
+  { userId: 59873, name: "אולי הפעם לא אתייאש" },
   { userId: 84349, name: "יובל גנון" },
-  { userId: 241490, name: "Malma win" },
 ];
 
 const BONUS_NAMES = {
@@ -613,12 +588,9 @@ function App() {
   return (
     <main dir="rtl" className="min-h-screen bg-slate-950 text-slate-100">
       <div className="mx-auto w-full max-w-md px-2 py-3">
-        <header className="mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
-          <p className="mb-1 text-xs font-medium text-blue-100">
-            World Cup Fantasy
-          </p>
-          <h1 className="text-2xl font-black">Fantasy Dashboard</h1>
-        </header>
+        <div className="mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
+          <span className="text-2xl font-bold">פנטזי ליגת העל 2026/2027</span>
+        </div>
 
         {loading && (
           <div className="rounded-xl bg-slate-900 p-5 text-center text-sm shadow-lg">
@@ -636,7 +608,10 @@ function App() {
           <>
             <section className="mb-5">
               <div className="mb-2 flex items-center justify-between">
-                <h2 className="text-lg font-black">🏆 דירוג כללי</h2>
+                <h2 className="text-lg font-bold">
+                  <span className="ml-1">🏆</span>
+                  דירוג כללי
+                </h2>
                 <span className="rounded-full bg-slate-800 px-2 py-1 text-[11px] text-slate-300">
                   {generalTable.length} קבוצות
                 </span>
@@ -696,7 +671,10 @@ function App() {
             </section>
 
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">📊 ניקוד לפי מחזור</h2>
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">📊</span>
+                ניקוד לפי מחזור
+              </h2>
 
               <div className="mb-2 flex gap-1 overflow-x-auto pb-1">
                 {rounds.map((roundId) => (
@@ -754,7 +732,10 @@ function App() {
             </section>
 
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">🔥 טופ שחקנים במחזור</h2>
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">🔥</span>
+                טופ שחקנים במחזור
+              </h2>
 
               <div className="rounded-xl border border-slate-800 bg-slate-900 p-2 text-xs">
                 {groupedPlayers.slice(0, 5).map((group, index) => (
@@ -783,7 +764,10 @@ function App() {
 
             <section className="mb-5">
               <div className="mb-2 flex items-center justify-between">
-                <h2 className="text-lg font-black">📈 שינוי בדירוג</h2>
+                <h2 className="text-lg font-bold">
+                  <span className="ml-1">📈</span>
+                  שינוי בדירוג
+                </h2>{" "}
                 <span className="rounded-full bg-slate-800 px-2 py-1 text-[11px] text-slate-300">
                   מחזור {roundMap[latestRoundId]}
                 </span>
@@ -841,8 +825,9 @@ function App() {
             </section>
 
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">
-                💎 שחקנים ייחודיים לפי קבוצה
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">💎</span>
+                שחקנים ייחודיים לפי קבוצה
               </h2>
 
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
@@ -882,8 +867,10 @@ function App() {
             </section>
 
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">🔥 אחוזי בחירה</h2>
-
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">🔥</span>
+                אחוזי בחירה
+              </h2>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                 <table className="w-full table-fixed border-collapse text-xs">
                   <thead className="bg-slate-800 text-slate-300">
@@ -921,8 +908,9 @@ function App() {
             </section>
 
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">
-                💎 ייחודיים שעשו נקודות
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">💎</span>
+                ייחודיים שעשו נקודות
               </h2>
 
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
@@ -962,8 +950,9 @@ function App() {
             </section>
 
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">
-                ⏳ שחקנים שעוד לא שיחקו
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">⏳</span>
+                שחקנים שעוד לא שיחקו
               </h2>
 
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
@@ -1007,12 +996,14 @@ function App() {
               </div>
             </section>
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">🧮 ניקוד מתוקן זמני</h2>
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">🧮</span>
+                ניקוד מתוקן זמני
+              </h2>{" "}
               <div className="mb-2 text-[11px] text-slate-400">
                 ללא ניקוד לסגן קפטן וללא ניקוד לספסל אם אין בונוס ניקוד לכל
                 הסגל.
               </div>
-
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                 <table className="w-full table-fixed border-collapse text-[11px]">
                   <thead className="bg-slate-800 text-slate-300">
@@ -1065,8 +1056,10 @@ function App() {
               </div>
             </section>
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">👑 דירוג קפטנים</h2>
-
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">👑</span>
+                דירוג קפטנים
+              </h2>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                 <table className="w-full table-fixed border-collapse text-[11px]">
                   <thead className="bg-slate-800 text-slate-300">
@@ -1119,8 +1112,10 @@ function App() {
               </div>
             </section>
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">🌍 שחקנים לפי נבחרת</h2>
-
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">🌍</span>
+                שחקנים לפי נבחרת
+              </h2>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                 <table className="w-full table-fixed border-collapse text-xs">
                   <thead className="bg-slate-800 text-slate-300">
@@ -1160,8 +1155,10 @@ function App() {
               </div>
             </section>
             <section className="mb-5">
-              <h2 className="mb-2 text-lg font-black">🎁 בונוסים שנותרו</h2>
-
+              <h2 className="mb-2 text-lg font-bold">
+                <span className="ml-1">🎁</span>
+                בונוסים שנותרו
+              </h2>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                 <table className="w-full table-fixed border-collapse text-xs">
                   <thead className="bg-slate-800 text-slate-300">
