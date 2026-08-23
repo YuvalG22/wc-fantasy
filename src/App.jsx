@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getUserTeam } from "./api/fantasyApi";
+import "./App.css";
 
 async function getAllTeamsFromJson() {
   const res = await fetch("/data/fantasy-data.json");
@@ -110,6 +111,8 @@ const BONUS_NAMES = {
   4: "ניקוד כל הסגל",
 };
 
+const PAGE_SIZE = 10;
+
 function App() {
   const [rows, setRows] = useState([]);
   const [teamsData, setTeamsData] = useState([]);
@@ -117,6 +120,40 @@ function App() {
   const [error, setError] = useState("");
   const [selectedRoundId, setSelectedRoundId] = useState(null);
   const [games, setGames] = useState([]);
+  const [tablePages, setTablePages] = useState({});
+
+  function getPageRows(tableKey, items) {
+    const maxPage = Math.max(0, Math.ceil(items.length / PAGE_SIZE) - 1);
+    const page = Math.min(tablePages[tableKey] ?? 0, maxPage);
+    return items.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+  }
+
+  function TablePagination({ tableKey, total }) {
+    const pageCount = Math.ceil(total / PAGE_SIZE);
+    if (pageCount <= 1) return null;
+
+    const page = Math.min(tablePages[tableKey] ?? 0, pageCount - 1);
+
+    return (
+      <div className="table-pagination" aria-label="Table pagination">
+        <button
+          type="button"
+          onClick={() => setTablePages((current) => ({ ...current, [tableKey]: Math.max(0, page - 1) }))}
+          disabled={page === 0}
+        >
+          הקודם
+        </button>
+        <span>עמוד {page + 1} מתוך {pageCount}</span>
+        <button
+          type="button"
+          onClick={() => setTablePages((current) => ({ ...current, [tableKey]: Math.min(pageCount - 1, page + 1) }))}
+          disabled={page === pageCount - 1}
+        >
+          הבא
+        </button>
+      </div>
+    );
+  }
 
   useEffect(() => {
     async function loadAllTeams() {
@@ -586,9 +623,9 @@ function App() {
     .sort((a, b) => b.count - a.count);
 
   return (
-    <main dir="rtl" className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="mx-auto w-full max-w-md px-2 py-3">
-        <div className="mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
+    <main dir="rtl" className="dashboard min-h-screen bg-slate-950 text-slate-100">
+      <div className="dashboard-shell mx-auto w-full max-w-md px-2 py-3">
+        <div className="dashboard-hero mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
           <span className="text-2xl font-bold">פנטזי ליגת העל 2026/2027</span>
         </div>
 
@@ -634,7 +671,7 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {generalTable.map((team, index) => (
+                    {getPageRows("general", generalTable).map((team, index) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
@@ -642,13 +679,13 @@ function App() {
                         <td
                           className={`px-1 py-1 text-center font-semibold" ${index < 3 ? "text-lg" : ""}`}
                         >
-                          {index === 0
+                          {(tablePages.general ?? 0) * PAGE_SIZE + index === 0
                             ? "🥇"
-                            : index === 1
+                            : (tablePages.general ?? 0) * PAGE_SIZE + index === 1
                               ? "🥈"
-                              : index === 2
+                              : (tablePages.general ?? 0) * PAGE_SIZE + index === 2
                                 ? "🥉"
-                                : index + 1}
+                                : (tablePages.general ?? 0) * PAGE_SIZE + index + 1}
                         </td>
                         <td className="truncate px-1 py-1 font-semibold">
                           {team.teamName}
@@ -667,6 +704,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="general" total={generalTable.length} />
               </div>
             </section>
 
@@ -676,7 +714,7 @@ function App() {
                 ניקוד לפי מחזור
               </h2>
 
-              <div className="mb-2 flex gap-1 overflow-x-auto pb-1">
+              <div className="round-tabs mb-2 flex gap-1 overflow-x-auto pb-1">
                 {rounds.map((roundId) => (
                   <button
                     key={roundId}
@@ -704,13 +742,13 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {activeRoundRows.map((row, index) => (
+                    {getPageRows("round", activeRoundRows).map((row, index) => (
                       <tr
                         key={`${row.userId}-${row.roundId}`}
                         className="border-t border-slate-800"
                       >
                         <td className="px-1 py-1 text-center font-semibold">
-                          {index + 1}
+                          {(tablePages.round ?? 0) * PAGE_SIZE + index + 1}
                         </td>
 
                         <td className="truncate px-2 py-1 font-semibold">
@@ -724,6 +762,75 @@ function App() {
                         <td className="px-1 py-1 text-center font-bold text-amber-300">
                           {row.seasonPoints}
                         </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                <TablePagination tableKey="round" total={activeRoundRows.length} />
+              </div>
+            </section>
+
+            <section className="king-of-week mb-5">
+              <div className="mb-2 flex items-center justify-between">
+                <h2 className="text-lg font-bold">
+                  <span className="ml-1">👑</span>
+                  מלך המחזור
+                </h2>
+                <span className="rounded-full bg-slate-800 px-2 py-1 text-[11px] text-slate-300">
+                  מחזור {roundMap[activeRoundId]}
+                </span>
+              </div>
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="king-of-week-table w-full table-fixed border-collapse text-xs">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[18%] px-1 py-2 text-center">#</th>
+                      <th className="px-2 py-2 text-right">Team</th>
+                      <th className="w-[24%] px-1 py-2 text-center">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {activeRoundRows.slice(0, 3).map((team, index) => (
+                      <tr key={team.userId} className="border-t border-slate-800">
+                        <td className="px-1 py-1 text-center font-semibold">
+                          {index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}
+                        </td>
+                        <td className="truncate px-2 py-1 font-semibold">{team.teamName}</td>
+                        <td className="px-1 py-1 text-center font-bold text-amber-300">{team.points}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            <section className="bottom-of-week mb-5">
+              <div className="mb-2 flex items-center justify-between">
+                <h2 className="text-lg font-bold">
+                  <span className="ml-1">🗑️</span>
+                  פח המחזור
+                </h2>
+                <span className="rounded-full bg-slate-800 px-2 py-1 text-[11px] text-slate-300">
+                  מחזור {roundMap[activeRoundId]}
+                </span>
+              </div>
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="bottom-of-week-table w-full table-fixed border-collapse text-xs">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[18%] px-1 py-2 text-center">#</th>
+                      <th className="px-2 py-2 text-right">Team</th>
+                      <th className="w-[24%] px-1 py-2 text-center">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {activeRoundRows.slice(-3).reverse().map((team, index) => (
+                      <tr key={team.userId} className="border-t border-slate-800">
+                        <td className="px-1 py-1 text-center font-semibold text-slate-400">
+                          {activeRoundRows.length - index}
+                        </td>
+                        <td className="truncate px-2 py-1 font-semibold">{team.teamName}</td>
+                        <td className="px-1 py-1 text-center font-bold text-rose-300">{team.points}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -785,7 +892,7 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {improvementTable.map((team) => (
+                    {getPageRows("improvement", improvementTable).map((team) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
@@ -821,6 +928,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="improvement" total={improvementTable.length} />
               </div>
             </section>
 
@@ -841,7 +949,7 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {uniquePlayersByTeam.map((team) => (
+                    {getPageRows("unique", uniquePlayersByTeam).map((team) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
@@ -863,6 +971,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="unique" total={uniquePlayersByTeam.length} />
               </div>
             </section>
 
@@ -883,7 +992,7 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {popularPlayers.map((player) => (
+                    {getPageRows("popular", popularPlayers).map((player) => (
                       <tr key={player.id} className="border-t border-slate-800">
                         <td className="truncate px-2 py-1 font-semibold">
                           {player.name}
@@ -904,6 +1013,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="popular" total={popularPlayers.length} />
               </div>
             </section>
 
@@ -925,7 +1035,7 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {differentialScorers.map((player) => (
+                    {getPageRows("differentials", differentialScorers).map((player) => (
                       <tr key={player.id} className="border-t border-slate-800">
                         <td className="truncate px-2 py-1 font-semibold">
                           {player.name}
@@ -946,6 +1056,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="differentials" total={differentialScorers.length} />
               </div>
             </section>
 
@@ -966,7 +1077,7 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {remainingPlayersByTeam.map((team) => (
+                    {getPageRows("remainingPlayers", remainingPlayersByTeam).map((team) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
@@ -993,6 +1104,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="remainingPlayers" total={remainingPlayersByTeam.length} />
               </div>
             </section>
             <section className="mb-5">
@@ -1017,13 +1129,13 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {correctedCaptainTable.map((team, index) => (
+                    {getPageRows("corrected", correctedCaptainTable).map((team, index) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
                       >
                         <td className="px-1 py-1 text-center font-semibold">
-                          {index + 1}
+                          {(tablePages.corrected ?? 0) * PAGE_SIZE + index + 1}
                         </td>
 
                         <td className="truncate px-2 py-1 font-semibold">
@@ -1053,6 +1165,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="corrected" total={correctedCaptainTable.length} />
               </div>
             </section>
             <section className="mb-5">
@@ -1075,13 +1188,13 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {captainRanking.map((team, index) => (
+                    {getPageRows("captains", captainRanking).map((team, index) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
                       >
                         <td className="px-1 py-1 text-center font-semibold">
-                          {index + 1}
+                          {(tablePages.captains ?? 0) * PAGE_SIZE + index + 1}
                         </td>
 
                         <td className="truncate px-2 py-1 font-semibold">
@@ -1109,12 +1222,13 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="captains" total={captainRanking.length} />
               </div>
             </section>
             <section className="mb-5">
               <h2 className="mb-2 text-lg font-bold">
-                <span className="ml-1">🌍</span>
-                שחקנים לפי נבחרת
+                <span className="ml-1">🛡️</span>
+               שחקנים לפי קבוצה
               </h2>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                 <table className="w-full table-fixed border-collapse text-xs">
@@ -1128,13 +1242,13 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {nationalTeamsTable.map((team, index) => (
+                    {getPageRows("nationalTeams", nationalTeamsTable).map((team, index) => (
                       <tr
                         key={team.teamId}
                         className="border-t border-slate-800"
                       >
                         <td className="px-1 py-1 text-center font-semibold">
-                          {index + 1}
+                          {(tablePages.nationalTeams ?? 0) * PAGE_SIZE + index + 1}
                         </td>
 
                         <td className="px-2 py-1 font-semibold">
@@ -1152,6 +1266,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="nationalTeams" total={nationalTeamsTable.length} />
               </div>
             </section>
             <section className="mb-5">
@@ -1170,13 +1285,13 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {remainingBonusesTable.map((team, index) => (
+                    {getPageRows("bonuses", remainingBonusesTable).map((team, index) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
                       >
                         <td className="px-1 py-1 text-center font-semibold">
-                          {index + 1}
+                          {(tablePages.bonuses ?? 0) * PAGE_SIZE + index + 1}
                         </td>
 
                         <td className="truncate px-2 py-1 font-semibold">
@@ -1196,6 +1311,7 @@ function App() {
                     ))}
                   </tbody>
                 </table>
+                <TablePagination tableKey="bonuses" total={remainingBonusesTable.length} />
               </div>
             </section>
           </>
