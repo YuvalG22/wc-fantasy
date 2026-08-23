@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+import { put } from "@vercel/blob";
 
 const USERS = [
   2827, 2850, 3053, 3123, 3217, 3222, 3605, 3771, 3818, 4467, 8018, 11994,
@@ -6,14 +6,11 @@ const USERS = [
 ];
 
 const SEASON_ID = 10;
+
 const SPORT5_COOKIE = process.env.SPORT5_COOKIE;
-if (!SPORT5_COOKIE) {
-  console.error("Missing SPORT5_COOKIE env variable");
-  process.exit(1);
-}
 
 async function fetchLeagueData() {
-  const res = await fetch(
+  const response = await fetch(
     `https://dreamteam.sport5.co.il/api/Leagues/Get?seasonId=${SEASON_ID}`,
     {
       headers: {
@@ -24,12 +21,25 @@ async function fetchLeagueData() {
     },
   );
 
-  const data = await res.json();
-  return data;
+  const text = await response.text();
+
+  if (!response.ok) {
+    throw new Error(
+      `League: ${response.status} ${text.slice(0, 200)}`,
+    );
+  }
+
+  if (!response.headers.get("content-type")?.includes("application/json")) {
+    throw new Error("Sport5 league endpoint did not return JSON");
+  }
+
+  return JSON.parse(text);
 }
 
 async function fetchUserTeam(userId) {
-  const url = `https://dreamteam.sport5.co.il/api/UserTeam/GetUserAndTeam?seasonId=${SEASON_ID}&userId=${userId}`;
+  const url =
+    `https://dreamteam.sport5.co.il/api/UserTeam/GetUserAndTeam` +
+    `?seasonId=${SEASON_ID}&userId=${userId}`;
 
   const response = await fetch(url, {
     headers: {
@@ -42,7 +52,9 @@ async function fetchUserTeam(userId) {
   const text = await response.text();
 
   if (!response.ok) {
-    throw new Error(`User ${userId}: ${response.status} ${text.slice(0, 200)}`);
+    throw new Error(
+      `User ${userId}: ${response.status} ${text.slice(0, 200)}`,
+    );
   }
 
   if (!response.headers.get("content-type")?.includes("application/json")) {
@@ -96,7 +108,8 @@ function simplifyResponse(apiResponse) {
       lastRound: {
         roundId: item.player.lastRoundPlayerStats?.roundId ?? null,
         points: item.player.lastRoundPlayerStats?.points ?? 0,
-        seasonPoints: item.player.lastRoundPlayerStats?.seasonPoints ?? 0,
+        seasonPoints:
+          item.player.lastRoundPlayerStats?.seasonPoints ?? 0,
       },
 
       season: {
@@ -106,51 +119,68 @@ function simplifyResponse(apiResponse) {
   };
 }
 
-async function main() {
-  const leagueData = await fetchLeagueData();
+export default async function handler(req, res) {
+  try {
+    if (!SPORT5_COOKIE) {
+      return res.status(500).json({
+        error: "SPORT5_COOKIE is missing",
+      });
+    }
 
-  const games = leagueData.data.games.map((game) => ({
-    id: game.id,
-    roundId: game.roundId,
-    teamAId: game.teamAId,
-    teamBId: game.teamBId,
-    teamAName: game.teamAName,
-    teamBName: game.teamBName,
-    gameStatus: game.gameStatus,
-    gameStart: game.gameStart,
-    gameEnd: game.gameEnd,
-  }));
+    const leagueData = await fetchLeagueData();
 
-  const result = [];
+    const games = leagueData.data.games.map((game) => ({
+      id: game.id,
+      roundId: game.roundId,
+      teamAId: game.teamAId,
+      teamBId: game.teamBId,
+      teamAName: game.teamAName,
+      teamBName: game.teamBName,
+      gameStatus: game.gameStatus,
+      gameStart: game.gameStart,
+      gameEnd: game.gameEnd,
+    }));
 
-  for (const userId of USERS) {
-    console.log(`Fetching user ${userId}...`);
+    const teams = [];
 
-    const apiResponse = await fetchUserTeam(userId);
-    const simplified = simplifyResponse(apiResponse);
+    for (const userId of USERS) {
+      console.log(`Fetching user ${userId}`);
 
-    result.push(simplified);
+      const apiResponse = await fetchUserTeam(userId);
+
+      teams.push(simplifyResponse(apiResponse));
+    }
+
+    const output = {
+      updatedAt: new Date().toISOString(),
+      seasonId: SEASON_ID,
+      games,
+      teams,
+    };
+
+    const blob = await put(
+      "fantasy-data.json",
+      JSON.stringify(output, null, 2),
+      {
+        access: "public",
+        contentType: "application/json",
+        addRandomSuffix: false,
+        allowOverwrite: true,
+      },
+    );
+
+    return res.status(200).json({
+      success: true,
+      updatedAt: output.updatedAt,
+      teams: teams.length,
+      url: blob.url,
+    });
+  } catch (error) {
+    console.error(error);
+
+    return res.status(500).json({
+      success: false,
+      error: error.message,
+    });
   }
-
-  const output = {
-    updatedAt: new Date().toISOString(),
-    seasonId: SEASON_ID,
-    games,
-    teams: result,
-  };
-
-  await fs.mkdir("public/data", { recursive: true });
-
-  await fs.writeFile(
-    "public/data/fantasy-data.json",
-    JSON.stringify(output, null, 2),
-    "utf-8",
-  );
-
-  console.log("Saved public/data/fantasy-data.json");
 }
-
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
