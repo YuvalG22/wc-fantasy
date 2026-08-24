@@ -2,11 +2,24 @@ import { useEffect, useState } from "react";
 import { getUserTeam } from "../api/fantasyApi";
 import "./App.css";
 
+function formatUpdatedAt(dateString) {
+  if (!dateString) return "";
+
+  return new Intl.DateTimeFormat("he-IL", {
+    dateStyle: "short",
+    timeStyle: "short",
+    timeZone: "Asia/Jerusalem",
+  }).format(new Date(dateString));
+}
+
+const FANTASY_DATA_URL =
+  "https://20etkolkaawg8ief.public.blob.vercel-storage.com/fantasy-data.json";
+
 async function getAllTeamsFromJson() {
-  const res = await fetch("/data/fantasy-data.json");
+  const res = await fetch(`${FANTASY_DATA_URL}?t=${Date.now()}`);
 
   if (!res.ok) {
-    throw new Error("Failed to load local fantasy data");
+    throw new Error("Failed to load fantasy data");
   }
 
   return res.json();
@@ -122,6 +135,7 @@ function App() {
   const [games, setGames] = useState([]);
   const [tablePages, setTablePages] = useState({});
   const [darkMode, setDarkMode] = useState(false);
+  const [updatedAt, setUpdatedAt] = useState(null);
 
   function getPageRows(tableKey, items) {
     const maxPage = Math.max(0, Math.ceil(items.length / PAGE_SIZE) - 1);
@@ -139,15 +153,27 @@ function App() {
       <div className="table-pagination" aria-label="Table pagination">
         <button
           type="button"
-          onClick={() => setTablePages((current) => ({ ...current, [tableKey]: Math.max(0, page - 1) }))}
+          onClick={() =>
+            setTablePages((current) => ({
+              ...current,
+              [tableKey]: Math.max(0, page - 1),
+            }))
+          }
           disabled={page === 0}
         >
           הקודם
         </button>
-        <span>עמוד {page + 1} מתוך {pageCount}</span>
+        <span>
+          עמוד {page + 1} מתוך {pageCount}
+        </span>
         <button
           type="button"
-          onClick={() => setTablePages((current) => ({ ...current, [tableKey]: Math.min(pageCount - 1, page + 1) }))}
+          onClick={() =>
+            setTablePages((current) => ({
+              ...current,
+              [tableKey]: Math.min(pageCount - 1, page + 1),
+            }))
+          }
           disabled={page === pageCount - 1}
         >
           הבא
@@ -162,6 +188,7 @@ function App() {
         setLoading(true);
 
         const jsonData = await getAllTeamsFromJson();
+        setUpdatedAt(jsonData.updatedAt);
         const teams = jsonData.teams ?? [];
 
         setTeamsData(teams);
@@ -624,19 +651,35 @@ function App() {
     .sort((a, b) => b.count - a.count);
 
   return (
-    <main dir="rtl" className={`dashboard min-h-screen ${darkMode ? "dark-mode" : ""}`}>
+    <main
+      dir="rtl"
+      className={`dashboard min-h-screen ${darkMode ? "dark-mode" : ""}`}
+    >
       <div className="dashboard-shell mx-auto w-full max-w-md px-2 py-3">
         <div className="dashboard-hero mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
           <button
             type="button"
             className="theme-toggle"
             onClick={() => setDarkMode((current) => !current)}
-            aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+            aria-label={
+              darkMode ? "Switch to light mode" : "Switch to dark mode"
+            }
             aria-pressed={darkMode}
           >
             {darkMode ? "☀️ בהיר" : "🌙 כהה"}
           </button>
           <span className="text-2xl font-bold">פנטזי ליגת העל 2026/2027</span>
+          <div className="mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
+            <span className="text-2xl font-black">
+              פנטזי ליגת העל 2026/2027
+            </span>
+
+            {updatedAt && (
+              <div className="mt-1 text-xs text-blue-100">
+                עודכן לאחרונה: {formatUpdatedAt(updatedAt)}
+              </div>
+            )}
+          </div>
         </div>
 
         {loading && (
@@ -691,11 +734,16 @@ function App() {
                         >
                           {(tablePages.general ?? 0) * PAGE_SIZE + index === 0
                             ? "🥇"
-                            : (tablePages.general ?? 0) * PAGE_SIZE + index === 1
+                            : (tablePages.general ?? 0) * PAGE_SIZE + index ===
+                                1
                               ? "🥈"
-                              : (tablePages.general ?? 0) * PAGE_SIZE + index === 2
+                              : (tablePages.general ?? 0) * PAGE_SIZE +
+                                    index ===
+                                  2
                                 ? "🥉"
-                                : (tablePages.general ?? 0) * PAGE_SIZE + index + 1}
+                                : (tablePages.general ?? 0) * PAGE_SIZE +
+                                  index +
+                                  1}
                         </td>
                         <td className="truncate px-1 py-1 font-semibold">
                           {team.teamName}
@@ -714,7 +762,10 @@ function App() {
                     ))}
                   </tbody>
                 </table>
-                <TablePagination tableKey="general" total={generalTable.length} />
+                <TablePagination
+                  tableKey="general"
+                  total={generalTable.length}
+                />
               </div>
             </section>
 
@@ -776,7 +827,10 @@ function App() {
                     ))}
                   </tbody>
                 </table>
-                <TablePagination tableKey="round" total={activeRoundRows.length} />
+                <TablePagination
+                  tableKey="round"
+                  total={activeRoundRows.length}
+                />
               </div>
             </section>
 
@@ -801,12 +855,19 @@ function App() {
                   </thead>
                   <tbody>
                     {activeRoundRows.slice(0, 3).map((team, index) => (
-                      <tr key={team.userId} className="border-t border-slate-800">
+                      <tr
+                        key={team.userId}
+                        className="border-t border-slate-800"
+                      >
                         <td className="px-1 py-1 text-center font-semibold">
                           {index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}
                         </td>
-                        <td className="truncate px-2 py-1 font-semibold">{team.teamName}</td>
-                        <td className="px-1 py-1 text-center font-bold text-amber-300">{team.points}</td>
+                        <td className="truncate px-2 py-1 font-semibold">
+                          {team.teamName}
+                        </td>
+                        <td className="px-1 py-1 text-center font-bold text-amber-300">
+                          {team.points}
+                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -834,15 +895,25 @@ function App() {
                     </tr>
                   </thead>
                   <tbody>
-                    {activeRoundRows.slice(-3).reverse().map((team, index) => (
-                      <tr key={team.userId} className="border-t border-slate-800">
-                        <td className="px-1 py-1 text-center font-semibold text-slate-400">
-                          {activeRoundRows.length - index}
-                        </td>
-                        <td className="truncate px-2 py-1 font-semibold">{team.teamName}</td>
-                        <td className="px-1 py-1 text-center font-bold text-rose-300">{team.points}</td>
-                      </tr>
-                    ))}
+                    {activeRoundRows
+                      .slice(-3)
+                      .reverse()
+                      .map((team, index) => (
+                        <tr
+                          key={team.userId}
+                          className="border-t border-slate-800"
+                        >
+                          <td className="px-1 py-1 text-center font-semibold text-slate-400">
+                            {activeRoundRows.length - index}
+                          </td>
+                          <td className="truncate px-2 py-1 font-semibold">
+                            {team.teamName}
+                          </td>
+                          <td className="px-1 py-1 text-center font-bold text-rose-300">
+                            {team.points}
+                          </td>
+                        </tr>
+                      ))}
                   </tbody>
                 </table>
               </div>
@@ -865,9 +936,18 @@ function App() {
                   </thead>
                   <tbody>
                     {groupedPlayers.slice(0, 5).map((group, index) => (
-                      <tr key={group.points} className="border-t border-slate-800">
+                      <tr
+                        key={group.points}
+                        className="border-t border-slate-800"
+                      >
                         <td className="px-2 py-2 text-center font-semibold">
-                          {index === 0 ? "🥇" : index === 1 ? "🥈" : index === 2 ? "🥉" : index + 1}
+                          {index === 0
+                            ? "🥇"
+                            : index === 1
+                              ? "🥈"
+                              : index === 2
+                                ? "🥉"
+                                : index + 1}
                         </td>
                         <td className="truncate px-2 py-2 font-semibold">
                           {group.names.join(", ")}
@@ -905,43 +985,48 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {getPageRows("improvement", improvementTable).map((team) => (
-                      <tr
-                        key={team.userId}
-                        className="border-t border-slate-800"
-                      >
-                        <td className="truncate px-2 py-1 font-semibold">
-                          {team.teamName}
-                        </td>
-
-                        <td className="px-1 py-1 text-center text-slate-300">
-                          {team.previousRank}
-                        </td>
-
-                        <td className="px-1 py-1 text-center font-semibold">
-                          {team.currentRank}
-                        </td>
-
-                        <td
-                          className={`px-1 py-1 text-center font-semibold ${
-                            team.change > 0
-                              ? "text-emerald-300"
-                              : team.change < 0
-                                ? "text-red-300"
-                                : "text-slate-400"
-                          }`}
+                    {getPageRows("improvement", improvementTable).map(
+                      (team) => (
+                        <tr
+                          key={team.userId}
+                          className="border-t border-slate-800"
                         >
-                          {team.change > 0
-                            ? `+${team.change}`
-                            : team.change < 0
-                              ? team.change
-                              : "0"}
-                        </td>
-                      </tr>
-                    ))}
+                          <td className="truncate px-2 py-1 font-semibold">
+                            {team.teamName}
+                          </td>
+
+                          <td className="px-1 py-1 text-center text-slate-300">
+                            {team.previousRank}
+                          </td>
+
+                          <td className="px-1 py-1 text-center font-semibold">
+                            {team.currentRank}
+                          </td>
+
+                          <td
+                            className={`px-1 py-1 text-center font-semibold ${
+                              team.change > 0
+                                ? "text-emerald-300"
+                                : team.change < 0
+                                  ? "text-red-300"
+                                  : "text-slate-400"
+                            }`}
+                          >
+                            {team.change > 0
+                              ? `+${team.change}`
+                              : team.change < 0
+                                ? team.change
+                                : "0"}
+                          </td>
+                        </tr>
+                      ),
+                    )}
                   </tbody>
                 </table>
-                <TablePagination tableKey="improvement" total={improvementTable.length} />
+                <TablePagination
+                  tableKey="improvement"
+                  total={improvementTable.length}
+                />
               </div>
             </section>
 
@@ -984,7 +1069,10 @@ function App() {
                     ))}
                   </tbody>
                 </table>
-                <TablePagination tableKey="unique" total={uniquePlayersByTeam.length} />
+                <TablePagination
+                  tableKey="unique"
+                  total={uniquePlayersByTeam.length}
+                />
               </div>
             </section>
 
@@ -1026,7 +1114,10 @@ function App() {
                     ))}
                   </tbody>
                 </table>
-                <TablePagination tableKey="popular" total={popularPlayers.length} />
+                <TablePagination
+                  tableKey="popular"
+                  total={popularPlayers.length}
+                />
               </div>
             </section>
 
@@ -1048,28 +1139,36 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {getPageRows("differentials", differentialScorers).map((player) => (
-                      <tr key={player.id} className="border-t border-slate-800">
-                        <td className="truncate px-2 py-1 font-semibold">
-                          {player.name}
-                        </td>
+                    {getPageRows("differentials", differentialScorers).map(
+                      (player) => (
+                        <tr
+                          key={player.id}
+                          className="border-t border-slate-800"
+                        >
+                          <td className="truncate px-2 py-1 font-semibold">
+                            {player.name}
+                          </td>
 
-                        <td className="px-1 py-1 text-center font-semibold text-emerald-300">
-                          {player.points}
-                        </td>
+                          <td className="px-1 py-1 text-center font-semibold text-emerald-300">
+                            {player.points}
+                          </td>
 
-                        <td className="px-1 py-1 text-center font-semibold text-blue-300">
-                          {player.count}/{USERS.length}
-                        </td>
+                          <td className="px-1 py-1 text-center font-semibold text-blue-300">
+                            {player.count}/{USERS.length}
+                          </td>
 
-                        <td className="px-2 py-1 text-slate-300">
-                          {player.teams.join(", ")}
-                        </td>
-                      </tr>
-                    ))}
+                          <td className="px-2 py-1 text-slate-300">
+                            {player.teams.join(", ")}
+                          </td>
+                        </tr>
+                      ),
+                    )}
                   </tbody>
                 </table>
-                <TablePagination tableKey="differentials" total={differentialScorers.length} />
+                <TablePagination
+                  tableKey="differentials"
+                  total={differentialScorers.length}
+                />
               </div>
             </section>
 
@@ -1090,7 +1189,10 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {getPageRows("remainingPlayers", remainingPlayersByTeam).map((team) => (
+                    {getPageRows(
+                      "remainingPlayers",
+                      remainingPlayersByTeam,
+                    ).map((team) => (
                       <tr
                         key={team.userId}
                         className="border-t border-slate-800"
@@ -1117,7 +1219,10 @@ function App() {
                     ))}
                   </tbody>
                 </table>
-                <TablePagination tableKey="remainingPlayers" total={remainingPlayersByTeam.length} />
+                <TablePagination
+                  tableKey="remainingPlayers"
+                  total={remainingPlayersByTeam.length}
+                />
               </div>
             </section>
             <section className="mb-5">
@@ -1142,43 +1247,50 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {getPageRows("corrected", correctedCaptainTable).map((team, index) => (
-                      <tr
-                        key={team.userId}
-                        className="border-t border-slate-800"
-                      >
-                        <td className="px-1 py-1 text-center font-semibold">
-                          {(tablePages.corrected ?? 0) * PAGE_SIZE + index + 1}
-                        </td>
-
-                        <td className="truncate px-2 py-1 font-semibold">
-                          {team.teamName}
-                        </td>
-
-                        <td className="px-1 py-1 text-center text-slate-300">
-                          {team.apiPoints}
-                        </td>
-
-                        <td className="px-1 py-1 text-center font-semibold text-emerald-300">
-                          {team.correctedPoints}
-                        </td>
-
-                        <td
-                          className={`px-1 py-1 text-center font-semibold ${
-                            team.diff < 0
-                              ? "text-red-300"
-                              : team.diff > 0
-                                ? "text-emerald-300"
-                                : "text-slate-400"
-                          }`}
+                    {getPageRows("corrected", correctedCaptainTable).map(
+                      (team, index) => (
+                        <tr
+                          key={team.userId}
+                          className="border-t border-slate-800"
                         >
-                          {team.diff > 0 ? `+${team.diff}` : team.diff}
-                        </td>
-                      </tr>
-                    ))}
+                          <td className="px-1 py-1 text-center font-semibold">
+                            {(tablePages.corrected ?? 0) * PAGE_SIZE +
+                              index +
+                              1}
+                          </td>
+
+                          <td className="truncate px-2 py-1 font-semibold">
+                            {team.teamName}
+                          </td>
+
+                          <td className="px-1 py-1 text-center text-slate-300">
+                            {team.apiPoints}
+                          </td>
+
+                          <td className="px-1 py-1 text-center font-semibold text-emerald-300">
+                            {team.correctedPoints}
+                          </td>
+
+                          <td
+                            className={`px-1 py-1 text-center font-semibold ${
+                              team.diff < 0
+                                ? "text-red-300"
+                                : team.diff > 0
+                                  ? "text-emerald-300"
+                                  : "text-slate-400"
+                            }`}
+                          >
+                            {team.diff > 0 ? `+${team.diff}` : team.diff}
+                          </td>
+                        </tr>
+                      ),
+                    )}
                   </tbody>
                 </table>
-                <TablePagination tableKey="corrected" total={correctedCaptainTable.length} />
+                <TablePagination
+                  tableKey="corrected"
+                  total={correctedCaptainTable.length}
+                />
               </div>
             </section>
             <section className="mb-5">
@@ -1201,47 +1313,52 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {getPageRows("captains", captainRanking).map((team, index) => (
-                      <tr
-                        key={team.userId}
-                        className="border-t border-slate-800"
-                      >
-                        <td className="px-1 py-1 text-center font-semibold">
-                          {(tablePages.captains ?? 0) * PAGE_SIZE + index + 1}
-                        </td>
+                    {getPageRows("captains", captainRanking).map(
+                      (team, index) => (
+                        <tr
+                          key={team.userId}
+                          className="border-t border-slate-800"
+                        >
+                          <td className="px-1 py-1 text-center font-semibold">
+                            {(tablePages.captains ?? 0) * PAGE_SIZE + index + 1}
+                          </td>
 
-                        <td className="truncate px-2 py-1 font-semibold">
-                          {team.teamName}
-                        </td>
+                          <td className="truncate px-2 py-1 font-semibold">
+                            {team.teamName}
+                          </td>
 
-                        <td className=" px-2 py-1 text-center text-slate-300">
-                          {team.captainName}
-                        </td>
-                        <td className="px-1 py-1 text-center text-blue-300">
-                          {`(X${team.captainMultiplier}) ${team.captainPoints}`}
-                        </td>
-                        <td className="px-1 py-1 text-center text-slate-300">
-                          {team.hasDoubleCaptains ? team.subCaptainName : "-"}
-                        </td>
-                        <td className="px-1 py-1 text-center text-blue-300">
-                          {team.hasDoubleCaptains
-                            ? `(X2) ${team.subCaptainPoints}`
-                            : "-"}
-                        </td>
-                        <td className="font-bold text-center text-blue-300">
-                          {team.captainWeighted + team.subCaptainWeighted}
-                        </td>
-                      </tr>
-                    ))}
+                          <td className=" px-2 py-1 text-center text-slate-300">
+                            {team.captainName}
+                          </td>
+                          <td className="px-1 py-1 text-center text-blue-300">
+                            {`(X${team.captainMultiplier}) ${team.captainPoints}`}
+                          </td>
+                          <td className="px-1 py-1 text-center text-slate-300">
+                            {team.hasDoubleCaptains ? team.subCaptainName : "-"}
+                          </td>
+                          <td className="px-1 py-1 text-center text-blue-300">
+                            {team.hasDoubleCaptains
+                              ? `(X2) ${team.subCaptainPoints}`
+                              : "-"}
+                          </td>
+                          <td className="font-bold text-center text-blue-300">
+                            {team.captainWeighted + team.subCaptainWeighted}
+                          </td>
+                        </tr>
+                      ),
+                    )}
                   </tbody>
                 </table>
-                <TablePagination tableKey="captains" total={captainRanking.length} />
+                <TablePagination
+                  tableKey="captains"
+                  total={captainRanking.length}
+                />
               </div>
             </section>
             <section className="mb-5">
               <h2 className="mb-2 text-lg font-bold">
                 <span className="ml-1">🛡️</span>
-               שחקנים לפי קבוצה
+                שחקנים לפי קבוצה
               </h2>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                 <table className="w-full table-fixed border-collapse text-xs">
@@ -1255,31 +1372,38 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {getPageRows("nationalTeams", nationalTeamsTable).map((team, index) => (
-                      <tr
-                        key={team.teamId}
-                        className="border-t border-slate-800"
-                      >
-                        <td className="px-1 py-1 text-center font-semibold">
-                          {(tablePages.nationalTeams ?? 0) * PAGE_SIZE + index + 1}
-                        </td>
+                    {getPageRows("nationalTeams", nationalTeamsTable).map(
+                      (team, index) => (
+                        <tr
+                          key={team.teamId}
+                          className="border-t border-slate-800"
+                        >
+                          <td className="px-1 py-1 text-center font-semibold">
+                            {(tablePages.nationalTeams ?? 0) * PAGE_SIZE +
+                              index +
+                              1}
+                          </td>
 
-                        <td className="px-2 py-1 font-semibold">
-                          {NATIONAL_TEAMS[team.teamId]}
-                        </td>
+                          <td className="px-2 py-1 font-semibold">
+                            {NATIONAL_TEAMS[team.teamId]}
+                          </td>
 
-                        <td className="px-1 py-1 text-center font-bold text-emerald-300">
-                          {team.count}
-                        </td>
+                          <td className="px-1 py-1 text-center font-bold text-emerald-300">
+                            {team.count}
+                          </td>
 
-                        <td className="px-1 py-1 text-center font-bold text-blue-300">
-                          {team.fantasyTeamsCount}/{USERS.length}
-                        </td>
-                      </tr>
-                    ))}
+                          <td className="px-1 py-1 text-center font-bold text-blue-300">
+                            {team.fantasyTeamsCount}/{USERS.length}
+                          </td>
+                        </tr>
+                      ),
+                    )}
                   </tbody>
                 </table>
-                <TablePagination tableKey="nationalTeams" total={nationalTeamsTable.length} />
+                <TablePagination
+                  tableKey="nationalTeams"
+                  total={nationalTeamsTable.length}
+                />
               </div>
             </section>
             <section className="mb-5">
@@ -1298,33 +1422,38 @@ function App() {
                   </thead>
 
                   <tbody>
-                    {getPageRows("bonuses", remainingBonusesTable).map((team, index) => (
-                      <tr
-                        key={team.userId}
-                        className="border-t border-slate-800"
-                      >
-                        <td className="px-1 py-1 text-center font-semibold">
-                          {(tablePages.bonuses ?? 0) * PAGE_SIZE + index + 1}
-                        </td>
+                    {getPageRows("bonuses", remainingBonusesTable).map(
+                      (team, index) => (
+                        <tr
+                          key={team.userId}
+                          className="border-t border-slate-800"
+                        >
+                          <td className="px-1 py-1 text-center font-semibold">
+                            {(tablePages.bonuses ?? 0) * PAGE_SIZE + index + 1}
+                          </td>
 
-                        <td className="truncate px-2 py-1 font-semibold">
-                          {team.teamName}
-                        </td>
+                          <td className="truncate px-2 py-1 font-semibold">
+                            {team.teamName}
+                          </td>
 
-                        <td className="px-2 py-1">
-                          {team.remainingBonuses.length > 0 ? (
-                            team.remainingBonuses
-                              .map((bonus) => bonus.name)
-                              .join(", ")
-                          ) : (
-                            <span className="text-slate-500">אין</span>
-                          )}
-                        </td>
-                      </tr>
-                    ))}
+                          <td className="px-2 py-1">
+                            {team.remainingBonuses.length > 0 ? (
+                              team.remainingBonuses
+                                .map((bonus) => bonus.name)
+                                .join(", ")
+                            ) : (
+                              <span className="text-slate-500">אין</span>
+                            )}
+                          </td>
+                        </tr>
+                      ),
+                    )}
                   </tbody>
                 </table>
-                <TablePagination tableKey="bonuses" total={remainingBonusesTable.length} />
+                <TablePagination
+                  tableKey="bonuses"
+                  total={remainingBonusesTable.length}
+                />
               </div>
             </section>
           </div>
