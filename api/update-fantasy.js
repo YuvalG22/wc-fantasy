@@ -10,7 +10,7 @@ const SEASON_ID = 10;
 const SPORT5_COOKIE = process.env.SPORT5_COOKIE;
 
 async function fetchLeagueData() {
-  const response = await fetch(
+  const res = await fetch(
     `https://dreamteam.sport5.co.il/api/Leagues/Get?seasonId=${SEASON_ID}`,
     {
       headers: {
@@ -21,15 +21,13 @@ async function fetchLeagueData() {
     },
   );
 
-  const text = await response.text();
+  const text = await res.text();
 
-  if (!response.ok) {
-    throw new Error(
-      `League: ${response.status} ${text.slice(0, 200)}`,
-    );
+  if (!res.ok) {
+    throw new Error(`League: ${res.status} ${text.slice(0, 200)}`);
   }
 
-  if (!response.headers.get("content-type")?.includes("application/json")) {
+  if (!res.headers.get("content-type")?.includes("application/json")) {
     throw new Error("Sport5 league endpoint did not return JSON");
   }
 
@@ -52,9 +50,7 @@ async function fetchUserTeam(userId) {
   const text = await response.text();
 
   if (!response.ok) {
-    throw new Error(
-      `User ${userId}: ${response.status} ${text.slice(0, 200)}`,
-    );
+    throw new Error(`User ${userId}: ${response.status} ${text.slice(0, 200)}`);
   }
 
   if (!response.headers.get("content-type")?.includes("application/json")) {
@@ -108,8 +104,7 @@ function simplifyResponse(apiResponse) {
       lastRound: {
         roundId: item.player.lastRoundPlayerStats?.roundId ?? null,
         points: item.player.lastRoundPlayerStats?.points ?? 0,
-        seasonPoints:
-          item.player.lastRoundPlayerStats?.seasonPoints ?? 0,
+        seasonPoints: item.player.lastRoundPlayerStats?.seasonPoints ?? 0,
       },
 
       season: {
@@ -123,13 +118,16 @@ export default async function handler(req, res) {
   try {
     if (!SPORT5_COOKIE) {
       return res.status(500).json({
+        success: false,
         error: "SPORT5_COOKIE is missing",
       });
     }
 
+    console.log("Starting fantasy update...");
+
     const leagueData = await fetchLeagueData();
 
-    const games = leagueData.data.games.map((game) => ({
+    const games = (leagueData.data.games ?? []).map((game) => ({
       id: game.id,
       roundId: game.roundId,
       teamAId: game.teamAId,
@@ -144,11 +142,12 @@ export default async function handler(req, res) {
     const teams = [];
 
     for (const userId of USERS) {
-      console.log(`Fetching user ${userId}`);
+      console.log(`Fetching user ${userId}...`);
 
       const apiResponse = await fetchUserTeam(userId);
+      const simplified = simplifyResponse(apiResponse);
 
-      teams.push(simplifyResponse(apiResponse));
+      teams.push(simplified);
     }
 
     const output = {
@@ -169,14 +168,17 @@ export default async function handler(req, res) {
       },
     );
 
+    console.log("Fantasy data updated:", blob.url);
+
     return res.status(200).json({
       success: true,
       updatedAt: output.updatedAt,
       teams: teams.length,
+      games: games.length,
       url: blob.url,
     });
   } catch (error) {
-    console.error(error);
+    console.error("Fantasy update failed:", error);
 
     return res.status(500).json({
       success: false,

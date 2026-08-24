@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getUserTeam } from "./api/fantasyApi";
+import { getUserTeam } from "../api/fantasyApi";
 import "./App.css";
 
 async function getAllTeamsFromJson() {
@@ -121,6 +121,7 @@ function App() {
   const [selectedRoundId, setSelectedRoundId] = useState(null);
   const [games, setGames] = useState([]);
   const [tablePages, setTablePages] = useState({});
+  const [darkMode, setDarkMode] = useState(false);
 
   function getPageRows(tableKey, items) {
     const maxPage = Math.max(0, Math.ceil(items.length / PAGE_SIZE) - 1);
@@ -623,9 +624,18 @@ function App() {
     .sort((a, b) => b.count - a.count);
 
   return (
-    <main dir="rtl" className="dashboard min-h-screen bg-slate-950 text-slate-100">
+    <main dir="rtl" className={`dashboard min-h-screen ${darkMode ? "dark-mode" : ""}`}>
       <div className="dashboard-shell mx-auto w-full max-w-md px-2 py-3">
         <div className="dashboard-hero mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
+          <button
+            type="button"
+            className="theme-toggle"
+            onClick={() => setDarkMode((current) => !current)}
+            aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+            aria-pressed={darkMode}
+          >
+            {darkMode ? "☀️ בהיר" : "🌙 כהה"}
+          </button>
           <span className="text-2xl font-bold">פנטזי ליגת העל 2026/2027</span>
         </div>
 
@@ -642,7 +652,7 @@ function App() {
         )}
 
         {!loading && !error && (
-          <>
+          <div className="dashboard-tables">
             <section className="mb-5">
               <div className="mb-2 flex items-center justify-between">
                 <h2 className="text-lg font-bold">
@@ -781,12 +791,12 @@ function App() {
                 </span>
               </div>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
-                <table className="king-of-week-table w-full table-fixed border-collapse text-xs">
+                <table className="weekly-leaderboard w-full table-fixed border-collapse text-xs">
                   <thead className="bg-slate-800 text-slate-300">
                     <tr>
-                      <th className="w-[18%] px-1 py-2 text-center">#</th>
+                      <th className="w-[16%] px-1 py-2 text-center">#</th>
                       <th className="px-2 py-2 text-right">Team</th>
-                      <th className="w-[24%] px-1 py-2 text-center">Points</th>
+                      <th className="w-[22%] px-1 py-2 text-center">Points</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -815,12 +825,12 @@ function App() {
                 </span>
               </div>
               <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
-                <table className="bottom-of-week-table w-full table-fixed border-collapse text-xs">
+                <table className="weekly-leaderboard w-full table-fixed border-collapse text-xs">
                   <thead className="bg-slate-800 text-slate-300">
                     <tr>
-                      <th className="w-[18%] px-1 py-2 text-center">#</th>
+                      <th className="w-[16%] px-1 py-2 text-center">#</th>
                       <th className="px-2 py-2 text-right">Team</th>
-                      <th className="w-[24%] px-1 py-2 text-center">Points</th>
+                      <th className="w-[22%] px-1 py-2 text-center">Points</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -844,28 +854,31 @@ function App() {
                 טופ שחקנים במחזור
               </h2>
 
-              <div className="rounded-xl border border-slate-800 bg-slate-900 p-2 text-xs">
-                {groupedPlayers.slice(0, 5).map((group, index) => (
-                  <div
-                    key={group.points}
-                    className="flex items-center justify-between gap-2 border-b border-slate-800 py-2 last:border-b-0"
-                  >
-                    <span className="truncate">
-                      {index === 0
-                        ? "🥇"
-                        : index === 1
-                          ? "🥈"
-                          : index === 2
-                            ? "🥉"
-                            : ""}{" "}
-                      {group.names.join(", ")}
-                    </span>
-
-                    <span className="shrink-0 font-semibold text-emerald-300">
-                      {group.points} נק׳
-                    </span>
-                  </div>
-                ))}
+              <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
+                <table className="weekly-leaderboard w-full table-fixed border-collapse text-xs">
+                  <thead className="bg-slate-800 text-slate-300">
+                    <tr>
+                      <th className="w-[16%] px-2 py-2 text-center">#</th>
+                      <th className="px-2 py-2 text-right">שחקן</th>
+                      <th className="w-[22%] px-2 py-2 text-center">נק׳</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {groupedPlayers.slice(0, 5).map((group, index) => (
+                      <tr key={group.points} className="border-t border-slate-800">
+                        <td className="px-2 py-2 text-center font-semibold">
+                          {index === 0 ? "🥇" : index === 1 ? "🥈" : index === 2 ? "🥉" : index + 1}
+                        </td>
+                        <td className="truncate px-2 py-2 font-semibold">
+                          {group.names.join(", ")}
+                        </td>
+                        <td className="px-2 py-2 text-center font-semibold text-emerald-300">
+                          {group.points}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             </section>
 
@@ -1314,7 +1327,7 @@ function App() {
                 <TablePagination tableKey="bonuses" total={remainingBonusesTable.length} />
               </div>
             </section>
-          </>
+          </div>
         )}
       </div>
     </main>
