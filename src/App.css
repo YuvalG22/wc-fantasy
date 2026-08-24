@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Sans+Hebrew:wght@500;600;700;800&display=swap");
 
 :root { --pitch: #073b2d; --pitch-deep: #032b21; --lime: #c6f135; --yellow: #ffd84d; --surface: rgba(6, 33, 26, .9); --line: rgba(206, 246, 179, .16); --text-muted: #a6c5b6; }
 .dashboard { min-height: 100svh; background: linear-gradient(90deg, rgba(255,255,255,.018) 50%, transparent 50%) 0 0 / 80px 80px, linear-gradient(rgba(255,255,255,.018) 50%, transparent 50%) 0 0 / 80px 80px, radial-gradient(circle at 50% -10%, #167c57 0, transparent 34rem), linear-gradient(135deg, var(--pitch-deep), #082f25 53%, #04271e); color: #f6fff7; }
@@ -6,16 +6,16 @@
 .dashboard > .dashboard-shell > section { margin-bottom: 24px !important; }
 .dashboard-hero { position: relative; isolation: isolate; overflow: hidden; min-height: 142px; display: grid; place-items: center; padding: 28px 24px !important; border: 1px solid rgba(230,255,231,.38); border-radius: 8px !important; background: linear-gradient(90deg, rgba(255,255,255,.08) 50%, transparent 50%) center / 18% 100%, repeating-linear-gradient(90deg, #0c744d 0 12.5%, #0a6645 12.5% 25%); box-shadow: 0 18px 45px rgba(0,8,5,.45), inset 0 0 0 1px rgba(0,0,0,.16) !important; }
 .dashboard-hero::before { content: ""; position: absolute; inset: 14px 7%; z-index: -1; border: 2px solid rgba(242,255,237,.43); border-radius: 4px; background: radial-gradient(circle at center, transparent 0 11%, rgba(242,255,237,.45) 11.3% 11.8%, transparent 12.1%), linear-gradient(90deg, transparent 49.75%, rgba(242,255,237,.45) 49.9% 50.1%, transparent 50.25%); }
-.dashboard-hero::after { content: "FANTASY LEAGUE • MATCHDAY CENTRAL"; position: absolute; bottom: 12px; color: rgba(245,255,244,.72); font: 700 .62rem/1 "Inter", sans-serif; letter-spacing: .16em; direction: ltr; }
-.dashboard-hero span { position: relative; z-index: 1; color: #fff; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-weight: 800 !important; letter-spacing: .02em; text-shadow: 0 3px 0 rgba(0,0,0,.25); }
-.dashboard section h2 { display: flex; align-items: center; gap: 7px; margin-bottom: 10px !important; color: #f7fff4; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-size: 1.2rem !important; font-weight: 800 !important; letter-spacing: .035em; }
+.dashboard-hero::after { content: none; }
+.dashboard-hero span { position: relative; z-index: 1; color: #fff; font-family: "Inter", sans-serif; font-weight: 800 !important; letter-spacing: .02em; text-shadow: 0 3px 0 rgba(0,0,0,.25); }
+.dashboard section h2 { display: flex; align-items: center; gap: 7px; margin-bottom: 10px !important; color: #f7fff4; font-family: "Inter", sans-serif; font-size: 1.2rem !important; font-weight: 800 !important; letter-spacing: .035em; }
 .dashboard section h2 span { filter: saturate(1.15); }
 .dashboard section > .flex > span, .dashboard .king-of-week > div:first-child > span, .dashboard .bottom-of-week > div:first-child > span { border: 1px solid rgba(198,241,53,.36); background: rgba(3,29,22,.8) !important; color: var(--lime) !important; font-weight: 800; }
 .dashboard section > div:not(.flex) { border-color: var(--line) !important; border-radius: 8px !important; background: linear-gradient(145deg, rgba(11,56,42,.96), var(--surface)) !important; box-shadow: 0 12px 28px rgba(0,9,5,.25), inset 0 1px rgba(255,255,255,.035) !important; }
 .dashboard .round-tabs { scrollbar-width: none; gap: 8px !important; padding: 2px 1px 7px !important; }.dashboard .round-tabs::-webkit-scrollbar { display: none; }
-.dashboard button { min-height: 36px; border: 1px solid rgba(215,252,187,.22) !important; border-radius: 5px !important; padding-inline: 14px !important; background: #0b4b38; color: #e8f6e9; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-weight: 800; letter-spacing: .04em; transition: transform 160ms ease, background-color 160ms ease, box-shadow 160ms ease; }
+.dashboard button { min-height: 36px; border: 1px solid rgba(215,252,187,.22) !important; border-radius: 5px !important; padding-inline: 14px !important; background: #0b4b38; color: #e8f6e9; font-family: "Inter", sans-serif; font-weight: 800; letter-spacing: .04em; transition: transform 160ms ease, background-color 160ms ease, box-shadow 160ms ease; }
 .dashboard .round-tabs button.bg-blue-600 { border-color: var(--lime) !important; background: var(--lime) !important; color: #103729 !important; box-shadow: 0 4px 0 #779b1e; }.dashboard button:hover:not(:disabled) { transform: translateY(-2px); background: #116246; }.dashboard button:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
-.dashboard table { min-width: 0; width: 100%; }.dashboard table thead { background: rgba(1,24,17,.78) !important; }.dashboard table th { padding-top: 11px !important; padding-bottom: 11px !important; color: #c9e8cd !important; font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-size: .78rem; font-weight: 800; letter-spacing: .035em; white-space: nowrap; }.dashboard table td { padding-top: 9px !important; padding-bottom: 9px !important; border-color: rgba(206,246,179,.1) !important; }.dashboard tbody tr { transition: background-color 150ms ease; }.dashboard tbody tr:hover { background: rgba(198,241,53,.09); }.dashboard tbody tr:nth-child(1) td:first-child { color: var(--yellow); }.dashboard .overflow-hidden { overflow: hidden !important; }.dashboard .text-slate-400 { color: var(--text-muted) !important; }.dashboard .text-blue-300 { color: #8ce5ff !important; }.dashboard .text-emerald-300 { color: var(--lime) !important; }.dashboard .text-amber-300 { color: var(--yellow) !important; }
+.dashboard table { min-width: 0; width: 100%; }.dashboard table thead { background: rgba(1,24,17,.78) !important; }.dashboard table th { padding-top: 11px !important; padding-bottom: 11px !important; color: #c9e8cd !important; font-family: "Inter", sans-serif; font-size: .78rem; font-weight: 800; letter-spacing: .035em; white-space: nowrap; }.dashboard table td { padding-top: 9px !important; padding-bottom: 9px !important; border-color: rgba(206,246,179,.1) !important; }.dashboard tbody tr { transition: background-color 150ms ease; }.dashboard tbody tr:hover { background: rgba(198,241,53,.09); }.dashboard tbody tr:nth-child(1) td:first-child { color: var(--yellow); }.dashboard .overflow-hidden { overflow: hidden !important; }.dashboard .text-slate-400 { color: var(--text-muted) !important; }.dashboard .text-blue-300 { color: #8ce5ff !important; }.dashboard .text-emerald-300 { color: var(--lime) !important; }.dashboard .text-amber-300 { color: var(--yellow) !important; }
 .table-pagination { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 10px 8px; border-top: 1px solid rgba(206,246,179,.1); background: rgba(0,25,17,.38); color: var(--text-muted); font-size: .72rem; direction: rtl; }.table-pagination button { min-height: 29px; padding: 3px 11px !important; font-size: .74rem; }.table-pagination button:disabled { cursor: not-allowed; opacity: .42; transform: none; }
 
 /* Shared scoreboard geometry keeps the different data views visually coherent. */
@@ -109,3 +109,46 @@
 .dashboard.dark-mode .text-red-300, .dashboard.dark-mode .text-rose-300 { color: #ff6f91 !important; }
 .dashboard.dark-mode .table-pagination { border-color: #2c3545; background: #151d29; color: #9eabbf; }
 .dashboard.dark-mode .table-pagination button { border-color: #3a4659 !important; background: #202a39; color: #d5ddea; }
+
+/* Clear, compact league masthead. */
+.dashboard-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  min-height: 142px;
+  padding: 24px 68px 24px 24px !important;
+  border: 1px solid #33445f;
+  border-radius: 16px !important;
+  background: linear-gradient(135deg, #17243a, #0d1421 72%) !important;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, .28), inset 0 1px rgba(255,255,255,.06) !important;
+}
+.dashboard-hero::before {
+  inset: 0;
+  border: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at 18% 20%, rgba(56,125,255,.2), transparent 34%), radial-gradient(circle at 82% 90%, rgba(28,82,190,.16), transparent 30%);
+}
+.dashboard-hero::after { bottom: 12px; color: #8292ab; }
+.league-logo { width: 76px; height: 76px; flex: 0 0 76px; object-fit: contain; filter: drop-shadow(0 8px 12px rgba(0,0,0,.3)); }
+.hero-title { text-align: right; }
+.hero-kicker, .hero-season { margin: 0; color: #8fa5c7; font: 700 .78rem/1.2 "Inter", sans-serif; letter-spacing: .08em; }
+.hero-title h1 { margin: 5px 0; color: #f5f8ff; font-family: "Inter", sans-serif; font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 800; line-height: .95; letter-spacing: .02em; text-shadow: 0 3px 14px rgba(0,0,0,.35); }
+.dashboard.dark-mode .dashboard-hero { background: linear-gradient(135deg, #17243a, #0d1421 72%) !important; }
+@media (max-width: 639px) {
+  .dashboard-hero { min-height: 114px; gap: 10px; padding: 20px 52px 24px 14px !important; }
+  .dashboard-hero::after { bottom: 8px; font-size: .48rem; }
+  .league-logo { width: 58px; height: 58px; flex-basis: 58px; }
+  .hero-title h1 { font-size: 2rem; }
+  .hero-kicker, .hero-season { font-size: .65rem; }
+}
+
+/* Use one typeface throughout the dashboard for consistent Hebrew and Latin text. */
+.dashboard { font-family: "Inter", "Noto Sans Hebrew", sans-serif !important; }
+.dashboard * { font-family: inherit !important; }
+.dashboard h1, .dashboard h2, .dashboard h3, .dashboard h4, .dashboard h5, .dashboard h6,
+.dashboard p, .dashboard span, .dashboard button, .dashboard th, .dashboard td,
+.dashboard input, .dashboard select, .dashboard textarea { font-family: "Inter", "Noto Sans Hebrew", sans-serif !important; }
+.hero-kicker, .hero-season { font: inherit !important; font-size: .78rem !important; font-weight: 700 !important; line-height: 1.2 !important; letter-spacing: 0 !important; }
+.hero-title h1 { font-family: "Inter", "Noto Sans Hebrew", sans-serif !important; font-weight: 800 !important; letter-spacing: 0 !important; }
+.dashboard-hero::after { content: none; }

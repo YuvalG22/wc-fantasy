@@ -134,7 +134,7 @@ function App() {
   const [selectedRoundId, setSelectedRoundId] = useState(null);
   const [games, setGames] = useState([]);
   const [tablePages, setTablePages] = useState({});
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [updatedAt, setUpdatedAt] = useState(null);
 
   function getPageRows(tableKey, items) {
@@ -668,15 +668,21 @@ function App() {
           >
             {darkMode ? "☀️ בהיר" : "🌙 כהה"}
           </button>
-          <h1 className="text-2xl font-black">
-              פנטזי ליגת העל 2026/2027
-          </h1>
-
-          {updatedAt && (
-            <div className="mt-1 text-xs text-blue-100">
-              עודכן לאחרונה: {formatUpdatedAt(updatedAt)}
-            </div>
-          )}
+          <img
+            className="league-logo"
+            src="https://assets.footylogos.com/logos/israeli-premier-league/israeli-premier-league-logo-footylogos.svg"
+            alt="ליגת העל"
+          />
+          <div className="hero-title">
+            <p className="hero-kicker">ליגת העל</p>
+            <h1>פנטזי ליגת העל</h1>
+            <p className="hero-season">עונת 2026/2027</p>
+            {updatedAt && (
+              <div className="mt-2 text-xs text-blue-100">
+                עודכן לאחרונה: {formatUpdatedAt(updatedAt)}
+              </div>
+            )}
+          </div>
         </div>
 
         {loading && (
