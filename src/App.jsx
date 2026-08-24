@@ -668,18 +668,15 @@ function App() {
           >
             {darkMode ? "☀️ בהיר" : "🌙 כהה"}
           </button>
-          <span className="text-2xl font-bold">פנטזי ליגת העל 2026/2027</span>
-          <div className="mb-4 rounded-2xl bg-gradient-to-l from-blue-600 to-indigo-700 p-4 text-center shadow-xl">
-            <span className="text-2xl font-black">
+          <h1 className="text-2xl font-black">
               פנטזי ליגת העל 2026/2027
-            </span>
+          </h1>
 
-            {updatedAt && (
-              <div className="mt-1 text-xs text-blue-100">
-                עודכן לאחרונה: {formatUpdatedAt(updatedAt)}
-              </div>
-            )}
-          </div>
+          {updatedAt && (
+            <div className="mt-1 text-xs text-blue-100">
+              עודכן לאחרונה: {formatUpdatedAt(updatedAt)}
+            </div>
+          )}
         </div>
 
         {loading && (
