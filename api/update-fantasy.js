@@ -7,15 +7,13 @@ const USERS = [
 
 const SEASON_ID = 10;
 
-const SPORT5_COOKIE = process.env.SPORT5_COOKIE;
-
-async function fetchLeagueData() {
+async function fetchLeagueData(sport5Cookie) {
   const res = await fetch(
     `https://dreamteam.sport5.co.il/api/Leagues/Get?seasonId=${SEASON_ID}`,
     {
       headers: {
         accept: "application/json",
-        cookie: SPORT5_COOKIE,
+        cookie: sport5Cookie,
         "user-agent": "Mozilla/5.0",
       },
     },
@@ -34,7 +32,7 @@ async function fetchLeagueData() {
   return JSON.parse(text);
 }
 
-async function fetchUserTeam(userId) {
+async function fetchUserTeam(userId, sport5Cookie) {
   const url =
     `https://dreamteam.sport5.co.il/api/UserTeam/GetUserAndTeam` +
     `?seasonId=${SEASON_ID}&userId=${userId}`;
@@ -42,7 +40,7 @@ async function fetchUserTeam(userId) {
   const response = await fetch(url, {
     headers: {
       accept: "application/json",
-      cookie: SPORT5_COOKIE,
+      cookie: sport5Cookie,
       "user-agent": "Mozilla/5.0",
     },
   });
@@ -61,7 +59,11 @@ async function fetchUserTeam(userId) {
 }
 
 function simplifyResponse(apiResponse) {
-  const team = apiResponse.data.userTeam;
+  const team = apiResponse.data?.userTeam;
+
+  if (!team) {
+    throw new Error("Sport5 response does not contain userTeam");
+  }
 
   return {
     userId: team.userId,
@@ -90,7 +92,7 @@ function simplifyResponse(apiResponse) {
 
     players: (team.userTeamPlayers ?? []).map((item) => ({
       id: item.player.id,
-      name: item.player.name.trim(),
+      name: item.player.name?.trim() ?? "",
       teamId: item.player.teamId,
       teamName: item.player.teamName,
       position: item.player.position,
@@ -116,18 +118,25 @@ function simplifyResponse(apiResponse) {
 
 export default async function handler(req, res) {
   try {
-    if (!SPORT5_COOKIE) {
+    const sport5Cookie = process.env.SPORT5_COOKIE;
+
+    console.log("Starting fantasy update...");
+    console.log("SPORT5_COOKIE exists:", !!sport5Cookie);
+    console.log("SPORT5_COOKIE length:", sport5Cookie?.length ?? 0);
+
+    if (!sport5Cookie) {
       return res.status(500).json({
         success: false,
         error: "SPORT5_COOKIE is missing",
       });
     }
 
-    console.log("Starting fantasy update...");
+    // 1. League / games
+    console.log("Fetching league data...");
 
-    const leagueData = await fetchLeagueData();
+    const leagueData = await fetchLeagueData(sport5Cookie);
 
-    const games = (leagueData.data.games ?? []).map((game) => ({
+    const games = (leagueData.data?.games ?? []).map((game) => ({
       id: game.id,
       roundId: game.roundId,
       teamAId: game.teamAId,
@@ -139,23 +148,42 @@ export default async function handler(req, res) {
       gameEnd: game.gameEnd,
     }));
 
+    console.log(`Fetched ${games.length} games`);
+
+    // 2. Fantasy teams
     const teams = [];
 
     for (const userId of USERS) {
       console.log(`Fetching user ${userId}...`);
 
-      const apiResponse = await fetchUserTeam(userId);
-      const simplified = simplifyResponse(apiResponse);
+      try {
+        const apiResponse = await fetchUserTeam(userId, sport5Cookie);
 
-      teams.push(simplified);
+        const simplified = simplifyResponse(apiResponse);
+
+        teams.push(simplified);
+      } catch (error) {
+        console.error(`Failed fetching user ${userId}:`, error.message);
+
+        throw error;
+      }
     }
 
+    console.log(`Fetched ${teams.length}/${USERS.length} teams`);
+
+    // 3. Build JSON
     const output = {
       updatedAt: new Date().toISOString(),
       seasonId: SEASON_ID,
       games,
       teams,
     };
+
+    // 4. Upload / overwrite JSON in Vercel Blob
+    console.log("Uploading fantasy-data.json to Vercel Blob...");
+
+    console.log("BLOB_STORE_ID:", process.env.BLOB_STORE_ID);
+    console.log("VERCEL_OIDC_TOKEN exists:", !!process.env.VERCEL_OIDC_TOKEN);
 
     const blob = await put(
       "fantasy-data.json",
@@ -168,7 +196,8 @@ export default async function handler(req, res) {
       },
     );
 
-    console.log("Fantasy data updated:", blob.url);
+    console.log("Fantasy data updated successfully");
+    console.log("Blob URL:", blob.url);
 
     return res.status(200).json({
       success: true,
