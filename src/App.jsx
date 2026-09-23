@@ -114,7 +114,6 @@ const USERS = [
   { userId: 30205, name: "ב״ש באירופה" },
   { userId: 36407, name: "יוני11" },
   { userId: 59873, name: "אולי הפעם לא אתייאש" },
-  { userId: 84349, name: "יובל גנון" },
 ];
 
 const BONUS_NAMES = {
